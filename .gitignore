@@ -1,0 +1,32 @@
+# 敏感配置
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# 数据库
+app/data/
+
+# 日志
+app/logs/
+
+# 浏览器 profile
+app/chrome_profile/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 脚本 (不上传)
+scripts/

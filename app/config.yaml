@@ -1,0 +1,61 @@
+# OZON Crawler 配置文件
+# 修改后无需重启项目, 下次请求自动生效
+
+# ============================================================
+# 浏览器反爬策略
+# ============================================================
+browser:
+  # 策略执行顺序: native(Playwright原生) / cdp(手动Chrome+CDP)
+  strategy_order:
+    - native
+    - cdp
+
+  # Playwright 原生启动
+  native:
+    headless: true
+    timeout: 60          # 反爬挑战等待超时 (秒)
+
+  # CDP 手动 Chrome
+  cdp:
+    port: 9223
+    timeout: 90
+    chrome_path: "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+
+  # 反爬挑战轮询
+  challenge:
+    poll_interval: 8     # 每次轮询间隔 (秒)
+    max_attempts: 8      # 最大轮询次数
+    retry_delay: 3       # 重试等待 (秒)
+    max_retries: 2       # ensure_ready 最大重试次数
+
+# ============================================================
+# API 数据获取策略
+# ============================================================
+api:
+  # 策略执行顺序: curl_cffi / playwright
+  strategy_order:
+    - playwright
+    - curl_cffi
+
+  curl_cffi:
+    timeout: 15
+    max_retries: 3
+    impersonate: "chrome124"
+
+  playwright:
+    timeout: 30
+
+# ============================================================
+# 通用设置
+# ============================================================
+settings:
+  window_width: 1024
+  window_height: 768
+
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+
+  # 俄罗斯地区模拟
+  locale: "ru-RU"
+  timezone: "Europe/Moscow"
+  latitude: 55.7558
+  longitude: 37.6173
