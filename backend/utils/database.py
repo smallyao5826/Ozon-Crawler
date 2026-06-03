@@ -4,10 +4,10 @@ SQLite 数据库设置 - 简单文件结构, 适合敏捷开发
 import sqlite3
 import os
 
-# 数据库放在 app/data/ 目录
+# 数据库文件
 _DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
 os.makedirs(_DATA_DIR, exist_ok=True)
-DB_PATH = os.path.join(_DATA_DIR, "ozon_monitor.db")
+DB_PATH = os.path.join(_DATA_DIR, "database.db")
 
 
 def get_db():
@@ -25,6 +25,7 @@ def init_db():
         CREATE TABLE IF NOT EXISTS monitors (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             name TEXT NOT NULL,                    -- 备注名
+            platform TEXT NOT NULL DEFAULT 'ozon', -- 平台: ozon / wildberries 等
             target_type TEXT NOT NULL,             -- 'product' 或 'seller'
             target_id TEXT NOT NULL,               -- 商品ID 或 卖家ID
             target_url TEXT,                       -- 完整URL
@@ -62,6 +63,22 @@ def init_db():
             FOREIGN KEY (monitor_id) REFERENCES monitors(id) ON DELETE CASCADE
         );
 
+        -- 定时任务配置表
+        CREATE TABLE IF NOT EXISTS scheduled_tasks (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            name TEXT NOT NULL,
+            task_type TEXT NOT NULL,               -- 'monitor_check' / 'custom' 等
+            task_mode TEXT DEFAULT 'interval',     -- 'interval' / 'cron' / 'once'
+            interval_minutes INTEGER DEFAULT 30,   -- interval 模式下的分钟间隔
+            cron_expression TEXT,                  -- cron 模式: "*/30 * * * *" (5字段)
+            run_at DATETIME,                       -- once 模式: 指定执行时间
+            status TEXT DEFAULT 'active',
+            last_run_at DATETIME,
+            next_run_at DATETIME,
+            created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+            updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+        );
+
         -- Webhook 配置表
         CREATE TABLE IF NOT EXISTS webhooks (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -78,10 +95,17 @@ def init_db():
         CREATE INDEX IF NOT EXISTS idx_snapshots_captured ON snapshots(captured_at);
         CREATE INDEX IF NOT EXISTS idx_monitors_status ON monitors(status);
 
-        -- 种子数据: 默认 webhook (如已存在则跳过)
-        INSERT OR IGNORE INTO webhooks (platform, name, url) VALUES
-            ('wecom', '默认企微', 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=26b1857d-a664-4eb4-9172-f994a949bded'),
-            ('feishu', '默认飞书', 'https://open.feishu.cn/open-apis/bot/v2/hook/89e96990-71ee-444d-8ece-c9228527c21b');
     """)
+    # 迁移: 为已有表补充新字段
+    for table, col, spec in [
+        ("scheduled_tasks", "task_mode", "TEXT DEFAULT 'interval'"),
+        ("scheduled_tasks", "cron_expression", "TEXT"),
+        ("scheduled_tasks", "run_at", "DATETIME"),
+        ("monitors", "platform", "TEXT NOT NULL DEFAULT 'ozon'"),
+    ]:
+        try:
+            conn.execute(f"ALTER TABLE {table} ADD COLUMN {col} {spec}")
+        except Exception:
+            pass
     conn.commit()
     conn.close()

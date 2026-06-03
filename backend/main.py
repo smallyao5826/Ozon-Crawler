@@ -15,15 +15,18 @@ from fastapi.middleware.cors import CORSMiddleware
 from backend.utils import init_db, get_logger
 
 logger = get_logger(__name__)
-from backend.routes import ozon, monitor, webhook
+from backend.routes import platform, monitor, webhook, scheduler
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     init_db()
+    from backend.services.tasks.scheduler import start_scheduler, stop_scheduler
+    start_scheduler()
     logger.info("Smart-Ecom-Automation 已启动")
     logger.info("API 文档: http://localhost:8000/docs")
     yield
+    stop_scheduler()
     from backend.services.core.browser import _browser_instance
     if _browser_instance:
         await _browser_instance.close()
@@ -45,9 +48,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.include_router(ozon.router)
+app.include_router(platform.router)
 app.include_router(monitor.router)
 app.include_router(webhook.router)
+app.include_router(scheduler.router)
 
 
 @app.get("/health", summary="健康检查", tags=["系统"])
