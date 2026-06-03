@@ -4,8 +4,8 @@ curl_cffi HTTP 服务 - 模拟浏览器 TLS 指纹请求 OZON API
 import asyncio
 import json
 from curl_cffi import requests as curl_requests
-from app.config import get_config
-from app.utils import get_logger
+from backend.services.core.config import get_config
+from backend.utils import get_logger
 
 logger = get_logger(__name__)
 

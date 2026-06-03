@@ -1,0 +1,1645 @@
+{
+  "layout": [
+    {
+      "component": "header",
+      "params": "{}",
+      "stateId": "header-7278143-default-1",
+      "version": 2,
+      "vertical": "cms",
+      "widgetTrackingInfo": "{\"name\":\"cms.header\",\"vertical\":\"cms\",\"component\":\"header\",\"version\":2,\"id\":7278143,\"revisionId\":7865751,\"index\":1}",
+      "placeholders": [
+        {
+          "name": "catalogMenu",
+          "widgets": [
+            {
+              "component": "catalogMenu",
+              "params": "{}",
+              "stateId": "catalogMenu-7278490-default-1",
+              "version": 3,
+              "vertical": "cms",
+              "widgetTrackingInfo": "{\"name\":\"cms.catalogMenu\",\"vertical\":\"cms\",\"component\":\"catalogMenu\",\"version\":3,\"id\":7278490,\"revisionId\":7865320,\"index\":2}",
+              "widgetToken": "0L6b1MmaoHQW7xuWd7ZcAVx1yRIsGbwx",
+              "timeSpent": 2,
+              "name": "cms.catalogMenu",
+              "id": 7278490,
+              "isTrackingOn": true
+            }
+          ]
+        },
+        {
+          "name": "searchBar",
+          "widgets": [
+            {
+              "component": "searchBarDesktop",
+              "params": "{}",
+              "stateId": "searchBarDesktop-3414131-default-1",
+              "version": 2,
+              "vertical": "catalog",
+              "widgetTrackingInfo": "{\"name\":\"catalog.searchBarDesktop\",\"vertical\":\"catalog\",\"component\":\"searchBarDesktop\",\"version\":2,\"id\":3414131,\"revisionId\":3835502,\"index\":3}",
+              "placeholders": [
+                {
+                  "name": "bottom",
+                  "widgets": [
+                    {
+                      "component": "tapTags",
+                      "params": "{}",
+                      "stateId": "tapTags-3419971-default-1",
+                      "version": 2,
+                      "vertical": "search",
+                      "widgetTrackingInfo": "{\"name\":\"search.tapTags\",\"vertical\":\"search\",\"component\":\"tapTags\",\"version\":2,\"id\":3419971,\"revisionId\":3843395,\"index\":4}",
+                      "widgetToken": "0L6b1XP7LuEGU49UvF6YmDvPOYhiqKcr",
+                      "name": "search.tapTags",
+                      "id": 3419971,
+                      "isTrackingOn": true
+                    }
+                  ]
+                }
+              ],
+              "widgetToken": "0L6b1_vwrMPS35cKLFbRfYksZZ1v7bmi",
+              "timeSpent": 2,
+              "name": "catalog.searchBarDesktop",
+              "id": 3414131,
+              "isTrackingOn": true
+            }
+          ]
+        },
+        {
+          "name": "userMenu",
+          "widgets": [
+            {
+              "component": "profileMenuAnonymous",
+              "params": "{}",
+              "stateId": "profileMenuAnonymous-7278492-default-1",
+              "version": 2,
+              "vertical": "csma",
+              "widgetTrackingInfo": "{}",
+              "id": 7278492
+            },
+            {
+              "component": "orderInfo",
+              "params": "{\"url\":\"/my/orderlist\"}",
+              "stateId": "orderInfo-7278501-default-1",
+              "version": 2,
+              "vertical": "csma",
+              "widgetTrackingInfo": "{\"name\":\"csma.orderInfo\",\"vertical\":\"csma\",\"component\":\"orderInfo\",\"version\":2,\"id\":7278501,\"revisionId\":7865331,\"index\":6}",
+              "placeholders": [
+                {
+                  "name": "tracking",
+                  "widgets": [
+                    {
+                      "component": "orderTracking",
+                      "params": "{\"Preset\":\"1\"}",
+                      "stateId": "orderTracking-5718167-default-1",
+                      "version": 4,
+                      "vertical": "csma",
+                      "widgetTrackingInfo": "{\"name\":\"csma.orderAndDeliveryTracking\",\"vertical\":\"csma\",\"component\":\"orderTracking\",\"version\":4,\"originName\":\"csma.orderAndDeliveryTracking\",\"originVertical\":\"csma\",\"originComponent\":\"orderAndDeliveryTracking\",\"originVersion\":1,\"id\":5718167,\"revisionId\":6278669,\"index\":7}",
+                      "asyncType": "onPageLoad",
+                      "asyncData": "eyJ1cmwiOiIvcHJvZHVjdC8xODU2OTcyNzQ2P19fcnI9MSZzaD1Ed3Y4eENhbFJnIiwiY2kiOnsidmlldyI6eyJuYW1lIjoib3JkZXJUcmFja2luZyIsInZlcnRpY2FsIjoiY3NtYSIsInZlcnNpb24iOjR9LCJ2ZXJ0aWNhbCI6ImNzbWEiLCJuYW1lIjoib3JkZXJBbmREZWxpdmVyeVRyYWNraW5nIiwicGFyYW1zIjpbeyJuYW1lIjoiUHJlc2V0IiwidGV4dCI6IjEifV0sInZlcnNpb24iOjEsImxheW91dElEIjoxMTg1MiwiaWQiOjU3MTgxNjd9fQ==",
+                      "trackingOn": true,
+                      "widgetToken": "0L6b1QF3V8u2WFJs4PzgmffEMcanOxPI",
+                      "name": "csma.orderAndDeliveryTracking",
+                      "id": 5718167,
+                      "isTrackView": true,
+                      "isTrackingOn": true
+                    }
+                  ]
+                }
+              ],
+              "asyncData": "eyJ1cmwiOiIvcHJvZHVjdC8xODU2OTcyNzQ2P19fcnI9MSZzaD1Ed3Y4eENhbFJnIiwiY2kiOnsidmVydGljYWwiOiJjc21hIiwibmFtZSI6Im9yZGVySW5mbyIsInBhcmFtcyI6W3sibmFtZSI6InVybCIsInRleHQiOiIvbXkvb3JkZXJsaXN0In1dLCJ2ZXJzaW9uIjoyLCJsYXlvdXRJRCI6MTE4NTIsImlkIjo3Mjc4NTAxfX0=",
+              "trackingOn": true,
+              "widgetToken": "0L6b1-5zP0f33vHw3Df0yf52clHkXCZf",
+              "name": "csma.orderInfo",
+              "id": 7278501,
+              "isTrackView": true,
+              "isTrackingOn": true
+            },
+            {
+              "component": "favoriteCounter",
+              "params": "{}",
+              "stateId": "favoriteCounter-7278502-default-1",
+              "version": 2,
+              "vertical": "favorites",
+              "widgetTrackingInfo": "{\"name\":\"favorites.favoriteCounter\",\"vertical\":\"favorites\",\"component\":\"favoriteCounter\",\"version\":2,\"id\":7278502,\"revisionId\":7865332,\"index\":8}",
+              "widgetToken": "0L6b1XB1rl4nv4UCG4_V3hhyGpixgqtg",
+              "timeSpent": 2,
+              "name": "favorites.favoriteCounter",
+              "id": 7278502,
+              "isTrackingOn": true
+            },
+            {
+              "component": "headerIcon",
+              "params": "{\"icon\":\"ic_m_grocery_cart_filled\",\"subtitle\":\"{{{Корзина|composer@widgets@cart@headerIcon-v2@txt}}}\"}",
+              "stateId": "headerIcon-7278503-default-1",
+              "version": 2,
+              "vertical": "cart",
+              "widgetTrackingInfo": "{\"name\":\"cart.headerIcon\",\"vertical\":\"cart\",\"component\":\"headerIcon\",\"version\":2,\"id\":7278503,\"revisionId\":7865333,\"index\":9}",
+              "widgetToken": "0L6b1YQaVj5l-MHDKa8RhW6BOKgyb3sD",
+              "name": "cart.headerIcon",
+              "id": 7278503,
+              "isTrackingOn": true,
+              "isStatic": true
+            }
+          ]
+        },
+        {
+          "name": "horizontalMenu",
+          "widgets": [
+            {
+              "component": "horizontalMenu",
+              "params": "{}",
+              "stateId": "horizontalMenu-7302642-default-1",
+              "version": 1,
+              "vertical": "cms",
+              "widgetTrackingInfo": "{\"name\":\"cms.horizontalMenu\",\"vertical\":\"cms\",\"component\":\"horizontalMenu\",\"version\":1,\"id\":7302642,\"revisionId\":7889857,\"index\":10}",
+              "trackingOn": true,
+              "widgetToken": "0L6b1PAUsTJufxm9h_V8S9kgEb6UD1tG",
+              "name": "cms.horizontalMenu",
+              "id": 7302642,
+              "isTrackView": true,
+              "isTrackingOn": true
+            }
+          ]
+        },
+        {
+          "name": "addressBar",
+          "widgets": [
+            {
+              "component": "addressBookBarWeb",
+              "params": "{}",
+              "stateId": "addressBookBarWeb-7278510-default-1",
+              "version": 1,
+              "vertical": "addressBookMap",
+              "widgetTrackingInfo": "{\"name\":\"addressBookMap.addressBookBarWeb\",\"vertical\":\"addressBookMap\",\"component\":\"addressBookBarWeb\",\"version\":1,\"id\":7278510,\"revisionId\":7865340,\"index\":11}",
+              "widgetToken": "0L6b1M6ht_pSMxjV5MFe4A0vHgaIVENC",
+              "name": "addressBookMap.addressBookBarWeb",
+              "id": 7278510,
+              "isTrackingOn": true
+            }
+          ]
+        },
+        {
+          "name": "selectedCurrencyLanguage",
+          "widgets": [
+            {
+              "component": "selectedCurrencyLanguage",
+              "params": "{}",
+              "stateId": "selectedCurrencyLanguage-7278511-default-1",
+              "version": 1,
+              "vertical": "cms",
+              "widgetTrackingInfo": "{\"name\":\"cms.selectedCurrencyLanguage\",\"vertical\":\"cms\",\"component\":\"selectedCurrencyLanguage\",\"version\":1,\"id\":7278511,\"revisionId\":7865341,\"index\":12}",
+              "widgetToken": "0L6b1_5TwGDthyFZFr13G5-rurk83JAY",
+              "name": "cms.selectedCurrencyLanguage",
+              "id": 7278511,
+              "isTrackingOn": true
+            }
+          ]
+        }
+      ],
+      "widgetToken": "0L6b1StJoRWN7eH4Xd8tFx9s63dfcsKi",
+      "name": "cms.header",
+      "id": 7278143,
+      "isTrackingOn": true
+    },
+    {
+      "component": "row",
+      "params": "{}",
+      "stateId": "row-3155454-default-1",
+      "version": 1,
+      "vertical": "layout",
+      "widgetTrackingInfo": "{}",
+      "placeholders": [
+        {
+          "name": "default",
+          "widgets": [
+            {
+              "component": "column",
+              "params": "{\"collapseIfEmpty\":true}",
+              "stateId": "column-3155453-default-1",
+              "version": 1,
+              "vertical": "layout",
+              "widgetTrackingInfo": "{\"name\":\"layout.column\",\"vertical\":\"layout\",\"component\":\"column\",\"version\":1,\"id\":3155453,\"revisionId\":3484889}",
+              "widgetToken": "0L6b1ZX-rvwB2P8aNBsCTaiat9fgVGfi",
+              "name": "layout.column",
+              "id": 3155453,
+              "isTrackingOn": true,
+              "isStatic": true
+            }
+          ]
+        }
+      ],
+      "id": 3155454,
+      "isStatic": true
+    },
+    {
+      "component": "webProductMainWidget",
+      "params": "{}",
+      "stateId": "webProductMainWidget-347746-default-1",
+      "version": 1,
+      "vertical": "pdp",
+      "widgetTrackingInfo": "{\"name\":\"pdp-widget\",\"vertical\":\"pdp\",\"component\":\"webProductMainWidget\",\"version\":1,\"originName\":\"pdp.webProductMainWidget\",\"originVertical\":\"pdp\",\"originComponent\":\"webProductMainWidget\",\"originVersion\":1,\"id\":347746,\"revisionId\":345427,\"index\":14}",
+      "widgetToken": "0L6b1Px9_e5fb87YZQt3zWKsGjBPjlXi",
+      "timeSpent": 20,
+      "name": "pdp-widget",
+      "id": 347746,
+      "isTrackingOn": true
+    },
+    {
+      "component": "container",
+      "params": "{}",
+      "stateId": "container-347815-default-1",
+      "version": 1,
+      "vertical": "layout",
+      "widgetTrackingInfo": "{}",
+      "placeholders": [
+        {
+          "name": "default",
+          "widgets": [
+            {
+              "component": "row",
+              "params": "{}",
+              "stateId": "row-347762-default-1",
+              "version": 1,
+              "vertical": "layout",
+              "widgetTrackingInfo": "{}",
+              "placeholders": [
+                {
+                  "name": "default",
+                  "widgets": [
+                    {
+                      "component": "column",
+                      "params": "{}",
+                      "stateId": "column-347761-default-1",
+                      "version": 1,
+                      "vertical": "layout",
+                      "widgetTrackingInfo": "{\"name\":\"layout.column\",\"vertical\":\"layout\",\"component\":\"column\",\"version\":1,\"id\":347761,\"revisionId\":345442}",
+                      "widgetToken": "0L6b1SSYE3FMEKRN5YgZJoR_ZYAbdGCR",
+                      "name": "layout.column",
+                      "id": 347761,
+                      "isTrackingOn": true,
+                      "isStatic": true
+                    }
+                  ]
+                }
+              ],
+              "id": 347762,
+              "isStatic": true
+            },
+            {
+              "component": "row",
+              "params": "{}",
+              "stateId": "row-347780-default-1",
+              "version": 1,
+              "vertical": "layout",
+              "widgetTrackingInfo": "{}",
+              "placeholders": [
+                {
+                  "name": "default",
+                  "widgets": [
+                    {
+                      "component": "column",
+                      "params": "{}",
+                      "stateId": "column-347779-default-1",
+                      "version": 1,
+                      "vertical": "layout",
+                      "widgetTrackingInfo": "{\"name\":\"layout.column\",\"vertical\":\"layout\",\"component\":\"column\",\"version\":1,\"id\":347779,\"revisionId\":345460}",
+                      "placeholders": [
+                        {
+                          "name": "default",
+                          "widgets": [
+                            {
+                              "component": "webPdpGrid",
+                              "params": "{\"alignCrossAxis\":\"stretch\",\"alignMainAxis\":\"spaceBetween\",\"betweenMargin\":\"12\",\"direction\":\"column\",\"wrap\":\"nowrap\"}",
+                              "stateId": "webPdpGrid-347778-default-1",
+                              "version": 1,
+                              "vertical": "pdp",
+                              "widgetTrackingInfo": "{}",
+                              "placeholders": [
+                                {
+                                  "name": "default",
+                                  "widgets": [
+                                    {
+                                      "component": "webPdpGrid",
+                                      "params": "{\"direction\":\"row\",\"wrap\":\"nowrap\",\"alignMainAxis\":\"spaceBetween\",\"alignCrossAxis\":\"center\",\"betweenMargin\":\"20\"}",
+                                      "stateId": "webPdpGrid-347857-default-1",
+                                      "version": 1,
+                                      "vertical": "pdp",
+                                      "widgetTrackingInfo": "{}",
+                                      "placeholders": [
+                                        {
+                                          "name": "default",
+                                          "widgets": [
+                                            {
+                                              "component": "webPdpGrid",
+                                              "params": "{\"direction\":\"row\",\"wrap\":\"wrap\",\"alignMainAxis\":\"start\",\"alignCrossAxis\":\"start\",\"betweenMargin\":\"12\",\"verticalPadding\":\"0\",\"horizontalPadding\":\"0\",\"backgroundColor\":\"transparent\"}",
+                                              "stateId": "webPdpGrid-3385918-default-1",
+                                              "version": 1,
+                                              "vertical": "pdp",
+                                              "widgetTrackingInfo": "{}",
+                                              "placeholders": [
+                                                {
+                                                  "name": "default",
+                                                  "widgets": [
+                                                    {
+                                                      "component": "breadCrumbs",
+                                                      "params": "{}",
+                                                      "stateId": "breadCrumbs-3385917-default-1",
+                                                      "version": 2,
+                                                      "vertical": "common",
+                                                      "widgetTrackingInfo": "{\"name\":\"catalog.breadCrumbsPdp\",\"vertical\":\"common\",\"component\":\"breadCrumbs\",\"version\":2,\"originName\":\"catalog.breadCrumbsPdp\",\"originVertical\":\"catalog\",\"originComponent\":\"breadCrumbsPdp\",\"originVersion\":2,\"id\":3385917,\"revisionId\":3796426,\"index\":24}",
+                                                      "widgetToken": "0L6b1YHgymCAhI-sMWZHo01-01-pKJbd",
+                                                      "timeSpent": 1,
+                                                      "name": "catalog.breadCrumbsPdp",
+                                                      "id": 3385917,
+                                                      "isTrackingOn": true
+                                                    }
+                                                  ]
+                                                }
+                                              ],
+                                              "id": 3385918,
+                                              "isStatic": true
+                                            },
+                                            {
+                                              "component": "webPdpGrid",
+                                              "params": "{\"direction\":\"row\",\"wrap\":\"wrap\",\"alignMainAxis\":\"start\",\"alignCrossAxis\":\"start\",\"betweenMargin\":\"12\",\"verticalPadding\":\"0\",\"horizontalPadding\":\"12\",\"backgroundColor\":\"transparent\",\"noContentShrink\":true}",
+                                              "stateId": "webPdpGrid-3385615-default-1",
+                                              "version": 1,
+                                              "vertical": "pdp",
+                                              "widgetTrackingInfo": "{}",
+                                              "placeholders": [
+                                                {
+                                                  "name": "default",
+                                                  "widgets": [
+                                                    {
+                                                      "component": "webDetailSKU",
+                                                      "params": "{\"buttonMode\":\"inline\",\"isFreshColorsEnabled\":true}",
+                                                      "stateId": "webDetailSKU-3385551-default-1",
+                                                      "version": 2,
+                                                      "vertical": "pdp",
+                                                      "widgetTrackingInfo": "{\"name\":\"pdp.webDetailSKU\",\"vertical\":\"pdp\",\"component\":\"webDetailSKU\",\"version\":2,\"id\":3385551,\"revisionId\":3795999,\"index\":26}",
+                                                      "widgetToken": "0L6b1WwqYjEvlvytdWZT5H4PauSj9kNP",
+                                                      "timeSpent": 3,
+                                                      "name": "pdp.webDetailSKU",
+                                                      "id": 3385551,
+                                                      "isTrackingOn": true
+                                                    },
+                                                    {
+                                                      "component": "webAddToCompare",
+                                                      "params": "{\"buttonText\":\"В сравнение\",\"buttonTextActive\":\"В сравнении\",\"displayMode\":\"inline\",\"notificationTextSuccess\":\"Добавлено в сравнение\",\"notificationTextManySku\":\"В сравнении много товаров\",\"notificationButtonTextGoTo\":\"Перейти в сравнение\",\"notificationTextTryAgain\":\"Удалите лишние и попробуйте снова\",\"notificationTextBadInternet\":\"Что-то с интернетом\"}",
+                                                      "stateId": "webAddToCompare-3385612-default-1",
+                                                      "version": 4,
+                                                      "vertical": "pdp",
+                                                      "widgetTrackingInfo": "{\"name\":\"pdp.webAddToCompare\",\"vertical\":\"pdp\",\"component\":\"webAddToCompare\",\"version\":4,\"id\":3385612,\"revisionId\":3796086,\"index\":27}",
+                                                      "asyncData": "eyJ1cmwiOiIvcHJvZHVjdC8xODU2OTcyNzQ2P19fcnI9MSZzaD1Ed3Y4eENhbFJnIiwiY2kiOnsidmVydGljYWwiOiJwZHAiLCJuYW1lIjoid2ViQWRkVG9Db21wYXJlIiwicGFyYW1zIjpbeyJuYW1lIjoiYnV0dG9uVGV4dCIsInRleHQiOiLQkiDRgdGA0LDQstC90LXQvdC40LUifSx7Im5hbWUiOiJidXR0b25UZXh0QWN0aXZlIiwidGV4dCI6ItCSINGB0YDQsNCy0L3QtdC90LjQuCJ9LHsibmFtZSI6ImRpc3BsYXlNb2RlIiwidGV4dCI6ImlubGluZSJ9LHsibmFtZSI6Im5vdGlmaWNhdGlvblRleHRTdWNjZXNzIiwidGV4dCI6ItCU0L7QsdCw0LLQu9C10L3QviDQsiDRgdGA0LDQstC90LXQvdC40LUifSx7Im5hbWUiOiJub3RpZmljYXRpb25UZXh0TWFueVNrdSIsInRleHQiOiLQkiDRgdGA0LDQstC90LXQvdC40Lgg0LzQvdC+0LPQviDRgtC+0LLQsNGA0L7QsiJ9LHsibmFtZSI6Im5vdGlmaWNhdGlvbkJ1dHRvblRleHRHb1RvIiwidGV4dCI6ItCf0LXRgNC10LnRgtC4INCyINGB0YDQsNCy0L3QtdC90LjQtSJ9LHsibmFtZSI6Im5vdGlmaWNhdGlvblRleHRUcnlBZ2FpbiIsInRleHQiOiLQo9C00LDQu9C40YLQtSDQu9C40YjQvdC40LUg0Lgg0L/QvtC/0YDQvtCx0YPQudGC0LUg0YHQvdC+0LLQsCJ9LHsibmFtZSI6Im5vdGlmaWNhdGlvblRleHRCYWRJbnRlcm5ldCIsInRleHQiOiLQp9GC0L4t0YLQviDRgSDQuNC90YLQtdGA0L3QtdGC0L7QvCJ9XSwidmVyc2lvbiI6NCwibGF5b3V0SUQiOjExODUyLCJpZCI6MzM4NTYxMn19",
+                                                      "widgetToken": "0L6b1M5QUKcnE2bMmJY4leLNyMgUtOAN",
+                                                      "timeSpent": 1,
+                                                      "name": "pdp.webAddToCompare",
+                                                      "id": 3385612,
+                                                      "isTrackingOn": true
+                                                    },
+                                                    {
+                                                      "component": "webSharingButton",
+                                                      "params": "{\"buttonMode\":\"inline\",\"isFreshColorsEnabled\":true}",
+                                                      "stateId": "webSharingButton-3385613-default-1",
+                                                      "version": 3,
+                                                      "vertical": "pdp",
+                                                      "widgetTrackingInfo": "{\"name\":\"pdp.webSharingButton\",\"vertical\":\"pdp\",\"component\":\"webSharingButton\",\"version\":3,\"id\":3385613,\"revisionId\":3796087,\"index\":28}",
+                                                      "widgetToken": "0L6b1Yijxxp8qi8Iu4AVOF9e3WbfCgLk",
+                                                      "timeSpent": 18,
+                                                      "name": "pdp.webSharingButton",
+                                                      "id": 3385613,
+                                                      "isTrackingOn": true
+                                                    }
+                                                  ]
+                                                }
+                                              ],
+                                              "id": 3385615,
+                                              "isStatic": true
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "id": 347857,
+                                      "isStatic": true
+                                    }
+                                  ]
+                                }
+                              ],
+                              "id": 347778,
+                              "isStatic": true
+                            }
+                          ]
+                        }
+                      ],
+                      "widgetToken": "0L6b1ZO9-hhuhURsS-1iTStP7oYaK9Ge",
+                      "name": "layout.column",
+                      "id": 347779,
+                      "isTrackingOn": true,
+                      "isStatic": true
+                    }
+                  ]
+                }
+              ],
+              "id": 347780,
+              "isStatic": true
+            },
+            {
+              "component": "webPdpGrid",
+              "params": "{\"direction\":\"row\",\"wrap\":\"nowrap\",\"alignMainAxis\":\"start\",\"alignCrossAxis\":\"stretch\",\"betweenMargin\":\"32\",\"verticalPadding\":\"0\",\"horizontalPadding\":\"0\",\"backgroundColor\":\"transparent\",\"width\":\"100%\"}",
+              "stateId": "webPdpGrid-1040994-default-1",
+              "version": 1,
+              "vertical": "pdp",
+              "widgetTrackingInfo": "{}",
+              "placeholders": [
+                {
+                  "name": "default",
+                  "widgets": [
+                    {
+                      "component": "webPdpGrid",
+                      "params": "{\"direction\":\"column\",\"wrap\":\"nowrap\",\"alignMainAxis\":\"start\",\"alignCrossAxis\":\"stretch\",\"betweenMargin\":\"0\",\"verticalPadding\":\"0\",\"horizontalPadding\":\"0\",\"backgroundColor\":\"transparent\",\"width\":\"calc(100% - 420px)\"}",
+                      "stateId": "webPdpGrid-3311650-default-1",
+                      "version": 1,
+                      "vertical": "pdp",
+                      "widgetTrackingInfo": "{}",
+                      "placeholders": [
+                        {
+                          "name": "default",
+                          "widgets": [
+                            {
+                              "component": "webPdpGrid",
+                              "params": "{\"direction\":\"row\",\"wrap\":\"nowrap\",\"alignMainAxis\":\"start\",\"alignCrossAxis\":\"stretch\",\"betweenMargin\":\"24\",\"verticalPadding\":\"0\",\"horizontalPadding\":\"0\",\"backgroundColor\":\"transparent\",\"width\":\"100%\",\"contentGrow\":true}",
+                              "stateId": "webPdpGrid-3572557-default-1",
+                              "version": 1,
+                              "vertical": "pdp",
+                              "widgetTrackingInfo": "{}",
+                              "placeholders": [
+                                {
+                                  "name": "default",
+                                  "widgets": [
+                                    {
+                                      "component": "webPdpGrid",
+                                      "params": "{\"direction\":\"row\",\"wrap\":\"nowrap\",\"alignMainAxis\":\"stretch\",\"alignCrossAxis\":\"stretch\",\"betweenMargin\":\"0\",\"verticalPadding\":\"0\",\"horizontalPadding\":\"0\",\"backgroundColor\":\"transparent\",\"width\":\"57.3%\"}",
+                                      "stateId": "webPdpGrid-3572555-default-1",
+                                      "version": 1,
+                                      "vertical": "pdp",
+                                      "widgetTrackingInfo": "{}",
+                                      "placeholders": [
+                                        {
+                                          "name": "default",
+                                          "widgets": [
+                                            {
+                                              "component": "webStickyColumn",
+                                              "params": "{\"offsetTop\":\"70px\",\"viewportOffset\":64}",
+                                              "stateId": "webStickyColumn-3572560-default-1",
+                                              "version": 1,
+                                              "vertical": "pdp",
+                                              "widgetTrackingInfo": "{}",
+                                              "placeholders": [
+                                                {
+                                                  "name": "default",
+                                                  "widgets": [
+                                                    {
+                                                      "component": "webGallery",
+                                                      "params": "{\"isCoverAutoPlayOn\":true,\"theme\":\"default\",\"markedDownText\":\"уценённый товар\",\"isSimilarItemsButtonEnabled\":true,\"galleryContainerRatio\":\"3x4\",\"imageQuality\":2500}",
+                                                      "stateId": "webGallery-3311626-default-1",
+                                                      "version": 6,
+                                                      "vertical": "pdp",
+                                                      "widgetTrackingInfo": "{\"name\":\"pdp.webGallery\",\"vertical\":\"pdp\",\"component\":\"webGallery\",\"version\":6,\"id\":3311626,\"revisionId\":10710765,\"index\":34}",
+                                                      "widgetToken": "0L6b1T8M4KVXlCFm3P9rEX6ictgMW_Yo",
+                                                      "timeSpent": 18,
+                                                      "name": "pdp.webGallery",
+                                                      "id": 3311626,
+                                                      "isTrackingOn": true
+                                                    }
+                                                  ]
+                                                }
+                                              ],
+                                              "timeSpent": 2,
+                                              "id": 3572560
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "id": 3572555,
+                                      "isStatic": true
+                                    },
+                                    {
+                                      "component": "webPdpGrid",
+                                      "params": "{\"direction\":\"column\",\"wrap\":\"nowrap\",\"alignMainAxis\":\"start\",\"alignCrossAxis\":\"stretch\",\"betweenMargin\":\"0\",\"verticalPadding\":\"0\",\"horizontalPadding\":\"0\",\"backgroundColor\":\"transparent\",\"width\":\"calc(100% - 57.3% - 24px)\"}",
+                                      "stateId": "webPdpGrid-3572556-default-1",
+                                      "version": 1,
+                                      "vertical": "pdp",
+                                      "widgetTrackingInfo": "{}",
+                                      "placeholders": [
+                                        {
+                                          "name": "default",
+                                          "widgets": [
+                                            {
+                                              "component": "webStickyColumn",
+                                              "params": "{\"offsetTop\":\"64px\",\"viewportOffset\":64}",
+                                              "stateId": "webStickyColumn-3572561-default-1",
+                                              "version": 1,
+                                              "vertical": "pdp",
+                                              "widgetTrackingInfo": "{}",
+                                              "placeholders": [
+                                                {
+                                                  "name": "default",
+                                                  "widgets": [
+                                                    {
+                                                      "component": "webPdpGrid",
+                                                      "params": "{\"direction\":\"column\",\"wrap\":\"nowrap\",\"alignMainAxis\":\"start\",\"alignCrossAxis\":\"stretch\",\"betweenMargin\":\"12\"}",
+                                                      "stateId": "webPdpGrid-3311645-default-1",
+                                                      "version": 1,
+                                                      "vertical": "pdp",
+                                                      "widgetTrackingInfo": "{}",
+                                                      "placeholders": [
+                                                        {
+                                                          "name": "default",
+                                                          "widgets": [
+                                                            {
+                                                              "component": "webProductHeading",
+                                                              "params": "{\"rowsCount\":3}",
+                                                              "stateId": "webProductHeading-3385933-default-1",
+                                                              "version": 3,
+                                                              "vertical": "pdp",
+                                                              "widgetTrackingInfo": "{\"name\":\"pdp.webProductHeading\",\"vertical\":\"pdp\",\"component\":\"webProductHeading\",\"version\":3,\"id\":3385933,\"revisionId\":12292654,\"index\":39}",
+                                                              "widgetToken": "0L6b1TAojclCnBTiFTTX5zjllf_iUcUK",
+                                                              "timeSpent": 16,
+                                                              "name": "pdp.webProductHeading",
+                                                              "id": 3385933,
+                                                              "isTrackingOn": true
+                                                            },
+                                                            {
+                                                              "component": "webPdpGrid",
+                                                              "params": "{\"direction\":\"row\",\"wrap\":\"wrap\",\"alignMainAxis\":\"start\",\"alignCrossAxis\":\"start\",\"betweenMargin\":\"12\",\"verticalPadding\":\"0\",\"horizontalPadding\":\"0\",\"backgroundColor\":\"transparent\"}",
+                                                              "stateId": "webPdpGrid-3386314-default-1",
+                                                              "version": 1,
+                                                              "vertical": "pdp",
+                                                              "widgetTrackingInfo": "{}",
+                                                              "placeholders": [
+                                                                {
+                                                                  "name": "default",
+                                                                  "widgets": [
+                                                                    {
+                                                                      "component": "webSingleProductScore",
+                                                                      "params": "{\"anchorUrl\":\"?tab=reviews#comments--offset-130\"}",
+                                                                      "stateId": "webSingleProductScore-3386432-default-1",
+                                                                      "version": 1,
+                                                                      "vertical": "rpProduct",
+                                                                      "widgetTrackingInfo": "{\"name\":\"rpProduct.webSingleProductScore\",\"vertical\":\"rpProduct\",\"component\":\"webSingleProductScore\",\"version\":1,\"id\":3386432,\"revisionId\":3797083,\"index\":42}",
+                                                                      "asyncData": "eyJ1cmwiOiIvcHJvZHVjdC8xODU2OTcyNzQ2P19fcnI9MSZzaD1Ed3Y4eENhbFJnIiwiY2kiOnsidmVydGljYWwiOiJycFByb2R1Y3QiLCJuYW1lIjoid2ViU2luZ2xlUHJvZHVjdFNjb3JlIiwicGFyYW1zIjpbeyJuYW1lIjoiYW5jaG9yVXJsIiwidGV4dCI6Ij90YWI9cmV2aWV3cyNjb21tZW50cy0tb2Zmc2V0LTEzMCJ9XSwidmVyc2lvbiI6MSwibGF5b3V0SUQiOjExODUyLCJpZCI6MzM4NjQzMn19",
+                                                                      "widgetToken": "0L6b1NpAMTjCBY0dZZaYKDk_Wqp2Aw6-",
+                                                                      "timeSpent": 2,
+                                                                      "name": "rpProduct.webSingleProductScore",
+                                                                      "id": 3386432,
+                                                                      "isTrackingOn": true
+                                                                    },
+                                                                    {
+                                                                      "component": "webQuestionCount",
+                                                                      "params": "{\"anchorUrl\":\"?tab=questions#comments--offset-130\"}",
+                                                                      "stateId": "webQuestionCount-3386433-default-1",
+                                                                      "version": 2,
+                                                                      "vertical": "rpProduct",
+                                                                      "widgetTrackingInfo": "{\"name\":\"rpProduct.webQuestionCount\",\"vertical\":\"rpProduct\",\"component\":\"webQuestionCount\",\"version\":2,\"id\":3386433,\"revisionId\":3797084,\"index\":43}",
+                                                                      "widgetToken": "0L6b1YbAQndatMcfzmYnyRWUKAiOgn9p",
+                                                                      "name": "rpProduct.webQuestionCount",
+                                                                      "id": 3386433,
+                                                                      "isTrackingOn": true
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ],
+                                                              "id": 3386314,
+                                                              "isStatic": true
+                                                            },
+                                                            {
+                                                              "component": "webPdpGrid",
+                                                              "params": "{\"alignCrossAxis\":\"stretch\",\"alignMainAxis\":\"start\",\"betweenMargin\":\"24\",\"direction\":\"column\",\"wrap\":\"nowrap\",\"backgroundColor\":\"transparent\",\"horizontalPadding\":\"0\",\"verticalPadding\":\"0\"}",
+                                                              "stateId": "webPdpGrid-296982-default-1",
+                                                              "version": 1,
+                                                              "vertical": "pdp",
+                                                              "widgetTrackingInfo": "{}",
+                                                              "placeholders": [
+                                                                {
+                                                                  "name": "default",
+                                                                  "widgets": [
+                                                                    {
+                                                                      "component": "webShortCharacteristics",
+                                                                      "params": "{\"limit\":5,\"showLongCharacteristics\":true,\"thresholdLength\":60,\"paramsLinkTarget\":\"self\",\"isFreshColorsEnabled\":true,\"offsetScrol\":144,\"linkToDescription\":\"section-description\",\"linkToDescriptionButtonText\":\"Перейти к описанию\",\"linkToCharacteristics\":\"section-characteristics\",\"linkToCharacteristicsButtonText\":\"Перейти к характеристикам\",\"linkToExternalText\":\"Подробнее\",\"isWidgetCharacteristicsOnPage\":true,\"isWidgetDescriptionOnPage\":true}",
+                                                                      "stateId": "webShortCharacteristics-3385952-default-1",
+                                                                      "version": 1,
+                                                                      "vertical": "pdp",
+                                                                      "widgetTrackingInfo": "{\"name\":\"pdp.webShortCharacteristics\",\"vertical\":\"pdp\",\"component\":\"webShortCharacteristics\",\"version\":1,\"id\":3385952,\"revisionId\":3796474,\"index\":48}",
+                                                                      "widgetToken": "0L6b1TvOkocILKDmQECe7pMe7XX2LKEB",
+                                                                      "timeSpent": 18,
+                                                                      "name": "pdp.webShortCharacteristics",
+                                                                      "id": 3385952,
+                                                                      "isTrackingOn": true
+                                                                    },
+                                                                    {
+                                                                      "component": "row",
+                                                                      "params": "{}",
+                                                                      "stateId": "row-702923-default-1",
+                                                                      "version": 1,
+                                                                      "vertical": "layout",
+                                                                      "widgetTrackingInfo": "{}",
+                                                                      "placeholders": [
+                                                                        {
+                                                                          "name": "default",
+                                                                          "widgets": [
+                                                                            {
+                                                                              "component": "column",
+                                                                              "params": "{\"basis\":9,\"collapseIfEmpty\":true}",
+                                                                              "stateId": "column-702922-default-1",
+                                                                              "version": 1,
+                                                                              "vertical": "layout",
+                                                                              "widgetTrackingInfo": "{\"name\":\"layout.column\",\"vertical\":\"layout\",\"component\":\"column\",\"version\":1,\"id\":702922,\"revisionId\":3435232}",
+                                                                              "widgetToken": "0L6b1W5QlpNtsteDLJYYav_ahwPpSe5W",
+                                                                              "name": "layout.column",
+                                                                              "id": 702922,
+                                                                              "isTrackingOn": true,
+                                                                              "isStatic": true
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ],
+                                                                      "id": 702923,
+                                                                      "isStatic": true
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ],
+                                                              "id": 296982,
+                                                              "isStatic": true
+                                                            },
+                                                            {
+                                                              "component": "separator",
+                                                              "params": "{\"height\":24}",
+                                                              "stateId": "separator-3508186-default-1",
+                                                              "version": 1,
+                                                              "vertical": "cms",
+                                                              "widgetTrackingInfo": "{\"name\":\"cms.separator\",\"vertical\":\"cms\",\"component\":\"separator\",\"version\":1,\"id\":3508186,\"revisionId\":3964153}",
+                                                              "etag": "b15506ded8c16ef6",
+                                                              "widgetToken": "0L6b1R2zw8_tRBU8c1e38odBbGIvdyBY",
+                                                              "name": "cms.separator",
+                                                              "id": 3508186,
+                                                              "isTrackingOn": true,
+                                                              "isStatic": true
+                                                            }
+                                                          ]
+                                                        }
+                                                      ],
+                                                      "id": 3311645,
+                                                      "isStatic": true
+                                                    }
+                                                  ]
+                                                }
+                                              ],
+                                              "timeSpent": 2,
+                                              "id": 3572561
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "id": 3572556,
+                                      "isStatic": true
+                                    }
+                                  ]
+                                }
+                              ],
+                              "id": 3572557,
+                              "isStatic": true
+                            },
+                            {
+                              "component": "customHtml",
+                              "params": "{}",
+                              "stateId": "customHtml-347935-default-1",
+                              "version": 1,
+                              "vertical": "cms",
+                              "widgetTrackingInfo": "{\"name\":\"cms.customHtml\",\"vertical\":\"cms\",\"component\":\"customHtml\",\"version\":1,\"id\":347935,\"revisionId\":345697,\"index\":54}",
+                              "trackingOn": true,
+                              "widgetToken": "0L6b1XfAG8ShgH_Li1rXfcj8g3ItF6-U",
+                              "name": "cms.customHtml",
+                              "id": 347935,
+                              "isTrackView": true,
+                              "isTrackingOn": true
+                            }
+                          ]
+                        }
+                      ],
+                      "id": 3311650,
+                      "isStatic": true
+                    },
+                    {
+                      "component": "webStickyColumn",
+                      "params": "{\"offsetTop\":\"64px\",\"viewportOffset\":64}",
+                      "stateId": "webStickyColumn-3572634-default-1",
+                      "version": 1,
+                      "vertical": "pdp",
+                      "widgetTrackingInfo": "{}",
+                      "placeholders": [
+                        {
+                          "name": "default",
+                          "widgets": [
+                            {
+                              "component": "webPdpGrid",
+                              "params": "{\"alignCrossAxis\":\"stretch\",\"alignMainAxis\":\"start\",\"betweenMargin\":\"2\",\"direction\":\"column\",\"wrap\":\"nowrap\",\"width\":\"388px\"}",
+                              "stateId": "webPdpGrid-3292468-default-1",
+                              "version": 1,
+                              "vertical": "pdp",
+                              "widgetTrackingInfo": "{}",
+                              "placeholders": [
+                                {
+                                  "name": "default",
+                                  "widgets": [
+                                    {
+                                      "component": "webPdpGrid",
+                                      "params": "{\"direction\":\"column\",\"wrap\":\"nowrap\",\"alignMainAxis\":\"start\",\"alignCrossAxis\":\"stretch\",\"betweenMargin\":\"4\",\"verticalPadding\":\"8\",\"horizontalPadding\":\"0\",\"backgroundColor\":\"transparent\",\"width\":\"388px\"}",
+                                      "stateId": "webPdpGrid-3292425-default-1",
+                                      "version": 1,
+                                      "vertical": "pdp",
+                                      "widgetTrackingInfo": "{}",
+                                      "placeholders": [
+                                        {
+                                          "name": "default",
+                                          "widgets": [
+                                            {
+                                              "component": "separator",
+                                              "params": "{\"height\":8}",
+                                              "stateId": "separator-3422630-default-1",
+                                              "version": 1,
+                                              "vertical": "cms",
+                                              "widgetTrackingInfo": "{\"name\":\"cms.separator\",\"vertical\":\"cms\",\"component\":\"separator\",\"version\":1,\"id\":3422630,\"revisionId\":3847421}",
+                                              "etag": "1b118d940be42554",
+                                              "widgetToken": "0L6b1VVB74lI3_tgfq_bWrzTMcE1OmGi",
+                                              "name": "cms.separator",
+                                              "id": 3422630,
+                                              "isTrackingOn": true,
+                                              "isStatic": true
+                                            },
+                                            {
+                                              "component": "webSale",
+                                              "params": "{\"textProductNotForSale\":\"Товара нет в продаже\",\"textBannedArea\":\"Товар не доставляется в ваш город\",\"textPreOrderComingStart\":\"Скоро старт предзаказа\",\"textPreOrderComingSoon\":\"Скоро в продаже\",\"textPreOrderWillGoOnSale\":\"Товар поступит в продажу\",\"textProductPreRelease\":\"Скоро в продаже\",\"textProductEndedQuickly\":\"Сожалеем, товар быстро закончился. Мы сообщим вам о новых поступлениях.\",\"textProductEnded\":\"Товар закончился\",\"paramRegularDataTitle\":\"Получите скидку прямо сейчас\",\"paramRegularDataDescription\":\"Просто оформите регулярную доставку этого товара. С каждой новой доставкой вы увеличиваете скидку\",\"paramRegularInfoText\":\"Как работает регулярная покупка\",\"theme\":\"default\"}",
+                                              "stateId": "webSale-2111389-default-1",
+                                              "version": 12,
+                                              "vertical": "pdp",
+                                              "widgetTrackingInfo": "{\"name\":\"pdp.webSale\",\"vertical\":\"pdp\",\"component\":\"webSale\",\"version\":12,\"id\":2111389,\"revisionId\":2374955,\"index\":60}",
+                                              "placeholders": [
+                                                {
+                                                  "name": "price",
+                                                  "widgets": [
+                                                    {
+                                                      "component": "webPrice",
+                                                      "params": "{\"showPpu\":true,\"withOzonAccount\":\"/modal/withOzonAccount\",\"withoutOzonAccount\":\"/modal/withoutOzonAccount\"}",
+                                                      "stateId": "webPrice-3121879-default-1",
+                                                      "version": 6,
+                                                      "vertical": "pdp",
+                                                      "widgetTrackingInfo": "{\"name\":\"pdp.webPrice\",\"vertical\":\"pdp\",\"component\":\"webPrice\",\"version\":6,\"id\":3121879,\"revisionId\":3440440,\"index\":61}",
+                                                      "asyncData": "eyJ1cmwiOiIvcHJvZHVjdC8xODU2OTcyNzQ2P19fcnI9MSZzaD1Ed3Y4eENhbFJnIiwiY2kiOnsidmVydGljYWwiOiJwZHAiLCJuYW1lIjoid2ViUHJpY2UiLCJwYXJhbXMiOlt7Im5hbWUiOiJzaG93UHB1IiwiYm9vbCI6dHJ1ZX0seyJuYW1lIjoid2l0aE96b25BY2NvdW50IiwidGV4dCI6Ii9tb2RhbC93aXRoT3pvbkFjY291bnQifSx7Im5hbWUiOiJ3aXRob3V0T3pvbkFjY291bnQiLCJ0ZXh0IjoiL21vZGFsL3dpdGhvdXRPem9uQWNjb3VudCJ9XSwidmVyc2lvbiI6NiwibGF5b3V0SUQiOjExODUyLCJpZCI6MzEyMTg3OX19",
+                                                      "widgetToken": "0L6b1Pg2NtX8Z_roxuDlAviFYtaiBgT8",
+                                                      "timeSpent": 18,
+                                                      "name": "pdp.webPrice",
+                                                      "id": 3121879,
+                                                      "isTrackingOn": true
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "topContent",
+                                                  "widgets": [
+                                                    {
+                                                      "component": "webInstallmentPurchase",
+                                                      "params": "{\"installmentAnimation\":true,\"BaseAnimationTimer\":10,\"highPriceAnimationTimer\":10,\"onboardingBNPL\":true,\"onboardingTimerBefore\":85,\"onboardingTimerViewing\":20,\"iconBNPLEnableName\":true,\"onboardingCreditCard\":true,\"headerWithBadgeEnable\":true,\"headerTitle\":\"Оплачивайте позже\"}",
+                                                      "stateId": "webInstallmentPurchase-11156568-default-1",
+                                                      "version": 2,
+                                                      "vertical": "pdp",
+                                                      "widgetTrackingInfo": "{\"name\":\"pdp.webInstallmentPurchase\",\"vertical\":\"pdp\",\"component\":\"webInstallmentPurchase\",\"version\":2,\"id\":11156568,\"revisionId\":11807224,\"index\":66}",
+                                                      "asyncData": "eyJ1cmwiOiIvcHJvZHVjdC8xODU2OTcyNzQ2P19fcnI9MSZzaD1Ed3Y4eENhbFJnIiwiY2kiOnsidmVydGljYWwiOiJwZHAiLCJuYW1lIjoid2ViSW5zdGFsbG1lbnRQdXJjaGFzZSIsInBhcmFtcyI6W3sibmFtZSI6Imluc3RhbGxtZW50QW5pbWF0aW9uIiwiYm9vbCI6dHJ1ZX0seyJuYW1lIjoiQmFzZUFuaW1hdGlvblRpbWVyIiwiaW50IjoxMH0seyJuYW1lIjoiaGlnaFByaWNlIn0seyJuYW1lIjoiaGlnaFByaWNlQW5pbWF0aW9uVGltZXIiLCJpbnQiOjEwfSx7Im5hbWUiOiJvbmJvYXJkaW5nQk5QTCIsImJvb2wiOnRydWV9LHsibmFtZSI6Im9uYm9hcmRpbmdaZXJvUnVibGVzVG9kYXkifSx7Im5hbWUiOiJvbmJvYXJkaW5nV2l0aG91dE92ZXJwYXltZW50cyJ9LHsibmFtZSI6Im9uYm9hcmRpbmdUaW1lckJlZm9yZSIsImludCI6ODV9LHsibmFtZSI6Im9uYm9hcmRpbmdUaW1lclZpZXdpbmciLCJpbnQiOjIwfSx7Im5hbWUiOiJpY29uQk5QTEVuYWJsZU5hbWUiLCJib29sIjp0cnVlfSx7Im5hbWUiOiJvbmJvYXJkaW5nQ3JlZGl0Q2FyZCIsImJvb2wiOnRydWV9LHsibmFtZSI6ImhlYWRlcldpdGhCYWRnZUVuYWJsZSIsImJvb2wiOnRydWV9LHsibmFtZSI6ImhlYWRlclRpdGxlIiwidGV4dCI6ItCe0L/Qu9Cw0YfQuNCy0LDQudGC0LUg0L/QvtC30LbQtSJ9XSwidmVyc2lvbiI6MiwibGF5b3V0SUQiOjExODUyLCJpZCI6MTExNTY1Njh9fQ==",
+                                                      "widgetToken": "0L6b1Y8vBCuBIq4SMweUoK9Xup1l5CIq",
+                                                      "timeSpent": 19,
+                                                      "name": "pdp.webInstallmentPurchase",
+                                                      "id": 11156568,
+                                                      "isTrackingOn": true
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "saleOptions",
+                                                  "widgets": [
+                                                    {
+                                                      "component": "webPdpGrid",
+                                                      "params": "{\"direction\":\"column\",\"wrap\":\"nowrap\",\"alignMainAxis\":\"stretch\",\"alignCrossAxis\":\"stretch\",\"betweenMargin\":\"0\",\"verticalPadding\":\"0\",\"horizontalPadding\":\"0\",\"backgroundColor\":\"transparent\",\"width\":\"0\"}",
+                                                      "stateId": "webPdpGrid-3412662-default-1",
+                                                      "version": 1,
+                                                      "vertical": "pdp",
+                                                      "widgetTrackingInfo": "{}",
+                                                      "id": 3412662,
+                                                      "isStatic": true
+                                                    },
+                                                    {
+                                                      "component": "webPdpGrid",
+                                                      "params": "{\"direction\":\"column\",\"wrap\":\"nowrap\",\"alignMainAxis\":\"stretch\",\"alignCrossAxis\":\"stretch\",\"betweenMargin\":\"0\",\"verticalPadding\":\"0\",\"horizontalPadding\":\"0\",\"backgroundColor\":\"transparent\",\"width\":\"0\"}",
+                                                      "stateId": "webPdpGrid-3412664-default-1",
+                                                      "version": 1,
+                                                      "vertical": "pdp",
+                                                      "widgetTrackingInfo": "{}",
+                                                      "placeholders": [
+                                                        {
+                                                          "name": "default",
+                                                          "widgets": [
+                                                            {
+                                                              "component": "foundCheaperText",
+                                                              "params": "{}",
+                                                              "stateId": "foundCheaperText-3412665-default-1",
+                                                              "version": 3,
+                                                              "vertical": "priceFeedback",
+                                                              "widgetTrackingInfo": "{\"name\":\"priceFeedback.foundCheaperText\",\"vertical\":\"priceFeedback\",\"component\":\"foundCheaperText\",\"version\":3,\"id\":3412665,\"revisionId\":3833451,\"index\":70}",
+                                                              "widgetToken": "0L6b1Q08099nsIjJa7Wf6szCaK2mQRAZ",
+                                                              "timeSpent": 1,
+                                                              "name": "priceFeedback.foundCheaperText",
+                                                              "id": 3412665,
+                                                              "isTrackingOn": true
+                                                            }
+                                                          ]
+                                                        }
+                                                      ],
+                                                      "id": 3412664,
+                                                      "isStatic": true
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "addToCart",
+                                                  "widgets": [
+                                                    {
+                                                      "component": "webPdpGrid",
+                                                      "params": "{\"direction\":\"row\",\"wrap\":\"nowrap\",\"alignMainAxis\":\"start\",\"alignCrossAxis\":\"start\",\"betweenMargin\":\"8\",\"verticalPadding\":\"0\",\"horizontalPadding\":\"0\",\"backgroundColor\":\"transparent\"}",
+                                                      "stateId": "webPdpGrid-3291428-default-1",
+                                                      "version": 1,
+                                                      "vertical": "pdp",
+                                                      "widgetTrackingInfo": "{}",
+                                                      "placeholders": [
+                                                        {
+                                                          "name": "default",
+                                                          "widgets": [
+                                                            {
+                                                              "component": "webAddToCart",
+                                                              "params": "{\"quantSaleBadge\":true}",
+                                                              "stateId": "webAddToCart-8707875-default-1",
+                                                              "version": 10,
+                                                              "vertical": "pdp",
+                                                              "widgetTrackingInfo": "{\"name\":\"pdp-widget\",\"vertical\":\"pdp\",\"component\":\"webAddToCart\",\"version\":10,\"originName\":\"pdp.webAddToCart\",\"originVertical\":\"pdp\",\"originComponent\":\"webAddToCart\",\"originVersion\":10,\"id\":8707875,\"revisionId\":9322820,\"index\":72}",
+                                                              "asyncData": "eyJ1cmwiOiIvcHJvZHVjdC8xODU2OTcyNzQ2P19fcnI9MSZzaD1Ed3Y4eENhbFJnIiwiY2kiOnsidmVydGljYWwiOiJwZHAiLCJuYW1lIjoid2ViQWRkVG9DYXJ0IiwicGFyYW1zIjpbeyJuYW1lIjoiaXNTdGFyTW9kZUVuYWJsZWQifSx7Im5hbWUiOiJoaWRlUXVhbnRCdXR0b24ifSx7Im5hbWUiOiJxdWFudFNhbGVCYWRnZSIsImJvb2wiOnRydWV9LHsibmFtZSI6Im9uTW9kYWxXaW5kb3cifSx7Im5hbWUiOiJkb3VibGVDYXJ0QXBwVmlldyJ9LHsibmFtZSI6ImRpc2FibGVBbmltYXRpb25zIn1dLCJ2ZXJzaW9uIjoxMCwibGF5b3V0SUQiOjExODUyLCJpZCI6ODcwNzg3NX19",
+                                                              "widgetToken": "0L6b1-g1PdTP-R-lMykDVUqmUH6IJ_pU",
+                                                              "timeSpent": 18,
+                                                              "name": "pdp-widget",
+                                                              "id": 8707875,
+                                                              "isTrackingOn": true
+                                                            },
+                                                            {
+                                                              "component": "webAddToFavorite",
+                                                              "params": "{\"btnText\":\"В избранное\",\"btnTextActive\":\"В избранном\",\"theme\":\"apparel\",\"favoriteTooltipIsShow\":true,\"favoriteTooltipTitle\":\"Понравился товар?\",\"favoriteTooltipText\":\"Добавьте в избранное\",\"favoriteTooltipSrcImg\":\"https://ir-2.ozonstatic.cn/s3/pdp-api/heart-blue_m.png\",\"favoriteTooltipTimeToShow\":210,\"favoriteTooltipTimeForShow\":10}",
+                                                              "stateId": "webAddToFavorite-3291427-default-1",
+                                                              "version": 1,
+                                                              "vertical": "pdp",
+                                                              "widgetTrackingInfo": "{\"name\":\"pdp.webAddToFavorite\",\"vertical\":\"pdp\",\"component\":\"webAddToFavorite\",\"version\":1,\"id\":3291427,\"revisionId\":3714724,\"index\":73}",
+                                                              "asyncData": "eyJ1cmwiOiIvcHJvZHVjdC8xODU2OTcyNzQ2P19fcnI9MSZzaD1Ed3Y4eENhbFJnIiwiY2kiOnsidmVydGljYWwiOiJwZHAiLCJuYW1lIjoid2ViQWRkVG9GYXZvcml0ZSIsInBhcmFtcyI6W3sibmFtZSI6ImNsYXNzaWZpZWRBY3Rpb24ifSx7Im5hbWUiOiJidG5UZXh0IiwidGV4dCI6ItCSINC40LfQsdGA0LDQvdC90L7QtSJ9LHsibmFtZSI6ImJ0blRleHRBY3RpdmUiLCJ0ZXh0Ijoi0JIg0LjQt9Cx0YDQsNC90L3QvtC8In0seyJuYW1lIjoidGhlbWUiLCJ0ZXh0IjoiYXBwYXJlbCJ9LHsibmFtZSI6ImZhdm9yaXRlVG9vbHRpcElzU2hvdyIsImJvb2wiOnRydWV9LHsibmFtZSI6ImZhdm9yaXRlVG9vbHRpcFRpdGxlIiwidGV4dCI6ItCf0L7QvdGA0LDQstC40LvRgdGPINGC0L7QstCw0YA/In0seyJuYW1lIjoiZmF2b3JpdGVUb29sdGlwVGV4dCIsInRleHQiOiLQlNC+0LHQsNCy0YzRgtC1INCyINC40LfQsdGA0LDQvdC90L7QtSJ9LHsibmFtZSI6ImZhdm9yaXRlVG9vbHRpcFNyY0ltZyIsInRleHQiOiJodHRwczovL2NkbjEub3pvbmUucnUvczMvcGRwLWFwaS9oZWFydC1ibHVlX20ucG5nIn0seyJuYW1lIjoiZmF2b3JpdGVUb29sdGlwVGltZVRvU2hvdyIsImludCI6MjEwfSx7Im5hbWUiOiJmYXZvcml0ZVRvb2x0aXBUaW1lRm9yU2hvdyIsImludCI6MTB9XSwidmVyc2lvbiI6MSwibGF5b3V0SUQiOjExODUyLCJpZCI6MzI5MTQyN319",
+                                                              "widgetToken": "0L6b1Zk6Z-4byPUGtUlEgZuK3VdCE8pN",
+                                                              "timeSpent": 18,
+                                                              "name": "pdp.webAddToFavorite",
+                                                              "id": 3291427,
+                                                              "isTrackingOn": true
+                                                            }
+                                                          ]
+                                                        }
+                                                      ],
+                                                      "id": 3291428,
+                                                      "isStatic": true
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "bestSeller",
+                                                  "widgets": [
+                                                    {
+                                                      "component": "webBestSeller",
+                                                      "params": "{\"mode\":\"cheaperOrFasterWithModal\",\"popoverPlacement\":\"top\"}",
+                                                      "stateId": "webBestSeller-4993840-default-1",
+                                                      "version": 2,
+                                                      "vertical": "pdp",
+                                                      "widgetTrackingInfo": "{\"name\":\"pdp.webBestSeller\",\"vertical\":\"pdp\",\"component\":\"webBestSeller\",\"version\":2,\"id\":4993840,\"revisionId\":5542962,\"index\":74}",
+                                                      "asyncData": "eyJ1cmwiOiIvcHJvZHVjdC8xODU2OTcyNzQ2P19fcnI9MSZzaD1Ed3Y4eENhbFJnIiwiY2kiOnsidmVydGljYWwiOiJwZHAiLCJuYW1lIjoid2ViQmVzdFNlbGxlciIsInBhcmFtcyI6W3sibmFtZSI6Im1vZGUiLCJ0ZXh0IjoiY2hlYXBlck9yRmFzdGVyV2l0aE1vZGFsIn0seyJuYW1lIjoicG9wb3ZlclRleHQifSx7Im5hbWUiOiJwb3BvdmVyUGxhY2VtZW50IiwidGV4dCI6InRvcCJ9XSwidmVyc2lvbiI6MiwibGF5b3V0SUQiOjExODUyLCJpZCI6NDk5Mzg0MH19",
+                                                      "widgetToken": "0L6b1_iuQBCUJy_M_3TBwZ8C1n7-uokt",
+                                                      "timeSpent": 22,
+                                                      "name": "pdp.webBestSeller",
+                                                      "id": 4993840,
+                                                      "isTrackingOn": true
+                                                    }
+                                                  ]
+                                                }
+                                              ],
+                                              "asyncData": "eyJ1cmwiOiIvcHJvZHVjdC8xODU2OTcyNzQ2P19fcnI9MSZzaD1Ed3Y4eENhbFJnIiwiY2kiOnsidmVydGljYWwiOiJwZHAiLCJuYW1lIjoid2ViU2FsZSIsInBhcmFtcyI6W3sibmFtZSI6InRleHRQcm9kdWN0Tm90Rm9yU2FsZSIsInRleHQiOiLQotC+0LLQsNGA0LAg0L3QtdGCINCyINC/0YDQvtC00LDQttC1In0seyJuYW1lIjoidGV4dEJhbm5lZEFyZWEiLCJ0ZXh0Ijoi0KLQvtCy0LDRgCDQvdC1INC00L7RgdGC0LDQstC70Y/QtdGC0YHRjyDQsiDQstCw0Ygg0LPQvtGA0L7QtCJ9LHsibmFtZSI6InRleHRQcmVPcmRlckNvbWluZ1N0YXJ0IiwidGV4dCI6ItCh0LrQvtGA0L4g0YHRgtCw0YDRgiDQv9GA0LXQtNC30LDQutCw0LfQsCJ9LHsibmFtZSI6InRleHRQcmVPcmRlckNvbWluZ1Nvb24iLCJ0ZXh0Ijoi0KHQutC+0YDQviDQsiDQv9GA0L7QtNCw0LbQtSJ9LHsibmFtZSI6InRleHRQcmVPcmRlcldpbGxHb09uU2FsZSIsInRleHQiOiLQotC+0LLQsNGAINC/0L7RgdGC0YPQv9C40YIg0LIg0L/RgNC+0LTQsNC20YMifSx7Im5hbWUiOiJ0ZXh0UHJvZHVjdFByZVJlbGVhc2UiLCJ0ZXh0Ijoi0KHQutC+0YDQviDQsiDQv9GA0L7QtNCw0LbQtSJ9LHsibmFtZSI6InRleHRQcm9kdWN0RW5kZWRRdWlja2x5IiwidGV4dCI6ItCh0L7QttCw0LvQtdC10LwsINGC0L7QstCw0YAg0LHRi9GB0YLRgNC+INC30LDQutC+0L3Rh9C40LvRgdGPLiDQnNGLINGB0L7QvtCx0YnQuNC8INCy0LDQvCDQviDQvdC+0LLRi9GFINC/0L7RgdGC0YPQv9C70LXQvdC40Y/RhS4ifSx7Im5hbWUiOiJ0ZXh0UHJvZHVjdEVuZGVkIiwidGV4dCI6ItCi0L7QstCw0YAg0LfQsNC60L7QvdGH0LjQu9GB0Y8ifSx7Im5hbWUiOiJwYXJhbVJlZ3VsYXJEYXRhVGl0bGUiLCJ0ZXh0Ijoi0J/QvtC70YPRh9C40YLQtSDRgdC60LjQtNC60YMg0L/RgNGP0LzQviDRgdC10LnRh9Cw0YEifSx7Im5hbWUiOiJwYXJhbVJlZ3VsYXJEYXRhRGVzY3JpcHRpb24iLCJ0ZXh0Ijoi0J/RgNC+0YHRgtC+INC+0YTQvtGA0LzQuNGC0LUg0YDQtdCz0YPQu9GP0YDQvdGD0Y4g0LTQvtGB0YLQsNCy0LrRgyDRjdGC0L7Qs9C+INGC0L7QstCw0YDQsC4g0KEg0LrQsNC20LTQvtC5INC90L7QstC+0Lkg0LTQvtGB0YLQsNCy0LrQvtC5INCy0Ysg0YPQstC10LvQuNGH0LjQstCw0LXRgtC1INGB0LrQuNC00LrRgyJ9LHsibmFtZSI6InBhcmFtUmVndWxhckluZm9UZXh0IiwidGV4dCI6ItCa0LDQuiDRgNCw0LHQvtGC0LDQtdGCINGA0LXQs9GD0LvRj9GA0L3QsNGPINC/0L7QutGD0L/QutCwIn0seyJuYW1lIjoiYWx3YXlzU2hvd1BwdSJ9LHsibmFtZSI6ImNoZWNrT2xkU2t1T2ZmZXJzIn0seyJuYW1lIjoidGhlbWUiLCJ0ZXh0IjoiZGVmYXVsdCJ9XSwidmVyc2lvbiI6MTIsImxheW91dElEIjoxMTg1MiwiaWQiOjIxMTEzODl9fQ==",
+                                              "widgetToken": "0L6b1YphEjkUxaV9pr63JfxJ_YUfR779",
+                                              "timeSpent": 18,
+                                              "name": "pdp.webSale",
+                                              "id": 2111389,
+                                              "isTrackingOn": true
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "id": 3292425,
+                                      "isStatic": true
+                                    },
+                                    {
+                                      "component": "webPdpGrid",
+                                      "params": "{\"direction\":\"column\",\"wrap\":\"nowrap\",\"alignMainAxis\":\"start\",\"alignCrossAxis\":\"stretch\",\"betweenMargin\":\"24\",\"verticalPadding\":\"12\",\"horizontalPadding\":\"0\",\"backgroundColor\":\"transparent\"}",
+                                      "stateId": "webPdpGrid-3292467-default-1",
+                                      "version": 1,
+                                      "vertical": "pdp",
+                                      "widgetTrackingInfo": "{}",
+                                      "placeholders": [
+                                        {
+                                          "name": "default",
+                                          "widgets": [
+                                            {
+                                              "component": "webPdpGrid",
+                                              "params": "{\"direction\":\"row\",\"wrap\":\"nowrap\",\"alignMainAxis\":\"start\",\"alignCrossAxis\":\"spaceBetween\",\"betweenMargin\":\"4\"}",
+                                              "stateId": "webPdpGrid-3292442-default-1",
+                                              "version": 1,
+                                              "vertical": "pdp",
+                                              "widgetTrackingInfo": "{}",
+                                              "placeholders": [
+                                                {
+                                                  "name": "default",
+                                                  "widgets": [
+                                                    {
+                                                      "component": "webOneClickButton",
+                                                      "params": "{\"btnText\":\"Купить сейчас\",\"buyQuant\":true}",
+                                                      "stateId": "webOneClickButton-8448569-default-1",
+                                                      "version": 3,
+                                                      "vertical": "pdp",
+                                                      "widgetTrackingInfo": "{\"name\":\"pdp.oneClickButton\",\"vertical\":\"pdp\",\"component\":\"webOneClickButton\",\"version\":3,\"originName\":\"pdp.webOneClickButton\",\"originVertical\":\"pdp\",\"originComponent\":\"webOneClickButton\",\"originVersion\":3,\"id\":8448569,\"revisionId\":9058371,\"index\":80}",
+                                                      "asyncData": "eyJ1cmwiOiIvcHJvZHVjdC8xODU2OTcyNzQ2P19fcnI9MSZzaD1Ed3Y4eENhbFJnIiwiY2kiOnsidmVydGljYWwiOiJwZHAiLCJuYW1lIjoid2ViT25lQ2xpY2tCdXR0b24iLCJwYXJhbXMiOlt7Im5hbWUiOiJidG5UZXh0IiwidGV4dCI6ItCa0YPQv9C40YLRjCDRgdC10LnRh9Cw0YEifSx7Im5hbWUiOiJidXlRdWFudCIsImJvb2wiOnRydWV9XSwidmVyc2lvbiI6MywibGF5b3V0SUQiOjExODUyLCJpZCI6ODQ0ODU2OX19",
+                                                      "widgetToken": "0L6b1XFWJI0HM90IxogWHN5-YYmLGMsH",
+                                                      "timeSpent": 18,
+                                                      "name": "pdp.oneClickButton",
+                                                      "id": 8448569,
+                                                      "isTrackingOn": true
+                                                    }
+                                                  ]
+                                                }
+                                              ],
+                                              "id": 3292442,
+                                              "isStatic": true
+                                            },
+                                            {
+                                              "component": "webDelivery",
+                                              "params": "{\"foodPreOrder\":true,\"theme\":\"default\",\"holidaysNotificationText\":\"Сроки доставки увеличены, так как склад продавца не работает в праздники\",\"holidaysNotificationLinkText\":\"Посмотреть товары других продавцов\",\"multipleDeliveries\":true}",
+                                              "stateId": "webDelivery-8727767-default-1",
+                                              "version": 7,
+                                              "vertical": "pdp",
+                                              "widgetTrackingInfo": "{\"name\":\"pdp.webDelivery\",\"vertical\":\"pdp\",\"component\":\"webDelivery\",\"version\":7,\"originName\":\"pdp.webDelivery\",\"originVertical\":\"pdp\",\"originComponent\":\"webDelivery\",\"originVersion\":8,\"id\":8727767,\"revisionId\":9343008,\"index\":84}",
+                                              "asyncType": "onPageLoad",
+                                              "asyncData": "eyJ1cmwiOiIvcHJvZHVjdC8xODU2OTcyNzQ2P19fcnI9MSZzaD1Ed3Y4eENhbFJnIiwiY2kiOnsidmlldyI6eyJuYW1lIjoid2ViRGVsaXZlcnkiLCJ2ZXJ0aWNhbCI6InBkcCIsInZlcnNpb24iOjd9LCJ2ZXJ0aWNhbCI6InBkcCIsIm5hbWUiOiJ3ZWJEZWxpdmVyeSIsInBhcmFtcyI6W3sibmFtZSI6ImZvb2RQcmVPcmRlciIsImJvb2wiOnRydWV9LHsibmFtZSI6InRoZW1lIiwidGV4dCI6ImRlZmF1bHQifSx7Im5hbWUiOiJob2xpZGF5c05vdGlmaWNhdGlvblRleHQiLCJ0ZXh0Ijoi0KHRgNC+0LrQuCDQtNC+0YHRgtCw0LLQutC4INGD0LLQtdC70LjRh9C10L3Riywg0YLQsNC6INC60LDQuiDRgdC60LvQsNC0INC/0YDQvtC00LDQstGG0LAg0L3QtSDRgNCw0LHQvtGC0LDQtdGCINCyINC/0YDQsNC30LTQvdC40LrQuCJ9LHsibmFtZSI6ImhvbGlkYXlzTm90aWZpY2F0aW9uTGlua1RleHQiLCJ0ZXh0Ijoi0J/QvtGB0LzQvtGC0YDQtdGC0Ywg0YLQvtCy0LDRgNGLINC00YDRg9Cz0LjRhSDQv9GA0L7QtNCw0LLRhtC+0LIifSx7Im5hbWUiOiJkaWdpdGFsUHJvZHVjdE1vZGUifSx7Im5hbWUiOiJtdWx0aXBsZURlbGl2ZXJpZXMiLCJib29sIjp0cnVlfSx7Im5hbWUiOiJjaGVja09sZFNrdU9mZmVycyJ9LHsibmFtZSI6ImlzU2tlbGV0b25FbmFibGVkIn0seyJuYW1lIjoiaGlkZGVuRGVsaXZlcnlXaWRnZXQifV0sInZlcnNpb24iOjgsImxheW91dElEIjoxMTg1MiwiaWQiOjg3Mjc3Njd9fQ==",
+                                              "widgetToken": "0L6b1-4KS87a9TMVTsifVlKppPE31WQx",
+                                              "name": "pdp.webDelivery",
+                                              "id": 8727767,
+                                              "isTrackingOn": true
+                                            },
+                                            {
+                                              "component": "webCurrentSeller",
+                                              "params": "{\"titleWidget\":\"Магазин\",\"subscribeText\":\"Вы подписаны\",\"unSubscribeText\":\"Подписаться\",\"ordersCountMinOrdersToDisplay\":1000,\"maxCharsInTitle\":21,\"maxCharsInTitleWithIcon\":19,\"ozonRussiaGradientEnable\":true,\"enableOnboarding\":true,\"onboardingShowTime\":20,\"onboardingBeforeShowTime\":5,\"onboardingTitle\":\"Магазин теперь здесь\",\"onboardingBody\":\"Смотрите информацию о нём и подписывайтесь, чтобы не пропустить новинки\",\"loadingWithWebDelivery\":true}",
+                                              "stateId": "webCurrentSeller-7772769-default-1",
+                                              "version": 5,
+                                              "vertical": "pdp",
+                                              "widgetTrackingInfo": "{\"name\":\"pdp.webCurrentSeller\",\"vertical\":\"pdp\",\"component\":\"webCurrentSeller\",\"version\":5,\"id\":7772769,\"revisionId\":8368799,\"index\":85}",
+                                              "widgetToken": "0L6b1-qTxDp9mAYy_s2YR_KY_0aMXG8Y",
+                                              "timeSpent": 18,
+                                              "name": "pdp.webCurrentSeller",
+                                              "id": 7772769,
+                                              "isTrackingOn": true
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "id": 3292467,
+                                      "isStatic": true
+                                    }
+                                  ]
+                                }
+                              ],
+                              "id": 3292468,
+                              "isStatic": true
+                            }
+                          ]
+                        }
+                      ],
+                      "timeSpent": 2,
+                      "id": 3572634
+                    }
+                  ]
+                }
+              ],
+              "id": 1040994,
+              "isStatic": true
+            }
+          ]
+        }
+      ],
+      "id": 347815,
+      "isStatic": true
+    },
+    {
+      "component": "webStickyProducts",
+      "params": "{\"triggeringObjectSelector\":\"#short-product-info-trigger-new\"}",
+      "stateId": "webStickyProducts-726428-default-1",
+      "version": 2,
+      "vertical": "pdp",
+      "widgetTrackingInfo": "{}",
+      "placeholders": [
+        {
+          "name": "reviews",
+          "widgets": [
+            {
+              "component": "webPdpGrid",
+              "params": "{\"direction\":\"row\",\"wrap\":\"nowrap\",\"alignMainAxis\":\"start\",\"alignCrossAxis\":\"center\",\"betweenMargin\":\"12\",\"verticalPadding\":\"0\",\"horizontalPadding\":\"0\",\"backgroundColor\":\"transparent\"}",
+              "stateId": "webPdpGrid-726421-default-1",
+              "version": 1,
+              "vertical": "pdp",
+              "widgetTrackingInfo": "{}",
+              "placeholders": [
+                {
+                  "name": "default",
+                  "widgets": [
+                    {
+                      "component": "webReviewProductScore",
+                      "params": "{\"displayType\":\"simple\",\"anchorUrl\":\"?tab=reviews#comments--offset-130\"}",
+                      "stateId": "webReviewProductScore-3132021-default-1",
+                      "version": 1,
+                      "vertical": "rpProduct",
+                      "widgetTrackingInfo": "{\"name\":\"rpProduct.webReviewProductScore\",\"vertical\":\"rpProduct\",\"component\":\"webReviewProductScore\",\"version\":1,\"id\":3132021,\"revisionId\":3453145,\"index\":88}",
+                      "asyncData": "eyJ1cmwiOiIvcHJvZHVjdC8xODU2OTcyNzQ2P19fcnI9MSZzaD1Ed3Y4eENhbFJnIiwiY2kiOnsidmVydGljYWwiOiJycFByb2R1Y3QiLCJuYW1lIjoid2ViUmV2aWV3UHJvZHVjdFNjb3JlIiwicGFyYW1zIjpbeyJuYW1lIjoiZGlzcGxheVR5cGUiLCJ0ZXh0Ijoic2ltcGxlIn0seyJuYW1lIjoiYW5jaG9yVXJsIiwidGV4dCI6Ij90YWI9cmV2aWV3cyNjb21tZW50cy0tb2Zmc2V0LTEzMCJ9XSwidmVyc2lvbiI6MSwibGF5b3V0SUQiOjExODUyLCJpZCI6MzEzMjAyMX19",
+                      "trackingOn": true,
+                      "widgetToken": "0L6b1MLXfDx-3-St3YzJGb-bEaWvBI2O",
+                      "timeSpent": 2,
+                      "name": "rpProduct.webReviewProductScore",
+                      "id": 3132021,
+                      "isTrackView": true,
+                      "isTrackingOn": true
+                    },
+                    {
+                      "component": "webQuestionCount",
+                      "params": "{\"anchorUrl\":\"?tab=questions#comments--offset-130\"}",
+                      "stateId": "webQuestionCount-3132022-default-1",
+                      "version": 1,
+                      "vertical": "rpProduct",
+                      "widgetTrackingInfo": "{\"name\":\"rpProduct.webQuestionCount\",\"vertical\":\"rpProduct\",\"component\":\"webQuestionCount\",\"version\":1,\"id\":3132022,\"revisionId\":3453149,\"index\":89}",
+                      "trackingOn": true,
+                      "widgetToken": "0L6b1N6Sejdqzs7I-kFfRdaFyAbutVMJ",
+                      "name": "rpProduct.webQuestionCount",
+                      "id": 3132022,
+                      "isTrackView": true,
+                      "isTrackingOn": true
+                    },
+                    {
+                      "component": "webAddToCompare",
+                      "params": "{\"btnText\":\"Сравнивать\",\"btnTextActive\":\"В сравнение\",\"tooMuchText\":\"Вы добавили в сравнение максимальное количество товаров\",\"productAdded\":\"Товар добавлен в сравнение.\",\"theme\":\"theme1\"}",
+                      "stateId": "webAddToCompare-939214-default-1",
+                      "version": 3,
+                      "vertical": "pdp",
+                      "widgetTrackingInfo": "{\"name\":\"pdp.webAddToCompare\",\"vertical\":\"pdp\",\"component\":\"webAddToCompare\",\"version\":3,\"id\":939214,\"revisionId\":1099844,\"index\":90}",
+                      "asyncData": "eyJ1cmwiOiIvcHJvZHVjdC8xODU2OTcyNzQ2P19fcnI9MSZzaD1Ed3Y4eENhbFJnIiwiY2kiOnsidmVydGljYWwiOiJwZHAiLCJuYW1lIjoid2ViQWRkVG9Db21wYXJlIiwicGFyYW1zIjpbeyJuYW1lIjoiYnRuVGV4dCIsInRleHQiOiLQodGA0LDQstC90LjQstCw0YLRjCJ9LHsibmFtZSI6ImJ0blRleHRBY3RpdmUiLCJ0ZXh0Ijoi0JIg0YHRgNCw0LLQvdC10L3QuNC1In0seyJuYW1lIjoidG9vTXVjaFRleHQiLCJ0ZXh0Ijoi0JLRiyDQtNC+0LHQsNCy0LjQu9C4INCyINGB0YDQsNCy0L3QtdC90LjQtSDQvNCw0LrRgdC40LzQsNC70YzQvdC+0LUg0LrQvtC70LjRh9C10YHRgtCy0L4g0YLQvtCy0LDRgNC+0LIifSx7Im5hbWUiOiJwcm9kdWN0QWRkZWQiLCJ0ZXh0Ijoi0KLQvtCy0LDRgCDQtNC+0LHQsNCy0LvQtdC9INCyINGB0YDQsNCy0L3QtdC90LjQtS4ifSx7Im5hbWUiOiJ0aGVtZSIsInRleHQiOiJ0aGVtZTEifV0sInZlcnNpb24iOjMsImxheW91dElEIjoxMTg1MiwiaWQiOjkzOTIxNH19",
+                      "trackingOn": true,
+                      "widgetToken": "0L6b1QaSWrQ3vgd3seLrnC0bEw4wQHrW",
+                      "timeSpent": 1,
+                      "name": "pdp.webAddToCompare",
+                      "id": 939214,
+                      "isTrackView": true,
+                      "isTrackingOn": true
+                    },
+                    {
+                      "component": "separator",
+                      "params": "{\"height\":20}",
+                      "stateId": "separator-909632-default-1",
+                      "version": 1,
+                      "vertical": "cms",
+                      "widgetTrackingInfo": "{\"name\":\"cms.separator\",\"vertical\":\"cms\",\"component\":\"separator\",\"version\":1,\"id\":909632,\"revisionId\":1010022}",
+                      "etag": "65c07ecd543e1ef2",
+                      "widgetToken": "0L6b1Su_W1U3S7Kw0PwBG07HMWAF-kVl",
+                      "name": "cms.separator",
+                      "id": 909632,
+                      "isTrackingOn": true,
+                      "isStatic": true
+                    }
+                  ]
+                }
+              ],
+              "id": 726421,
+              "isStatic": true
+            }
+          ]
+        },
+        {
+          "name": "addToCart",
+          "widgets": [
+            {
+              "component": "webPdpGrid",
+              "params": "{\"direction\":\"row\",\"wrap\":\"nowrap\",\"alignMainAxis\":\"spaceBetween\",\"alignCrossAxis\":\"center\",\"betweenMargin\":\"12\",\"verticalPadding\":\"0\",\"horizontalPadding\":\"0\",\"backgroundColor\":\"transparent\",\"width\":\"350px\"}",
+              "stateId": "webPdpGrid-726427-default-1",
+              "version": 1,
+              "vertical": "pdp",
+              "widgetTrackingInfo": "{}",
+              "placeholders": [
+                {
+                  "name": "default",
+                  "widgets": [
+                    {
+                      "component": "webAddToCart",
+                      "params": "{\"quantSaleBadge\":true}",
+                      "stateId": "webAddToCart-8707205-default-1",
+                      "version": 10,
+                      "vertical": "pdp",
+                      "widgetTrackingInfo": "{\"name\":\"pdp-widget\",\"vertical\":\"pdp\",\"component\":\"webAddToCart\",\"version\":10,\"originName\":\"pdp.webAddToCart\",\"originVertical\":\"pdp\",\"originComponent\":\"webAddToCart\",\"originVersion\":10,\"id\":8707205,\"revisionId\":9322136,\"index\":92}",
+                      "asyncData": "eyJ1cmwiOiIvcHJvZHVjdC8xODU2OTcyNzQ2P19fcnI9MSZzaD1Ed3Y4eENhbFJnIiwiY2kiOnsidmVydGljYWwiOiJwZHAiLCJuYW1lIjoid2ViQWRkVG9DYXJ0IiwicGFyYW1zIjpbeyJuYW1lIjoiaXNTdGFyTW9kZUVuYWJsZWQifSx7Im5hbWUiOiJoaWRlUXVhbnRCdXR0b24ifSx7Im5hbWUiOiJxdWFudFNhbGVCYWRnZSIsImJvb2wiOnRydWV9LHsibmFtZSI6Im9uTW9kYWxXaW5kb3cifSx7Im5hbWUiOiJkb3VibGVDYXJ0QXBwVmlldyJ9LHsibmFtZSI6ImRpc2FibGVBbmltYXRpb25zIn1dLCJ2ZXJzaW9uIjoxMCwibGF5b3V0SUQiOjExODUyLCJpZCI6ODcwNzIwNX19",
+                      "widgetToken": "0L6b1S4YpafHSRAOH8QF9ALc4g-ZoUiq",
+                      "timeSpent": 18,
+                      "name": "pdp-widget",
+                      "id": 8707205,
+                      "isTrackingOn": true
+                    },
+                    {
+                      "component": "webAddToFavorite",
+                      "params": "{\"btnText\":\"В избранное\",\"btnTextActive\":\"В избранном\",\"theme\":\"apparel\",\"favoriteTooltipIsShow\":true,\"favoriteTooltipText\":\"Добавьте в избранное\",\"favoriteTooltipTitle\":\"Понравился товар?\",\"favoriteTooltipSrcImg\":\"https://ir-2.ozonstatic.cn/s3/pdp-api/heart-blue_m.png\",\"favoriteTooltipTimeToShow\":210,\"favoriteTooltipTimeForShow\":10}",
+                      "stateId": "webAddToFavorite-1255798-default-1",
+                      "version": 1,
+                      "vertical": "pdp",
+                      "widgetTrackingInfo": "{\"name\":\"pdp.webAddToFavorite\",\"vertical\":\"pdp\",\"component\":\"webAddToFavorite\",\"version\":1,\"id\":1255798,\"revisionId\":3468855,\"index\":93}",
+                      "asyncData": "eyJ1cmwiOiIvcHJvZHVjdC8xODU2OTcyNzQ2P19fcnI9MSZzaD1Ed3Y4eENhbFJnIiwiY2kiOnsidmVydGljYWwiOiJwZHAiLCJuYW1lIjoid2ViQWRkVG9GYXZvcml0ZSIsInBhcmFtcyI6W3sibmFtZSI6ImJ0blRleHQiLCJ0ZXh0Ijoi0JIg0LjQt9Cx0YDQsNC90L3QvtC1In0seyJuYW1lIjoiYnRuVGV4dEFjdGl2ZSIsInRleHQiOiLQkiDQuNC30LHRgNCw0L3QvdC+0LwifSx7Im5hbWUiOiJ0aGVtZSIsInRleHQiOiJhcHBhcmVsIn0seyJuYW1lIjoiZmF2b3JpdGVUb29sdGlwSXNTaG93IiwiYm9vbCI6dHJ1ZX0seyJuYW1lIjoiZmF2b3JpdGVUb29sdGlwVGV4dCIsInRleHQiOiLQlNC+0LHQsNCy0YzRgtC1INCywqDQuNC30LHRgNCw0L3QvdC+0LUifSx7Im5hbWUiOiJmYXZvcml0ZVRvb2x0aXBUaXRsZSIsInRleHQiOiLQn9C+0L3RgNCw0LLQuNC70YHRjyDRgtC+0LLQsNGAPyJ9LHsibmFtZSI6ImZhdm9yaXRlVG9vbHRpcFNyY0ltZyIsInRleHQiOiJodHRwczovL2NkbjEub3pvbmUucnUvczMvcGRwLWFwaS9oZWFydC1ibHVlX20ucG5nIn0seyJuYW1lIjoiZmF2b3JpdGVUb29sdGlwVGltZVRvU2hvdyIsImludCI6MjEwfSx7Im5hbWUiOiJmYXZvcml0ZVRvb2x0aXBUaW1lRm9yU2hvdyIsImludCI6MTB9XSwidmVyc2lvbiI6MSwibGF5b3V0SUQiOjExODUyLCJpZCI6MTI1NTc5OH19",
+                      "widgetToken": "0L6b1Z1QqFwGLtRjFTajJneAQT5VlLoo",
+                      "timeSpent": 18,
+                      "name": "pdp.webAddToFavorite",
+                      "id": 1255798,
+                      "isTrackingOn": true
+                    }
+                  ]
+                }
+              ],
+              "id": 726427,
+              "isStatic": true
+            }
+          ]
+        }
+      ],
+      "timeSpent": 18,
+      "id": 726428
+    },
+    {
+      "component": "paginator",
+      "params": "{\"layoutContainer\":\"pdpPage2column\",\"fetchType\":\"scroll\",\"offsetTop\":1500,\"minHeight\":3000,\"isContentVisibilityAuto\":true}",
+      "stateId": "paginator-658722-default-1",
+      "version": 1,
+      "vertical": "composer",
+      "widgetTrackingInfo": "{}",
+      "id": 658722,
+      "isStatic": true
+    },
+    {
+      "component": "footer",
+      "params": "{}",
+      "stateId": "footer-347823-default-1",
+      "version": 1,
+      "vertical": "cms",
+      "widgetTrackingInfo": "{\"name\":\"cms.footer\",\"vertical\":\"cms\",\"component\":\"footer\",\"version\":1,\"id\":347823,\"revisionId\":345504,\"index\":98}",
+      "trackingOn": true,
+      "widgetToken": "0L6b1S0jnJLZ28vVo298jKrYvNwNPsxT",
+      "timeSpent": 1,
+      "name": "cms.footer",
+      "id": 347823,
+      "isTrackView": true,
+      "isTrackingOn": true
+    }
+  ],
+  "widgetStates": {
+    "webSharingButton-3385613-default-1": "{\"trackingInfo\":{\"show\":{\"actionType\":\"show\", \"key\":\"w0tgmGNqMFKZ4nZ5f91DQ7kf4YWZZMFWmoJYGszWzMMz\"}, \"view\":{\"actionType\":\"view\", \"key\":\"w0tgmGNqMFKZ4nZ5f91DQ7kf4YWZZMFWmoJYGszWzMMz\"}}, \"button\":{\"iconName\":\"ic_s_share_arrow_filled\", \"iconColor\":\"graphicTertiary\", \"text\":\"Поделиться\", \"textColor\":\"textSecondary\", \"mode\":\"inline\", \"hoverTextColor\":\"textActiveAction\", \"hoverIconColor\":\"graphicActiveActionPrimary\", \"backgroundHoverColor\":\"bgActiveActionSecondary\", \"testInfo\":{\"automatizationId\":\"button-text\"}}, \"copyNotification\":{\"success\":{\"type\":\"success\", \"icon\":\"ic_m_confirmed_filled\", \"iconColor\":\"graphicPositivePrimary\", \"content\":\"Ссылка на товар скопирована\"}, \"error\":{\"type\":\"error\", \"icon\":\"ic_m_cancel_filled\", \"iconColor\":\"graphicWarningPrimary\", \"content\":\"Не удалось скопировать\"}}, \"list\":[{\"trackingInfo\":{\"click\":{\"actionType\":\"click\", \"key\":\"Brtzr7nwQuj9LVP3TyVqDzyCXvPnY0C88BjLJcqnRW2A\"}}, \"id\":\"copy\", \"iconName\":\"ic_m_copy_filled\", \"text\":\"Скопировать ссылку\", \"actionType\":\"ACTION_TYPE_COPY\", \"options\":{\"productUrl\":\"https://www.ozon.ru/product/kompakt-disk-blank-jones-laid-back-sitting-in-my-sofa-van-bellen-remix-2023-g-1856972746/?from=share_web&perehod=smm_share_button_productpage_link\"}}, {\"trackingInfo\":{\"click\":{\"actionType\":\"click\", \"key\":\"WPtNK54M7uzl93nrUAnNW91TWGp1xMCyrOoj4c670JqR\"}}, \"id\":\"vkontakte\", \"iconName\":\"ic_m_vk_filled\", \"text\":\"ВКонтакте\", \"actionType\":\"ACTION_TYPE_SHARE\", \"options\":{\"width\":550, \"height\":335, \"shareUrl\":\"https://vk.com/share.php?image=https%3A%2F%2Fir-2.ozonstatic.cn%2Fs3%2Fmultimedia-1-p%2F7304636401.jpg&title=%D0%9A%D0%BE%D0%BC%D0%BF%D0%B0%D0%BA%D1%82+%D0%B4%D0%B8%D1%81%D0%BA+BLANK+%26+JONES+%26+LAID+BACK+-+Sitting+in+My+Sofa+%28Van+Bellen+Remix%29+2023+%D0%B3.&url=__url_placeholder__\", \"urlPlaceholder\":\"__url_placeholder__\", \"productUrl\":\"https://www.ozon.ru/product/kompakt-disk-blank-jones-laid-back-sitting-in-my-sofa-van-bellen-remix-2023-g-1856972746/?from=share_web&perehod=smm_share_button_productpage_vk\"}}, {\"trackingInfo\":{\"click\":{\"actionType\":\"click\", \"key\":\"Z8tXL5jkZfM975DEIj5QjQLCpL3LnOT7XpDx2SAWDyX1\"}}, \"id\":\"odnoklassniki\", \"iconName\":\"ic_m_odnoklassniki_filled\", \"text\":\"Одноклассники\", \"actionType\":\"ACTION_TYPE_SHARE\", \"options\":{\"width\":640, \"height\":400, \"shareUrl\":\"https://connect.ok.ru/offer?imageUrl=https%3A%2F%2Fir-2.ozonstatic.cn%2Fs3%2Fmultimedia-1-p%2F7304636401.jpg&title=%D0%9A%D0%BE%D0%BC%D0%BF%D0%B0%D0%BA%D1%82+%D0%B4%D0%B8%D1%81%D0%BA+BLANK+%26+JONES+%26+LAID+BACK+-+Sitting+in+My+Sofa+%28Van+Bellen+Remix%29+2023+%D0%B3.&url=__url_placeholder__\", \"urlPlaceholder\":\"__url_placeholder__\", \"productUrl\":\"https://www.ozon.ru/product/kompakt-disk-blank-jones-laid-back-sitting-in-my-sofa-van-bellen-remix-2023-g-1856972746/?from=share_web&perehod=smm_share_button_productpage_ok\"}}, {\"trackingInfo\":{\"click\":{\"actionType\":\"click\", \"key\":\"Z8tXL5jkZfXw2BkWspwGj5ouqJA9k4U7o10WXSNVEVvL\"}}, \"id\":\"telegram\", \"iconName\":\"ic_m_telegram_filled\", \"text\":\"Telegram\", \"actionType\":\"ACTION_TYPE_SHARE\", \"options\":{\"width\":600, \"height\":500, \"shareUrl\":\"https://t.me/share/url?url=__url_placeholder__\", \"urlPlaceholder\":\"__url_placeholder__\", \"productUrl\":\"https://www.ozon.ru/product/kompakt-disk-blank-jones-laid-back-sitting-in-my-sofa-van-bellen-remix-2023-g-1856972746/?from=share_web&perehod=smm_share_button_productpage_telegram\"}}, {\"trackingInfo\":{\"click\":{\"actionType\":\"click\", \"key\":\"36tWlp4y1TOv9ZnxCDoPJG1T2ZEjwmhz03XPxT0vrZx0\"}}, \"id\":\"whatsapp\", \"iconName\":\"ic_m_whatsapp_filled\", \"text\":\"WhatsApp\", \"actionType\":\"ACTION_TYPE_SHARE\", \"options\":{\"width\":600, \"height\":500, \"shareUrl\":\"https://api.whatsapp.com/send?text=%D0%9A%D0%BE%D0%BC%D0%BF%D0%B0%D0%BA%D1%82+%D0%B4%D0%B8%D1%81%D0%BA+BLANK+%26+JONES+%26+LAID+BACK+-+Sitting+in+My+Sofa+%28Van+Bellen+Remix%29+2023+%D0%B3.+__url_placeholder__\", \"urlPlaceholder\":\"__url_placeholder__\", \"productUrl\":\"https://www.ozon.ru/product/kompakt-disk-blank-jones-laid-back-sitting-in-my-sofa-van-bellen-remix-2023-g-1856972746/?from=share_web&perehod=smm_share_button_productpage_whatsapp\"}}],\"params\":{\"buttonMode\":\"inline\",\"isFreshColorsEnabled\":true}}",
+    "webAddToCart-8707875-default-1": "{\"firstButton\":{\"isInCart\":false, \"toCart\":{\"backgroundColor\":\"bgActionPrimary\", \"cornerRadius\":\"RADIUS_500\", \"title\":{\"text\":\"В корзину\", \"textColor\":\"textLightKey\", \"textAlignment\":\"CENTER\", \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsBodyControl500Medium\", \"testInfo\":{\"automatizationId\":\"pdp-add-to-cart-title\"}}, \"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\", \"id\":\"addToCart\", \"params\":{\"sku\":\"1856972746\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"Rlty1vOM9FPAL5YKt4lmVXjSQGkmOrH6q5EXjsLLLkyR\", \"sliceKey\":\"Q6uJpkR2GcjQzx9JFznAq4pCyy5YY3FDqN1R2CA64xED\"}}, \"asyncFetchType\":\"SUBTITLE\", \"buttonHoverColor\":\"bgActiveActionPrimary\", \"testInfo\":{\"automatizationId\":\"saleblock-add-to-cart-button\"}}, \"inCart\":{\"backgroundColor\":\"bgPositivePrimary\", \"cornerRadius\":\"RADIUS_500\", \"title\":{\"text\":\"В корзине\", \"textColor\":\"textLightKey\", \"textAlignment\":\"CENTER\", \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsBodyControl500Medium\", \"testInfo\":{\"automatizationId\":\"pdp-add-in-cart-title\"}}, \"subtitle\":{\"text\":\"Перейти\", \"textColor\":\"textPrimaryOnDark\", \"textAlignment\":\"CENTER\", \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsCompact400Small\", \"testInfo\":{\"automatizationId\":\"pdp-add-in-cart-subtitle\"}}, \"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"/cart\", \"id\":\"toCheckout\", \"params\":{\"sku\":\"1856972746\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"toCart\", \"key\":\"w0tgmGNqMFllmp6ycZ2vv0xTkRNpWvIARB6qoun8KvOp\"}}, \"asyncFetchType\":\"SUBTITLE\", \"buttonHoverColor\":\"bgActivePositivePrimary\", \"testInfo\":{\"automatizationId\":\"button-go-to-cart\"}}, \"additionalButton\":{\"incrementButton\":{\"action\":{\"params\":{\"sku\":\"1856972746\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"increment\", \"key\":\"Rlty1vOM9FPAL5YKt4lmVXjSQGkmOrH6q5EXjsLLLkyR\", \"sliceKey\":\"Q6uJpkR2GcjQzx9JFznAq4pCyy5YY3FDqN1R2CA64xED\"}}}, \"decrementButton\":{\"action\":{\"params\":{\"sku\":\"1856972746\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"decrement\", \"key\":\"Rlty1vOM9FPAL5YKt4lmVXjSQGkmOrH6q5EXjsLLLkyR\", \"sliceKey\":\"Q6uJpkR2GcjQzx9JFznAq4pCyy5YY3FDqN1R2CA64xED\"}}}, \"countPicker\":{\"size\":\"SIZE_600\", \"sizing\":\"SIZING_HUG\", \"styleType\":\"CUSTOM\", \"customStyle\":{\"backgroundColor\":\"bgSecondary\"}}}, \"sku\":\"1856972746\", \"freeRest\":2, \"minAddToCartQuantity\":1, \"inCartQuantity\":0}, \"asyncAction\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\", \"link\":\"pdpGetButtonTexts?product_id=1856972746\", \"id\":\"asyncDatesRequest\", \"params\":{\"hideQuantButton\":\"false\", \"inCartPosition\":\"subtitle\", \"toCartPosition\":\"subtitle\"}}, \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"Rlty1vOM9FPAL5YKt4lmVXjSQGkmOrH6q5EXjsLLLkyR\"}}, \"webData\":{\"tooltipTextOutOfFreeRest\":{\"text\":\"В наличии больше нет\", \"textColor\":\"textPrimaryOnDark\", \"typographyToken\":\"tsBody400Small\"}}}",
+    "webPdpGrid-3292467-default-1": "{\"direction\":\"column\",\"wrap\":\"nowrap\",\"alignMainAxis\":\"start\",\"alignCrossAxis\":\"stretch\",\"betweenMargin\":\"24\",\"verticalPadding\":\"12\",\"horizontalPadding\":\"0\",\"backgroundColor\":\"transparent\"}",
+    "horizontalMenu-7302642-default-1": "{\"menuId\":\"168\",\"items\":[{\"id\":\"3\",\"title\":\"Ozon fresh\",\"link\":\"/category/supermarket-25000/?miniapp=supermarket\",\"icon\":\"ic_s_food_filled\",\"color\":\"#00a6a6\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"0\"}},\"isSeparator\":false},{\"id\":\"5\",\"title\":\"Ozon Банк\",\"link\":\"https://ozon.ru/fintech/signin\",\"icon\":\"ic_s_card_filled\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"1\"}},\"isSeparator\":false},{\"id\":\"6\",\"title\":\"Билеты, отели\",\"link\":\"https://www.ozon.ru/travel/?mwc_campaign=oztravel_horizontal-menu_flight\",\"icon\":\"ic_s_plane_filled\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"2\"}},\"isSeparator\":false},{\"id\":\"7\",\"title\":\"Для бизнеса\",\"icon\":\"ic_s_legal_entity_filled\",\"hasChildItems\":true,\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"3\"}},\"isSeparator\":false},{\"id\":\"8\",\"title\":\"Одежда\",\"link\":\"/category/odezhda-obuv-i-aksessuary-7500/\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"4\"}},\"isSeparator\":false},{\"id\":\"9\",\"title\":\"Электроника\",\"link\":\"/category/elektronika-15500/\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"5\"}},\"isSeparator\":false},{\"id\":\"10\",\"title\":\"Дом и сад\",\"link\":\"/category/dom-i-sad-14500/\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"6\"}},\"isSeparator\":false},{\"id\":\"12\",\"title\":\"Товары за 1₽\",\"link\":\"https://www.ozon.ru/highlight/ozon-bank-1332387/\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"7\"}},\"isSeparator\":false},{\"id\":\"13\",\"title\":\"Сертификаты\",\"link\":\"https://www.ozon.ru/landing/giftcertificates/?perehod=headerdesk\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"8\"}},\"isSeparator\":false}],\"redesign\":true}",
+    "customHtml-347935-default-1": "{\"html\":\"\\u003cspan id=\\\"short-product-info-trigger-new\\\"\\u003e\\u003c/span\\u003e\",\"disableJquery\":true,\"css\":\"\",\"js\":\"\",\"resources\":[]}",
+    "webPdpGrid-3292425-default-1": "{\"direction\":\"column\",\"wrap\":\"nowrap\",\"alignMainAxis\":\"start\",\"alignCrossAxis\":\"stretch\",\"betweenMargin\":\"4\",\"verticalPadding\":\"8\",\"horizontalPadding\":\"0\",\"backgroundColor\":\"transparent\",\"width\":\"388px\"}",
+    "webDelivery-8727767-default-1": "{}",
+    "searchBarDesktop-3414131-default-1": "{\"global\":{\"contextTitle\":\"Везде\", \"placeholder\":\"Искать на Ozon\", \"link\":\"/search/?text={value}&from_global=true\", \"isGlobal\":true, \"searchTrackingInfo\":{\"click\":{\"actionType\":\"search\", \"key\":\"1v6b1S3zcMmGd8JozaTmqic00EZvwThE\"}}, \"searchByPlaceholderTrackingInfo\":{\"click\":{\"actionType\":\"search\", \"key\":\"1v6b1S3Eem8Y3ZpMKsPvhsWvl2hQCOBv\"}}}, \"text\":\"\", \"urlSearchContextPopup\":\"/modal/contextPopup\", \"searchBarPerf\":\"\", \"lexems\":{\"search\":\"Поиск\"}, \"abFeatures\":{\"uiFiltersPersistenceConfig\":\"{\\\\\\\"pageTypes\\\\\\\":[\\\\\\\"search\\\\\\\",\\\\\\\"category\\\\\\\"],\\\\\\\"filters\\\\\\\":[\\\\\\\"currency_price\\\\\\\",\\\\\\\"delivery\\\\\\\",\\\\\\\"is_promo\\\\\\\",\\\\\\\"brandcertified\\\\\\\",\\\\\\\"is_installment\\\\\\\",\\\\\\\"is_official_brand_seller\\\\\\\",\\\\\\\"color\\\\\\\",\\\\\\\"type\\\\\\\",\\\\\\\"is_high_rating\\\\\\\",\\\\\\\"seller\\\\\\\",\\\\\\\"has_points_from_reviews\\\\\\\",\\\\\\\"stars_loyalty\\\\\\\",\\\\\\\"is_made_in_russia\\\\\\\",\\\\\\\"filtersizeru\\\\\\\",\\\\\\\"russiansizeshoes\\\\\\\",\\\\\\\"filtersizehght\\\\\\\"]}\"}, \"searchByImage\":{\"buttonTrackingInfo\":{\"click\":{\"actionType\":\"click\", \"key\":\"1v6b1WH_A5TWhFrl0iCHnzYXS1Eksd3J\"}}, \"tooltipText\":\"Поиск по фото\", \"dropdown\":{\"image\":\"https://ir-2.ozonstatic.cn/s3/common-image-storage/bx/camera-with-frames_m.png\", \"text\":[{\"text\":\"Перетащите или \", \"typographyToken\":\"tsCompactControl500Medium\"}, {\"text\":\"загрузите фото\", \"textColor\":\"textAction\", \"typographyToken\":\"tsCompactControl500Medium\"}], \"urlForm\":{\"placeholder\":\"Вставьте изображение или URL-ссылку\", \"submitTitle\":\"Найти\"}, \"spinnerTrackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"1v6b1VEIYTg8QZbKvMnaNd5ppbS5S29u\"}}, \"crop\":{\"submitTitle\":\"Найти\", \"submitTrackingInfo\":{\"click\":{\"actionType\":\"click\", \"key\":\"1v6b1SWUeaJtJ7zPAjgThPXxLIKQdpNu\"}}, \"backTrackingInfo\":{\"click\":{\"actionType\":\"click\", \"key\":\"1v6b1NzOnOeLnfjd4dK8I4GNjTPpN83I\"}}, \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"1v6b1-3v039zT2cVd8da78g4eQANmhDX\"}}, \"title\":\"Выберите область с товаром\", \"submitAction\":{\"behavior\":\"BEHAVIOR_TYPE_COMPOSER_ACTION\", \"link\":\"searchByImage\", \"id\":\"searchByImage\"}, \"minCropResolution\":60}}, \"onboarding\":{\"image\":\"https://ir-2.ozonstatic.cn/s3/common-image-storage/bx/camera-gray_m.png\", \"title\":\"Теперь товары можно найти по фото\", \"badgeLabel\":\"new\", \"trackingInfo\":{\"click\":{\"actionType\":\"click\", \"key\":\"1v6b1P6w92juEycnNabi4g6H2bvp-RaW\"}, \"view\":{\"actionType\":\"view\", \"key\":\"1v6b1P6w92juEycnNabi4g6H2bvp-RaW\"}}, \"crossTrackingInfo\":{\"click\":{\"actionType\":\"click\", \"key\":\"1v6b1MUtQtsVkH7hVoDKtlIyydVJEFNk\"}}}, \"errorNotification\":{\"title\":\"Не удалось загрузить фото\", \"subtitle\":\"Попробуйте еще раз\", \"common\":{\"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"1v6b1N_Yy5gejhpQmRdbTaRz-Mp9b2pN\"}}}, \"preset\":\"NEGATIVE\"}, \"errorNotificationFileTypeInvalid\":{\"title\":\"Некорректный формат файла\", \"subtitle\":\"Поддерживаются форматы JPEG, PNG, WEBP\", \"common\":{\"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"1v6b1YNc8qRS12WrURjrQAatR60CaaBI\"}}}, \"preset\":\"NEGATIVE\"}, \"errorNotificationUrl\":{\"title\":\"Не удалось открыть ссылку\", \"subtitle\":\"Попробуйте еще раз\", \"common\":{\"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"1v6b1VvvSPWEkPYfh0OuUoSRspE8nf8U\"}}}, \"preset\":\"NEGATIVE\"}, \"errorNotificationUrlInvalid\":{\"title\":\"Введите корректный URL изображения\", \"subtitle\":\"Попробуйте еще раз\", \"common\":{\"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"1v6b1SZCDRUNSkrhiLXuIC7rwzcu15Ss\"}}}, \"preset\":\"NEGATIVE\"}, \"errorNotificationMaxFileSizeExceeded\":{\"title\":\"Слишком большой размер изображения\", \"common\":{\"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"1v6b1PmdwxirbycRnEiXAeSLZNKPw4c3\"}}}, \"preset\":\"NEGATIVE\"}, \"maxFileSize\":4194304, \"errorNotificationMinResolutionNotMet\":{\"title\":\"Слишком низкое качество изображения\", \"subtitle\":\"Попробуйте выбрать фото с большим разрешением\", \"common\":{\"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"1v6b1WvYYvzlEZ-jHgbt1WpwY5bahLqg\"}}}, \"preset\":\"NEGATIVE\"}, \"minResolution\":60, \"uploadAction\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\", \"link\":\"searchByImageUpload\", \"id\":\"searchByImageUpload\"}}, \"minTextLength\":2, \"searchBarStyles\":{\"mainColor\":\"bgActionPrimary\", \"textHoverColor\":\"graphicActiveActionPrimary\"}}",
+    "webStickyProducts-726428-default-1": "{\"sku\":\"1856972746\", \"name\":\"Компакт диск BLANK & JONES & LAID BACK - Sitting in My Sofa (Van Bellen Remix) 2023 г.\", \"coverImageUrl\":\"https://ir-2.ozonstatic.cn/s3/multimedia-1-p/c50/7304636401.jpg\", \"seller\":{\"logoImageUrl\":\"https://cdn1.ozonusercontent.com/s3/marketing-api/banners/Du/0F/Du0F9pHqr31rq7MQ26dxJdzUrIrs8djB.png\", \"name\":\"Музыкальный_киоск\", \"link\":\"https://www.ozon.ru/seller/muzykalnyy-kiosk/\", \"subtitle\":\"Перейти в магазин\"},\"params\":{\"triggeringObjectSelector\":\"#short-product-info-trigger-new\"}}",
+    "webPdpGrid-726421-default-1": "{\"direction\":\"row\",\"wrap\":\"nowrap\",\"alignMainAxis\":\"start\",\"alignCrossAxis\":\"center\",\"betweenMargin\":\"12\",\"verticalPadding\":\"0\",\"horizontalPadding\":\"0\",\"backgroundColor\":\"transparent\"}",
+    "orderInfo-7278501-default-1": "{\"icon\":{\"icon\":{\"size\":\"SIZE_500\", \"shape\":\"SHAPE_NONE\", \"icon\":{\"icon\":\"ic_m_box_filled\", \"tintColor\":\"graphicTertiary\"}}, \"subtitle\":{\"text\":\"Заказы\", \"textColor\":\"graphicTertiary\", \"maxLines\":1, \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsCompact300XSmall\"}, \"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"/my/orderlist/\", \"params\":{\"target\":\"_self\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"click\", \"key\":\"1v6b1XNIqdyqFrjiaWgpON7-uNuVoapr\"}}}}",
+    "webProductMainWidget-347746-default-1": "{\"sku\":\"1856972746\", \"url\":\"/product/kompakt-disk-blank-jones-laid-back-sitting-in-my-sofa-van-bellen-remix-2023-g-1856972746/?__rr=1\", \"cellTrackingInfo\":{\"products\":{\"main\":\"Rlty1vOM9FPAL5YKt4lmVXjSQGkmOrH6q5EXjsLLLkyR\"}}}",
+    "column-347779-default-1": "{}",
+    "webPdpGrid-347778-default-1": "{\"alignCrossAxis\":\"stretch\",\"alignMainAxis\":\"spaceBetween\",\"betweenMargin\":\"12\",\"direction\":\"column\",\"wrap\":\"nowrap\"}",
+    "webReviewProductScore-3132021-default-1": "{\"cellTrackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"0\"},\"view\":{\"actionType\":\"view\",\"key\":\"1\"}},\"url\":\"/product/kompakt-disk-blank-jones-laid-back-sitting-in-my-sofa-van-bellen-remix-2023-g-1856972746/reviews/\",\"score\":null,\"reviewsCount\":8,\"itemId\":1856972746,\"totalScore\":5,\"isHidden\":false,\"constants\":{\"emptyScoreText\":\"Нет оценок\",\"reviewsTextEmpty\":\"Оставить отзыв\",\"reviewsTextExist\":\"8 отзывов\"},\"lmtParams\":{\"displayType\":\"simple\",\"anchorUrl\":\"?tab=reviews#comments--offset-130\"}}",
+    "webAddToFavorite-1255798-default-1": "{\"sku\":\"1856972746\", \"lexemes\":{\"ariaLabelAddText\":\"Добавить в избранное\", \"ariaLabelClearText\":\"Убрать из избранного\"}, \"cellTrackingInfo\":{\"products\":{\"main\":\"Rlty1vOM9FPAL5YKt4lmVXjSQGkmOrH6q5EXjsLLLkyR\"}, \"uis\":{\"favoriteTooltip\":\"k2tojOwKVTNGzERWinwwpMRiwAY96xCmKKNEcXMy0jG\"}},\"params\":{\"btnText\":\"В избранное\",\"btnTextActive\":\"В избранном\",\"classifiedAction\":false,\"favoriteTooltipIsShow\":true,\"favoriteTooltipSrcImg\":\"https://ir-2.ozonstatic.cn/s3/pdp-api/heart-blue_m.png\",\"favoriteTooltipText\":\"Добавьте в избранное\",\"favoriteTooltipTimeForShow\":10,\"favoriteTooltipTimeToShow\":210,\"favoriteTooltipTitle\":\"Понравился товар?\",\"theme\":\"apparel\"}}",
+    "webPdpGrid-3385918-default-1": "{\"direction\":\"row\",\"wrap\":\"wrap\",\"alignMainAxis\":\"start\",\"alignCrossAxis\":\"start\",\"betweenMargin\":\"12\",\"verticalPadding\":\"0\",\"horizontalPadding\":\"0\",\"backgroundColor\":\"transparent\"}",
+    "webPdpGrid-3385615-default-1": "{\"direction\":\"row\",\"wrap\":\"wrap\",\"alignMainAxis\":\"start\",\"alignCrossAxis\":\"start\",\"betweenMargin\":\"12\",\"verticalPadding\":\"0\",\"horizontalPadding\":\"12\",\"backgroundColor\":\"transparent\",\"noContentShrink\":true}",
+    "row-702923-default-1": "{}",
+    "webStickyColumn-3572634-default-1": "{\"offsetTop\":\"64px\", \"viewportOffset\":64,\"params\":{\"offsetBottom\":\"\",\"offsetTop\":\"64px\",\"viewportOffset\":64}}",
+    "webPdpGrid-3292468-default-1": "{\"alignCrossAxis\":\"stretch\",\"alignMainAxis\":\"start\",\"betweenMargin\":\"2\",\"direction\":\"column\",\"wrap\":\"nowrap\",\"width\":\"388px\"}",
+    "webSale-2111389-default-1": "{\"offer\":{\"isAvailable\":true, \"offerType\":\"default\"}, \"cellTrackingInfo\":{\"uis\":{\"clickDefault\":\"z6tOZMrklc4x9zjXs4LRjNPfq21nPqtp3G6qWH983D2Z\", \"ozonCard\":\"08tY5Gy7Ocp6Dlj4h5VkvVZfj9nnWXfDkO6w3IML88lV\", \"premiumSubscribe\":\"Vvtz6xZWruyY09NPUkqwp3RCJYYR30SvnmL1lSENO13Q\", \"view\":\"z6tOZMrklc4x9zjXs4LRjNPfq21nPqtp3G6qWH983D2Z\"}}}",
+    "webPdpGrid-3412662-default-1": "{\"direction\":\"column\",\"wrap\":\"nowrap\",\"alignMainAxis\":\"stretch\",\"alignCrossAxis\":\"stretch\",\"betweenMargin\":\"0\",\"verticalPadding\":\"0\",\"horizontalPadding\":\"0\",\"backgroundColor\":\"transparent\",\"width\":\"0\"}",
+    "favoriteCounter-7278502-default-1": "{\"iconHeader\":{\"icon\":{\"size\":\"SIZE_500\",\"shape\":\"SHAPE_NONE\",\"icon\":{\"icon\":\"ic_m_heart_filled\",\"tintColor\":\"graphicTertiary\"}},\"subtitle\":{\"text\":\"Избранное\",\"textColor\":\"textTertiary\",\"maxLines\":1,\"preset\":\"PRESET_CUSTOM\",\"typographyToken\":\"tsCompact300XSmall\",\"testInfo\":{\"automatizationId\":\"header-my-ozon-title\"}},\"counter\":{\"text\":\"0\",\"size\":\"SIZE_500\",\"styleType\":\"ACCENT\"},\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\",\"link\":\"/my/favorites\"},\"testInfo\":{\"automatizationId\":\"header-favorites\"},\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"1v6b1MwyOUjp42WGPVfslUBrX4IPXhca\"}}}}",
+    "webShortCharacteristics-3385952-default-1": "{\"titleRs\":[{\"type\":\"text\", \"content\":\"О товаре\", \"font\":\"tsHeadline500Medium\", \"color\":\"textPrimary\"}], \"goTo\":{\"text\":\"Перейти к описанию\", \"styleType\":\"NEUTRAL_PRIMARY\", \"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_SCROLL_TO_WIDGET\", \"link\":\"section-description\", \"params\":{\"offsetTop\":\"144\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"click\", \"key\":\"WPtNK54M7upMlGpgu4A0nk4t41LQ5Rf1pRK4NFQZEAO5\"}}}}, \"characteristics\":[{\"id\":\"MusicByGenre_0\", \"title\":{\"textRs\":[{\"type\":\"text\", \"content\":\"Жанр музыки\", \"font\":\"tsBodyM\", \"color\":\"textSecondary\"}]}, \"values\":[{\"id\":\"MusicByGenre_0\", \"text\":\"Techno, \", \"textColor\":\"textPrimary\", \"textStyle\":\"tsBody400Small\", \"trackingInfo\":{\"click\":{\"actionType\":\"click\", \"key\":\"nRtr27WP0FGz3QgXF1W5wBKCmDKZglTmPEKKwInz19pY\"}}}, {\"id\":\"MusicByGenre_1\", \"text\":\"Зарубежная поп-музыка\", \"textColor\":\"textPrimary\", \"textStyle\":\"tsBody400Small\", \"trackingInfo\":{\"click\":{\"actionType\":\"click\", \"key\":\"nRtr27WP0FGz3QgXF1W5wBKCmDKZglTmPEKKwInz19pY\"}}}]}, {\"id\":\"AudioPerformer_1\", \"title\":{\"textRs\":[{\"type\":\"text\", \"content\":\"Исполнитель\", \"font\":\"tsBodyM\", \"color\":\"textSecondary\"}]}, \"values\":[{\"id\":\"AudioPerformer_0\", \"text\":\"Laid Back, \", \"textColor\":\"textPrimary\", \"textStyle\":\"tsBody400Small\", \"href\":\"/person/laid-back-135971242/\", \"trackingInfo\":{\"click\":{\"actionType\":\"click\", \"key\":\"r2t4Y8mkKHJEZRruP49BWLUYpmqPJHA2rrYRTRVrqAn\"}}}, {\"id\":\"AudioPerformer_1\", \"text\":\"Blank & Jones\", \"textColor\":\"textPrimary\", \"textStyle\":\"tsBody400Small\", \"href\":\"/person/blank-jones-234174/\", \"trackingInfo\":{\"click\":{\"actionType\":\"click\", \"key\":\"Y7tjqL9nRtz0qx2PUgNjmB2tYvyQMxtBnLooPhkgMwN5\"}}}]}, {\"id\":\"Edition_2\", \"title\":{\"textRs\":[{\"type\":\"text\", \"content\":\"Издание\", \"font\":\"tsBodyM\", \"color\":\"textSecondary\"}]}, \"values\":[{\"id\":\"Edition_0\", \"text\":\"Российское\", \"textColor\":\"textPrimary\", \"textStyle\":\"tsBody400Small\", \"trackingInfo\":{\"click\":{\"actionType\":\"click\", \"key\":\"w0tgmGNqMFMOE73CpzZPv8HyQMrYNsPwy5q6UGDQBEW\"}}}]}, {\"id\":\"Country_3\", \"title\":{\"textRs\":[{\"type\":\"text\", \"content\":\"Страна\", \"font\":\"tsBodyM\", \"color\":\"textSecondary\"}]}, \"values\":[{\"id\":\"Country_0\", \"text\":\"Россия\", \"textColor\":\"textPrimary\", \"textStyle\":\"tsBody400Small\", \"trackingInfo\":{\"click\":{\"actionType\":\"click\", \"key\":\"GRt2R18DxtKQKWoQiV2Qm5pTzJA92qUqyX880T1pKPjk\"}}}]}, {\"id\":\"MediaPacking_4\", \"title\":{\"textRs\":[{\"type\":\"text\", \"content\":\"Упаковка\", \"font\":\"tsBodyM\", \"color\":\"textSecondary\"}]}, \"values\":[{\"id\":\"MediaPacking_0\", \"text\":\"Jewel Case\", \"textColor\":\"textPrimary\", \"textStyle\":\"tsBody400Small\", \"trackingInfo\":{\"click\":{\"actionType\":\"click\", \"key\":\"XQtkRX98vc93zwrosGjoR10hX3AQ4kfJZxwoysX3v1qM\"}}}]}], \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"NOtw806OKcyqxnjofWLXNyPu92w8MjioLW03xiNLmRpP\"}},\"params\":{\"anchor\":\"\",\"disablePaidBrand\":false,\"isFreshColorsEnabled\":true,\"isWidgetCharacteristicsOnPage\":true,\"isWidgetDescriptionOnPage\":true,\"limit\":5,\"linkToCharacteristics\":\"section-characteristics\",\"linkToCharacteristicsButtonText\":\"Перейти к характеристикам\",\"linkToDescription\":\"section-description\",\"linkToDescriptionButtonText\":\"Перейти к описанию\",\"linkToExternal\":\"\",\"linkToExternalText\":\"Подробнее\",\"offsetScrol\":144,\"paramsLinkTarget\":\"self\",\"showLongCharacteristics\":true,\"thresholdLength\":60}}",
+    "webAddToFavorite-3291427-default-1": "{\"sku\":\"1856972746\", \"lexemes\":{\"ariaLabelAddText\":\"Добавить в избранное\", \"ariaLabelClearText\":\"Убрать из избранного\"}, \"cellTrackingInfo\":{\"products\":{\"main\":\"Rlty1vOM9FPAL5YKt4lmVXjSQGkmOrH6q5EXjsLLLkyR\"}, \"uis\":{\"favoriteTooltip\":\"k2tojOwKVTNGzERWinwwpMRiwAY96xCmKKNEcXMy0jG\"}},\"params\":{\"btnText\":\"В избранное\",\"btnTextActive\":\"В избранном\",\"classifiedAction\":false,\"favoriteTooltipIsShow\":true,\"favoriteTooltipSrcImg\":\"https://ir-2.ozonstatic.cn/s3/pdp-api/heart-blue_m.png\",\"favoriteTooltipText\":\"Добавьте в избранное\",\"favoriteTooltipTimeForShow\":10,\"favoriteTooltipTimeToShow\":210,\"favoriteTooltipTitle\":\"Понравился товар?\",\"theme\":\"apparel\"}}",
+    "webAddToCompare-3385612-default-1": "{\"button\":{\"iconName\":\"ic_s_compare_default_filled\",\"iconColor\":\"graphicTertiary\",\"text\":\"В сравнение\",\"textColor\":\"textSecondary\",\"mode\":\"inline\",\"hoverTextColor\":\"textActiveAction\",\"hoverIconColor\":\"graphicActiveActionPrimary\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"1v6b1TQNNcpIAKbqt5FMEZbfve8HB45W\"}},\"testInfo\":{\"automatizationId\":\"pdp-compare-button\"}},\"addAction\":\"actionAddToCompare\",\"actionData\":{\"sku\":\"1856972746\"},\"notification\":{\"error\":{\"type\":\"warning\",\"icon\":\"ic_m_confirmed_filled\",\"iconColor\":\"graphicPositivePrimary\",\"content\":\"Что-то с интернетом\"}},\"trackingInfo\":{\"compare\":{\"actionType\":\"compare\",\"key\":\"1v6b1Ow0nzvpCFl_1-lhYy7hV7UgjGwz\"},\"view\":{\"actionType\":\"view\",\"key\":\"1v6b1Ow0nzvpCFl_1-lhYy7hV7UgjGwz\"}},\"params\":{\"buttonText\":\"В сравнение\",\"buttonTextActive\":\"В сравнении\",\"displayMode\":\"inline\",\"notificationButtonTextGoTo\":\"Перейти в сравнение\",\"notificationTextBadInternet\":\"Что-то с интернетом\",\"notificationTextManySku\":\"В сравнении много товаров\",\"notificationTextSuccess\":\"Добавлено в сравнение\",\"notificationTextTryAgain\":\"Удалите лишние и попробуйте снова\"}}",
+    "webStickyColumn-3572561-default-1": "{\"offsetTop\":\"64px\", \"viewportOffset\":64,\"params\":{\"offsetBottom\":\"\",\"offsetTop\":\"64px\",\"viewportOffset\":64}}",
+    "webSingleProductScore-3386432-default-1": "{\"icon\":\"ic_s_star_filled\",\"iconColor\":\"graphicRating\",\"text\":\"5 • 8 отзывов\",\"textColor\":\"textSecondary\",\"link\":\"/product/kompakt-disk-blank-jones-laid-back-sitting-in-my-sofa-van-bellen-remix-2023-g-1856972746/reviews/\",\"size\":\"500\",\"anchorUrl\":\"?tab=reviews#comments--offset-130\",\"cellTrackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"0\"},\"view\":{\"actionType\":\"view\",\"key\":\"1\"}}}",
+    "webPdpGrid-3412664-default-1": "{\"direction\":\"column\",\"wrap\":\"nowrap\",\"alignMainAxis\":\"stretch\",\"alignCrossAxis\":\"stretch\",\"betweenMargin\":\"0\",\"verticalPadding\":\"0\",\"horizontalPadding\":\"0\",\"backgroundColor\":\"transparent\",\"width\":\"0\"}",
+    "tapTags-3419971-default-1": "{\"items\":[],\"maxRows\":0,\"searchText\":\"\",\"backgroundColor\":\"\"}",
+    "row-347762-default-1": "{}",
+    "breadCrumbs-3385917-default-1": "{\"breadcrumbs\":[{\"text\":\"Музыка и видео\",\"link\":\"/category/muzyka-i-video-13100/\",\"crumbType\":\"CRUMB_TYPE_FULL_LINK\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"1v6b1Zf6FJtU25X0tfHD2El7DreaLhZe\"}}},{\"text\":\"Музыка\",\"link\":\"/category/muzyka-34944/\",\"crumbType\":\"CRUMB_TYPE_FULL_LINK\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"1v6b1NWmL3_VJQVcU_vN610fEhZPq9D9\"}}},{\"text\":\"Поп-музыка\",\"link\":\"/category/pop-muzyka-13101/\",\"crumbType\":\"CRUMB_TYPE_FULL_LINK\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"1v6b1Truve1qStKPfUI0CCL_8SGiRIS5\"}}}],\"connectSymbol\":\">\",\"isFull\":true}",
+    "webDetailSKU-3385551-default-1": "{\"notification\":{\"success\":{\"type\":\"success\", \"icon\":\"ic_m_confirmed_filled\", \"iconColor\":\"graphicPositivePrimary\", \"content\":\"Артикул скопирован\"}, \"error\":{\"type\":\"error\", \"icon\":\"ic_m_cancel_filled\", \"iconColor\":\"graphicWarningPrimary\", \"content\":\"Ошибка при копировании артикула\"}}, \"button\":{\"iconName\":\"ic_s_copy_filled\", \"iconColor\":\"graphicTertiary\", \"text\":\"Артикул: 1856972746\", \"mode\":\"inline\", \"hoverTextColor\":\"textActiveAction\", \"hoverIconColor\":\"graphicActiveActionPrimary\", \"backgroundHoverColor\":\"bgActiveActionSecondary\"}, \"copyText\":\"1856972746\", \"trackingInfo\":{\"click\":{\"actionType\":\"click\", \"key\":\"w0tgmGNqMFKZ4nZ5f91DQ7kf4YWZZMFWmoJYGszWzMMz\"}, \"show\":{\"actionType\":\"show\", \"key\":\"w0tgmGNqMFKZ4nZ5f91DQ7kf4YWZZMFWmoJYGszWzMMz\"}, \"view\":{\"actionType\":\"view\", \"key\":\"w0tgmGNqMFKZ4nZ5f91DQ7kf4YWZZMFWmoJYGszWzMMz\"}},\"params\":{\"buttonMode\":\"inline\",\"isFreshColorsEnabled\":true}}",
+    "webGallery-3311626-default-1": "{\"sku\":\"1856972746\", \"coverImage\":\"https://ir-2.ozonstatic.cn/s3/multimedia-1-p/7304636401.jpg\", \"images\":[{\"src\":\"https://ir-2.ozonstatic.cn/s3/multimedia-1-p/7304636401.jpg\", \"alt\":\"Компакт диск BLANK & JONES & LAID BACK - Sitting in My Sofa (Van Bellen Remix) 2023 г. #1\"}, {\"src\":\"https://ir-2.ozonstatic.cn/s3/multimedia-1-n/7304636399.jpg\", \"alt\":\"Компакт диск BLANK & JONES & LAID BACK - Sitting in My Sofa (Van Bellen Remix) 2023 г. #2\"}], \"videoCover\":{}, \"isWithParandja\":false, \"isWithWave\":false, \"isUnavailable\":false, \"galleryTipRs\":[{\"type\":\"text\", \"content\":\"Для просмотра удерживайте левую кнопку мыши\"}, {\"type\":\"newLine\"}, {\"type\":\"text\", \"content\":\"и вращайте влево или вправо,\"}, {\"type\":\"newLine\"}, {\"type\":\"text\", \"content\":\"кликните по изображению, чтобы увеличить его\"}], \"lexemes\":{\"galleryTip1\":\"Для просмотра удерживайте левую кнопку мыши\", \"galleryTip2\":\"и вращайте влево или вправо\", \"galleryTip3\":\"кликните по изображению, чтобы увеличить его\", \"imageAdditionalTitle\":\"Дополнительно\", \"imageCaptionDesktop\":\"Чтобы рассмотреть товар, зажмите левую кнопку мыши поверх фото и потяните в любую сторону\", \"imageCaptionMobile\":\"Удерживайте палец на фото и вращайте товар в любую сторону\", \"imageTitle\":\"Фотографии\", \"openGalleryBtnText\":\"Перейти в галерею\", \"photo360Title\":\"Фото 360\", \"photoShootAlt\":\"На фотосессии\", \"videoCoverTitle\":\"Видео обложка\", \"videoText\":\"видео\", \"videoTitle\":\"Видео\"}, \"galleryRatio\":0.75, \"similarItemsURL\":\"/modal/similar-products?product_id=1856972746\", \"imageRendering\":\"\", \"cellTrackingInfo\":{\"uis\":{\"galleryItemClickImage\":\"6WtZvrWp2tvBBvNWsAnXQj5cKzqoJrfXwxyzVI434490\", \"galleryItemClickVideoCover\":\"x6tPV1X76cxBrKO0uyq2GgycLZD994SzJolnyinNO74J\", \"galleryPopup\":\"Vvtz6xZWrumnEn9oinDQjB0fzDgRpBIGYQpExTQpWKP8\", \"galleryPopupClose\":\"Z8tXL5jkZf9l3vvYu0y4o8ikM6X4BijqPR0khyVl5Q6\", \"galleryVideoCoverToGalleryClick\":\"WPtNK54M7u2AKgm9T0VxAWPuYv2vQVfYAZNjKT61GZXo\", \"galleryView\":\"Z8tXL5jkZfRZyZj6U7lA1jqh4NB1DhXnLz71tXJNzqJ\"}}, \"imageQualityInModal\":2500, \"similarItemsText\":\"Похожие\",\"params\":{\"galleryContainerRatio\":\"3x4\",\"hideVideoVideoCover360Button\":false,\"imageQuality\":2500,\"imageZoomEnabled\":false,\"isCoverAutoPlayOn\":true,\"isSimilarItemsButtonEnabled\":true,\"markedDownText\":\"уценённый товар\",\"theme\":\"default\"}}",
+    "webInstallmentPurchase-11156568-default-1": "{\"sku\":\"1856972746\", \"titleRs\":[{\"type\":\"text\", \"content\":\"без % до 20 августа\", \"font\":\"tsCompactControl400Small\", \"color\":\"textPrimary\"}, {\"type\":\"newLine\"}], \"link\":\"/modal/pdpCreditCardPromo\", \"isWink\":true, \"winkTimeToShow\":\"10000\", \"trackingInfo\":{\"click\":{\"actionType\":\"click\", \"key\":\"qQtJ382EAczpKPXvIJAEpEjUkxWW4LiwmRyPGUrPw45L\"}, \"view\":{\"actionType\":\"view\", \"key\":\"qQtJ382EAczpKPXvIJAEpEjUkxWW4LiwmRyPGUrPw45L\"}}, \"colorBlock\":{\"data\":{\"text\":[{\"type\":\"text\", \"content\":\"Оплатить позже\", \"font\":\"tsBodyControl400Small\", \"color\":\"textLightKey\"}]}, \"styles\":{\"backgroundColor\":\"bgMarketingPrimary\", \"paddings\":{\"topPadding\":\"6px\", \"bottomPadding\":\"6px\", \"leftPadding\":\"8px\", \"rightPadding\":\"8px\"}}},\"params\":{\"BaseAnimationTimer\":10,\"borderRadius\":\"0 0 12px 12px\",\"headerTitle\":\"Оплачивайте позже\",\"headerWithBadgeEnable\":true,\"highPrice\":0,\"highPriceAnimationTimer\":10,\"iconBNPLEnableName\":true,\"installmentAnimation\":true,\"margin\":\"\",\"mode\":\"modal\",\"onboardingBNPL\":true,\"onboardingCreditCard\":true,\"onboardingTimerBefore\":85,\"onboardingTimerViewing\":20,\"onboardingWithoutOverpayments\":false,\"onboardingZeroRublesToday\":false,\"width\":\"calc(100% + 24px)\"}}",
+    "webOneClickButton-8448569-default-1": "{\"sku\":\"1856972746\", \"redirectLink\":\"/gocheckout?start=0&src=pdp\", \"payload\":{\"items\":[{\"id\":\"1856972746\", \"quantity\":1}]}, \"cellTrackingInfo\":{\"products\":{\"to_checkout\":\"ywtAwr48vs0xkMYsyDwR1UPpk5rZhrxkB1mfGvnvZ8\", \"view\":\"Brtzr7nwQuAYr57Pt7oO0oZSDr91oySXjrlwUGAOZE4\"}}, \"buttonText\":\"Купить сейчас\",\"params\":{\"btnText\":\"Купить сейчас\",\"btnTextinCnC\":\"Забронировать сейчас\",\"buyQuant\":true}}",
+    "webAddToCompare-939214-default-1": "{\"sku\":1856972746,\"link\":\"\",\"isInCompare\":false,\"cellTrackingInfo\":{\"products\":{\"1856972746\":\"1v6b1MF836V-59wJn1LTmkQ40U0LsP2X\"},\"uis\":{\"actionAddToCompare\":\"1v6b1P1crV8X4kQpCVlcjlc6pBp-h155\",\"actionRemoveFromCompare\":\"1v6b1_hqy3Wg2y5rQN4U4TmISoweTZp-\",\"click\":\"1v6b1-sfGzZbSmqM70RKPlAF1zIUxHG1\",\"view\":\"1v6b1U1r0JpeTfUnLwlvAiAgySPGJosW\"}},\"params\":{\"btnText\":\"Сравнивать\",\"btnTextActive\":\"В сравнение\",\"productAdded\":\"Товар добавлен в сравнение.\",\"theme\":\"theme1\",\"tooMuchText\":\"Вы добавили в сравнение максимальное количество товаров\"}}",
+    "row-3155454-default-1": "{}",
+    "webPdpGrid-3572555-default-1": "{\"direction\":\"row\",\"wrap\":\"nowrap\",\"alignMainAxis\":\"stretch\",\"alignCrossAxis\":\"stretch\",\"betweenMargin\":\"0\",\"verticalPadding\":\"0\",\"horizontalPadding\":\"0\",\"backgroundColor\":\"transparent\",\"width\":\"57.3%\"}",
+    "webPdpGrid-726427-default-1": "{\"direction\":\"row\",\"wrap\":\"nowrap\",\"alignMainAxis\":\"spaceBetween\",\"alignCrossAxis\":\"center\",\"betweenMargin\":\"12\",\"verticalPadding\":\"0\",\"horizontalPadding\":\"0\",\"backgroundColor\":\"transparent\",\"width\":\"350px\"}",
+    "paginator-658722-default-1": "{\"nextPage\":\"/product/1856972746?__rr=1&layout_container=pdpPage2column&layout_page_index=2&sh=Dwv8xCalRg&start_page_id=1fcfc124b71957b5a84e988b62209d4a\",\"size\":10,\"offsetTop\":1500,\"fetchType\":\"scroll\",\"minHeight\":3000,\"isContentVisibilityAuto\":true,\"layoutContainer\":\"pdpPage2column\"}",
+    "footer-347823-default-1": "{\"newFooter\":{\"share\":{\"image\":\"https://ir-2.ozonstatic.cn/s3/cms/89/tad/qr-code_1_1.png\",\"description\":{\"text\":\"Наведите камеру и скачайте бесплатное приложение Ozon\",\"textColor\":\"textTertiary\",\"typographyToken\":\"tsBody400Small\"}},\"columns\":[{\"links\":[{\"link\":\"https://corp.ozon.ru/\",\"title\":{\"text\":\"Об Ozon / About Ozon\",\"textColor\":\"textSecondary\",\"maxLines\":1,\"typographyToken\":\"tsBody400Small\"},\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"0\"}}},{\"link\":\"https://docs.ozon.ru/common/kontakty/\",\"title\":{\"text\":\"Контакты\",\"textColor\":\"textSecondary\",\"maxLines\":1,\"typographyToken\":\"tsBody400Small\"},\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"1\"}}},{\"link\":\"https://docs.ozon.ru/legal/personal-data/\",\"title\":{\"text\":\"Политика обработки данных\",\"textColor\":\"textSecondary\",\"maxLines\":1,\"typographyToken\":\"tsBody400Small\"},\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"2\"}}}]},{\"links\":[{\"link\":\"https://docs.ozon.ru/common/oplata/sposoby-oplaty/\",\"title\":{\"text\":\"Оплата\",\"textColor\":\"textSecondary\",\"maxLines\":1,\"typographyToken\":\"tsBody400Small\"},\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"3\"}}},{\"link\":\"https://docs.ozon.ru/common/dostavka/sposoby-dostavki/\",\"title\":{\"text\":\"Доставка\",\"textColor\":\"textSecondary\",\"maxLines\":1,\"typographyToken\":\"tsBody400Small\"},\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"4\"}}},{\"link\":\"https://docs.ozon.ru/common/otmena-i-vozvrat-zakaza/kak-vernut-tovar/\",\"title\":{\"text\":\"Возврат товаров\",\"textColor\":\"textSecondary\",\"maxLines\":1,\"typographyToken\":\"tsBody400Small\"},\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"5\"}}}]},{\"links\":[{\"link\":\"https://ozon.by/\",\"title\":{\"text\":\"Ozon Беларусь\",\"textColor\":\"textSecondary\",\"maxLines\":1,\"typographyToken\":\"tsBody400Small\"},\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"6\"}}},{\"link\":\"https://ozon.kz/\",\"title\":{\"text\":\"Ozon Казахстан\",\"textColor\":\"textSecondary\",\"maxLines\":1,\"typographyToken\":\"tsBody400Small\"},\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"7\"}}},{\"link\":\"https://uz.ozon.com/\",\"title\":{\"text\":\"Ozon Узбекистан\",\"textColor\":\"textSecondary\",\"maxLines\":1,\"typographyToken\":\"tsBody400Small\"},\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"8\"}}}]}],\"copyright\":{\"link\":\"//docs.ozon.ru/legal/terms-of-use/site/content-policy/?perehod=footer\",\"title\":{\"text\":\"1998 – 2026 ООО\\u0026nbsp;\\\"Интернет Решения\\\" (Входит\\u0026nbsp;в\\u0026nbsp;группу компаний МКПАО \\\"Озон\\\" (Ozon)). Все\\u0026nbsp;права\\u0026nbsp;защищены. \",\"textColor\":\"textTertiary\",\"typographyToken\":\"tsBody400Small\"},\"description\":{\"text\":\"Применяются \\u003ca href=\\\"https://docs.ozon.ru/legal/terms-of-use/site/algorithms/\\\"\\u003e рекомендательные технологии\\u003c/a\\u003e\",\"textColor\":\"textTertiary\",\"typographyToken\":\"tsBody400Small\"}},\"socialButtons\":[{\"size\":\"SIZE_500\",\"styleType\":\"CUSTOM\",\"buttonShape\":\"SHAPE_SQUARE\",\"icon\":\"ic_m_vk_filled\",\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\",\"link\":\"https://vk.com/ozon/?perehod=footer\",\"params\":{\"target\":\"_blank\"}},\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"9\"}},\"testInfo\":{\"automatizationId\":\"VK\"}},\"iconColor\":\"graphicTertiary\",\"backgroundColor\":\"bgOverlap\"},{\"size\":\"SIZE_500\",\"styleType\":\"CUSTOM\",\"buttonShape\":\"SHAPE_SQUARE\",\"icon\":\"ic_m_odnoklassniki_filled\",\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\",\"link\":\"https://ok.ru/ozon/?perehod=footer\",\"params\":{\"target\":\"_blank\"}},\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"10\"}},\"testInfo\":{\"automatizationId\":\"Одноклассники\"}},\"iconColor\":\"graphicTertiary\",\"backgroundColor\":\"bgOverlap\"},{\"size\":\"SIZE_500\",\"styleType\":\"CUSTOM\",\"buttonShape\":\"SHAPE_SQUARE\",\"icon\":\"ic_m_telegram_filled\",\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\",\"link\":\"https://t.me/ozonru/?perehod=footer\",\"params\":{\"target\":\"_blank\"}},\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"11\"}},\"testInfo\":{\"automatizationId\":\"Telegram\"}},\"iconColor\":\"graphicTertiary\",\"backgroundColor\":\"bgOverlap\"}],\"accessibilityButton\":{\"size\":\"SIZE_500\",\"title\":\"Для слабовидящих\",\"icon\":\"ic_m_visually_impaired_filled\",\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\",\"id\":\"accessibilityMode\"},\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"12\"}}}},\"hoverColor\":\"textAction\",\"legalTerms\":{\"textColor\":\"textTertiary\",\"textAlignment\":\"CENTER\",\"typographyToken\":\"tsBody400Small\"},\"backgroundColor\":\"layerFloor0\"}}",
+    "webPdpGrid-3572556-default-1": "{\"direction\":\"column\",\"wrap\":\"nowrap\",\"alignMainAxis\":\"start\",\"alignCrossAxis\":\"stretch\",\"betweenMargin\":\"0\",\"verticalPadding\":\"0\",\"horizontalPadding\":\"0\",\"backgroundColor\":\"transparent\",\"width\":\"calc(100% - 57.3% - 24px)\"}",
+    "webQuestionCount-3386433-default-1": "{\"icon\":\"ic_s_questions_and_answers_filled\", \"iconColor\":\"graphicTertiary\", \"text\":\"Задать вопрос\", \"textColor\":\"textSecondary\", \"link\":\"https://www.ozon.ru/product/1856972746questions/\", \"size\":\"500\", \"anchorUrl\":\"?tab=questions#comments--offset-130\", \"cellTrackingInfo\":{\"click\":{\"actionType\":\"click\", \"key\":\"1v6b1OraEbEziIxNibBvWhLtr2pq7RWJ\"}, \"view\":{\"actionType\":\"view\", \"key\":\"1v6b1OraEbEziIxNibBvWhLtr2pq7RWJ\"}}}",
+    "webPdpGrid-296982-default-1": "{\"alignCrossAxis\":\"stretch\",\"alignMainAxis\":\"start\",\"betweenMargin\":\"24\",\"direction\":\"column\",\"wrap\":\"nowrap\",\"backgroundColor\":\"transparent\",\"horizontalPadding\":\"0\",\"verticalPadding\":\"0\"}",
+    "column-702922-default-1": "{\"basis\":9,\"collapseIfEmpty\":true}",
+    "webPrice-3121879-default-1": "{\"isAvailable\":true, \"cardPrice\":\"494 ₽\", \"price\":\"543 ₽\", \"showOriginalPrice\":true, \"link\":\"/modal/pdpListOfBanks?product_id=1856972746\", \"lexemes\":{\"currency\":\"Валюта\", \"includeVatTextMobile\":\"Цена с НДС\", \"moreText\":\"Подробнее\", \"notRefundVatText\":\"НДС не возмещается\", \"withOzonCard\":\"С банками\", \"withoutOzonCard\":\"С другими банками\", \"withoutVatText\":\"без НДС\", \"withoutVatTextCapitalize\":\"Без НДС\", \"withoutVatTextMobile\":\"Цена без НДС\"}, \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"NOtw806OKcJMDkLOIE4zNzztMwzn3ntnYvGlzh1ZE9Do\"}}, \"trackingInfoOzonBank\":{\"click\":{\"actionType\":\"click\", \"key\":\"08tY5Gy7OcoEyREETZgPKpvCAAjZLyCypAroyFMrWNAy\"}}, \"colorBlockRightContent\":{\"images\":[{\"image\":\"https://ir-2.ozonstatic.cn/s3/payments-cdn/ozon-price-compact-ozon-light.png\", \"aspectRatio\":\"RATIO_1_1\", \"imageWidth\":20, \"cdnSettings\":{\"size\":64}, \"fitType\":\"FIT_CENTER\"}, {\"image\":\"https://ir-2.ozonstatic.cn/s3/payments-cdn/ozon_other_sovkombank_dark.png\", \"aspectRatio\":\"RATIO_1_1\", \"imageWidth\":20, \"cdnSettings\":{\"size\":64}, \"fitType\":\"FIT_CENTER\"}, {\"image\":\"https://ir-2.ozonstatic.cn/s3/payments-cdn/ozon_other_MTSDengi_dark.png\", \"aspectRatio\":\"RATIO_1_1\", \"imageWidth\":20, \"cdnSettings\":{\"size\":64}, \"fitType\":\"FIT_CENTER\"}]},\"params\":{\"ladderPriceHide\":false,\"showPpu\":true,\"withOzonAccount\":\"/modal/withOzonAccount\",\"withOzonAccountLegal\":\"/modal/OzoneAccountForLegal\",\"withoutOzonAccount\":\"/modal/withoutOzonAccount\"}}",
+    "webPdpGrid-3292442-default-1": "{\"direction\":\"row\",\"wrap\":\"nowrap\",\"alignMainAxis\":\"start\",\"alignCrossAxis\":\"spaceBetween\",\"betweenMargin\":\"4\"}",
+    "profileMenuAnonymous-7278492-default-1": "{\"tooltip\":{\"text\":\"Войдите, чтобы делать покупки, отслеживать заказы и пользоваться персональными скидками и баллами.\",\"notice\":\"После входа вы сможете создать аккаунт юрлица.\",\"buttons\":[{\"text\":\"Войти или зарегистрироваться\",\"theme\":\"primary\",\"action\":{\"behavior\":\"BEHAVIOR_TYPE_COMPOSER_ACTION\",\"link\":\"authorizationRouter\",\"params\":{\"pageType\":\"pdp\",\"url\":\"/product/1856972746?__rr=1\\u0026sh=Dwv8xCalRg\"}}},{\"text\":\"Личный кабинет\",\"type\":\"my-account\",\"url\":\"/my/main\",\"theme\":\"secondary\",\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\",\"link\":\"/my/main\",\"id\":\"my-account\"}}]},\"iconHeader\":{\"icon\":{\"size\":\"SIZE_500\",\"shape\":\"SHAPE_NONE\",\"icon\":{\"icon\":\"ic_s_anonymous_filled_compact\",\"tintColor\":\"graphicPrimary\"}},\"subtitle\":{\"text\":\"Войти\",\"textColor\":\"graphicPrimary\",\"maxLines\":1,\"preset\":\"PRESET_CUSTOM\",\"typographyToken\":\"tsCompact300XSmall\"},\"testInfo\":{\"automatizationId\":\"header-my-ozon-icon\"}},\"indicatorEnabled\":true}",
+    "addressBookBarWeb-7278510-default-1": "{\"customCell\":{\"actionMode\":\"individual\", \"cells\":[{\"type\":\"button\", \"button\":{\"text\":\"Москва\", \"theme\":\"empty\", \"size\":\"m\", \"action\":{\"behavior\":\"BEHAVIOR_TYPE_COMPOSER_NESTED_PAGE\", \"link\":\"/modal/addressbook?set_sm=1\", \"id\":\"addressbook\", \"params\":{\"closeAction\":\"{\\\"behavior\\\":\\\"BEHAVIOR_TYPE_REFRESH\\\"}\", \"closeButtonPosition\":\"outside\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"click\", \"key\":\"0\"}}, \"textStyle\":\"tsBodyControl400Small\", \"textColor\":\"textSecondary\"}, \"shrinkPosition\":\"right\"}, {\"type\":\"button\", \"button\":{\"text\":\"Укажите адрес\", \"theme\":\"inline\", \"size\":\"m\", \"action\":{\"behavior\":\"BEHAVIOR_TYPE_COMPOSER_NESTED_PAGE\", \"link\":\"/modal/addressbook?set_sm=1\", \"id\":\"addressbook\", \"params\":{\"closeAction\":\"{\\\"behavior\\\":\\\"BEHAVIOR_TYPE_REFRESH\\\"}\", \"closeButtonPosition\":\"outside\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"click\", \"key\":\"1\"}}}}], \"separator\":{\"text\":\"&bull;\", \"textStyle\":\"tsBodyControl400Small\", \"textColor\":\"textSecondary\"}}, \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"2\", \"nested\":[]}}, \"addressBookBarRedesign\":true}",
+    "webPdpGrid-3311650-default-1": "{\"direction\":\"column\",\"wrap\":\"nowrap\",\"alignMainAxis\":\"start\",\"alignCrossAxis\":\"stretch\",\"betweenMargin\":\"0\",\"verticalPadding\":\"0\",\"horizontalPadding\":\"0\",\"backgroundColor\":\"transparent\",\"width\":\"calc(100% - 420px)\"}",
+    "webStickyColumn-3572560-default-1": "{\"offsetTop\":\"70px\", \"viewportOffset\":64,\"params\":{\"offsetBottom\":\"\",\"offsetTop\":\"70px\",\"viewportOffset\":64}}",
+    "separator-3508186-default-1": "{\"height\":24}",
+    "headerIcon-7278503-default-1": "{\"icon\":\"ic_m_grocery_cart_filled\",\"subtitle\":\"Корзина\"}",
+    "webPdpGrid-347857-default-1": "{\"direction\":\"row\",\"wrap\":\"nowrap\",\"alignMainAxis\":\"spaceBetween\",\"alignCrossAxis\":\"center\",\"betweenMargin\":\"20\"}",
+    "webProductHeading-3385933-default-1": "{\"title\":\"Компакт диск BLANK & JONES & LAID BACK - Sitting in My Sofa (Van Bellen Remix) 2023 г.\", \"rowCount\":3, \"lexemes\":{\"showMore\":\"ещё\"}, \"trackingInfo\":{\"click\":{\"actionType\":\"click\", \"key\":\"79tnKAR85f6Ow4pt88M2g6i09B9g9fj1WAPU0E6owr\"}, \"view\":{\"actionType\":\"view\", \"key\":\"79tnKAR85f6Ow4pt88M2g6i09B9g9fj1WAPU0E6owr\"}},\"params\":{\"rowsCount\":3}}",
+    "separator-3422630-default-1": "{\"height\":8}",
+    "foundCheaperText-3412665-default-1": "{\"title\":\"Хочу скидку\",\"tooltipText\":\"Хочу скидку\",\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"ozon://my/entry/credentials-required?origin=price-feedback\"},\"icon\":\"ic_m_ask_for_discount\",\"isLoggedIn\":false,\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"1v6b1VqLFkh42PVRSMwvEHRMiIf8g3yf\"},\"view\":{\"actionType\":\"view\",\"key\":\"1v6b1VqLFkh42PVRSMwvEHRMiIf8g3yf\"}}}",
+    "webPdpGrid-3291428-default-1": "{\"direction\":\"row\",\"wrap\":\"nowrap\",\"alignMainAxis\":\"start\",\"alignCrossAxis\":\"start\",\"betweenMargin\":\"8\",\"verticalPadding\":\"0\",\"horizontalPadding\":\"0\",\"backgroundColor\":\"transparent\"}",
+    "webBestSeller-4993840-default-1": "{\"textRs\":[{\"type\":\"textGray\", \"content\":\"У других продавцов\"}, {\"type\":\"newLine\"}, {\"type\":\"textMediumBold\", \"content\":\"от 494 ₽\"}], \"count\":\"1\", \"image\":\"https://ir-2.ozonstatic.cn/s3/multimedia-1-p/7304636401.jpg\", \"cellTrackingInfo\":{\"products\":{\"click\":\"qQtJ382EAcZk4Gr3U2BE1wqSJ1RXJZsyX0m38hw6vA96\", \"view\":\"qQtJ382EAcZk4Gr3U2BE1wqSJ1RXJZsyX0m38hw6vA96\"}}, \"modalLink\":\"/modal/otherOffersFromSellers?product_id=1856972746&sort=price\",\"params\":{\"mode\":\"cheaperOrFasterWithModal\",\"popoverPlacement\":\"top\",\"popoverText\":\"\"}}",
+    "webAddToCart-8707205-default-1": "{\"firstButton\":{\"isInCart\":false, \"toCart\":{\"backgroundColor\":\"bgActionPrimary\", \"cornerRadius\":\"RADIUS_500\", \"title\":{\"text\":\"В корзину\", \"textColor\":\"textLightKey\", \"textAlignment\":\"CENTER\", \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsBodyControl500Medium\", \"testInfo\":{\"automatizationId\":\"pdp-add-to-cart-title\"}}, \"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\", \"id\":\"addToCart\", \"params\":{\"sku\":\"1856972746\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"Rlty1vOM9FPAL5YKt4lmVXjSQGkmOrH6q5EXjsLLLkyR\", \"sliceKey\":\"Q6uJpkR2GcjQzx9JFznAq4pCyy5YY3FDqN1R2CA64xED\"}}, \"asyncFetchType\":\"SUBTITLE\", \"buttonHoverColor\":\"bgActiveActionPrimary\", \"testInfo\":{\"automatizationId\":\"saleblock-add-to-cart-button\"}}, \"inCart\":{\"backgroundColor\":\"bgPositivePrimary\", \"cornerRadius\":\"RADIUS_500\", \"title\":{\"text\":\"В корзине\", \"textColor\":\"textLightKey\", \"textAlignment\":\"CENTER\", \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsBodyControl500Medium\", \"testInfo\":{\"automatizationId\":\"pdp-add-in-cart-title\"}}, \"subtitle\":{\"text\":\"Перейти\", \"textColor\":\"textPrimaryOnDark\", \"textAlignment\":\"CENTER\", \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsCompact400Small\", \"testInfo\":{\"automatizationId\":\"pdp-add-in-cart-subtitle\"}}, \"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"/cart\", \"id\":\"toCheckout\", \"params\":{\"sku\":\"1856972746\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"toCart\", \"key\":\"w0tgmGNqMFllmp6ycZ2vv0xTkRNpWvIARB6qoun8KvOp\"}}, \"asyncFetchType\":\"SUBTITLE\", \"buttonHoverColor\":\"bgActivePositivePrimary\", \"testInfo\":{\"automatizationId\":\"button-go-to-cart\"}}, \"additionalButton\":{\"incrementButton\":{\"action\":{\"params\":{\"sku\":\"1856972746\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"increment\", \"key\":\"Rlty1vOM9FPAL5YKt4lmVXjSQGkmOrH6q5EXjsLLLkyR\", \"sliceKey\":\"Q6uJpkR2GcjQzx9JFznAq4pCyy5YY3FDqN1R2CA64xED\"}}}, \"decrementButton\":{\"action\":{\"params\":{\"sku\":\"1856972746\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"decrement\", \"key\":\"Rlty1vOM9FPAL5YKt4lmVXjSQGkmOrH6q5EXjsLLLkyR\", \"sliceKey\":\"Q6uJpkR2GcjQzx9JFznAq4pCyy5YY3FDqN1R2CA64xED\"}}}, \"countPicker\":{\"size\":\"SIZE_600\", \"sizing\":\"SIZING_HUG\", \"styleType\":\"CUSTOM\", \"customStyle\":{\"backgroundColor\":\"bgSecondary\"}}}, \"sku\":\"1856972746\", \"freeRest\":2, \"minAddToCartQuantity\":1, \"inCartQuantity\":0}, \"asyncAction\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\", \"link\":\"pdpGetButtonTexts?product_id=1856972746\", \"id\":\"asyncDatesRequest\", \"params\":{\"hideQuantButton\":\"false\", \"inCartPosition\":\"subtitle\", \"toCartPosition\":\"subtitle\"}}, \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"Rlty1vOM9FPAL5YKt4lmVXjSQGkmOrH6q5EXjsLLLkyR\"}}, \"webData\":{\"tooltipTextOutOfFreeRest\":{\"text\":\"В наличии больше нет\", \"textColor\":\"textPrimaryOnDark\", \"typographyToken\":\"tsBody400Small\"}}}",
+    "column-3155453-default-1": "{\"collapseIfEmpty\":true}",
+    "orderTracking-5718167-default-1": "{}",
+    "row-347780-default-1": "{}",
+    "webPdpGrid-1040994-default-1": "{\"direction\":\"row\",\"wrap\":\"nowrap\",\"alignMainAxis\":\"start\",\"alignCrossAxis\":\"stretch\",\"betweenMargin\":\"32\",\"verticalPadding\":\"0\",\"horizontalPadding\":\"0\",\"backgroundColor\":\"transparent\",\"width\":\"100%\"}",
+    "webPdpGrid-3386314-default-1": "{\"direction\":\"row\",\"wrap\":\"wrap\",\"alignMainAxis\":\"start\",\"alignCrossAxis\":\"start\",\"betweenMargin\":\"12\",\"verticalPadding\":\"0\",\"horizontalPadding\":\"0\",\"backgroundColor\":\"transparent\"}",
+    "header-7278143-default-1": "{\"logo\":{\"link\":\"/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/cms/0e/tae/logo_ozon_russian.png\"},\"isRedesignHeader\":true}",
+    "container-347815-default-1": "{}",
+    "column-347761-default-1": "{}",
+    "webPdpGrid-3572557-default-1": "{\"direction\":\"row\",\"wrap\":\"nowrap\",\"alignMainAxis\":\"start\",\"alignCrossAxis\":\"stretch\",\"betweenMargin\":\"24\",\"verticalPadding\":\"0\",\"horizontalPadding\":\"0\",\"backgroundColor\":\"transparent\",\"width\":\"100%\",\"contentGrow\":true}",
+    "webPdpGrid-3311645-default-1": "{\"direction\":\"column\",\"wrap\":\"nowrap\",\"alignMainAxis\":\"start\",\"alignCrossAxis\":\"stretch\",\"betweenMargin\":\"12\"}",
+    "separator-909632-default-1": "{\"height\":20}",
+    "catalogMenu-7278490-default-1": "{\"menuId\":\"185\",\"categories\":[{\"id\":\"15500\",\"title\":\"Электроника\",\"url\":\"/category/elektronika-15500/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/searchteam-cdn/electronics_15500.png\",\"icon\":\"ic_m_electronics_filled\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"1\"}}},{\"id\":\"7500\",\"title\":\"Одежда\",\"url\":\"/category/odezhda-obuv-i-aksessuary-7500/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/searchteam-cdn/clothes_7500.png\",\"icon\":\"ic_m_apparel_filled\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"3\"}}},{\"id\":\"17777\",\"title\":\"Обувь\",\"url\":\"/category/obuv-17777/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/searchteam-cdn/shoes_17777.png\",\"icon\":\"ic_m_shoes_fitting_filled\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"5\"}}},{\"id\":\"14500\",\"title\":\"Дом и сад\",\"url\":\"/category/dom-i-sad-14500/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/searchteam-cdn/house_and_garden_14500.png\",\"icon\":\"ic_m_home_and_garden_filled\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"7\"}}},{\"id\":\"7000\",\"title\":\"Детские товары\",\"url\":\"/category/detskie-tovary-7000/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/searchteam-cdn/for_children_7000.png\",\"icon\":\"ic_m_kids_filled\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"9\"}}},{\"id\":\"6500\",\"title\":\"Красота и здоровье\",\"url\":\"/category/krasota-i-zdorove-6500/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/searchteam-cdn/Beauty_and_care_6500.png\",\"icon\":\"ic_m_beauty_filled\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"11\"}}},{\"id\":\"10500\",\"title\":\"Бытовая техника\",\"url\":\"/category/bytovaya-tehnika-10500/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/searchteam-cdn/household_appliances_10500.png\",\"icon\":\"ic_m_appliances_filled\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"13\"}}},{\"id\":\"11000\",\"title\":\"Спорт и отдых\",\"url\":\"/category/sport-i-otdyh-11000/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/searchteam-cdn/sport_and_rest_11000.png\",\"icon\":\"ic_m_sport_filled\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"15\"}}},{\"id\":\"9700\",\"title\":\"Строительство и ремонт\",\"url\":\"/category/stroitelstvo-i-remont-9700/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/searchteam-cdn/construction_and_renovation_9700.png\",\"icon\":\"ic_m_repairs_filled\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"17\"}}},{\"id\":\"9200\",\"title\":\"Продукты питания\",\"url\":\"/category/produkty-pitaniya-9200/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/searchteam-cdn/food_9200.png\",\"icon\":\"ic_m_product_filled\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"19\"}}},{\"id\":\"6000\",\"title\":\"Аптека\",\"url\":\"/category/apteka-6000/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/searchteam-cdn/pharmacy_6000.png\",\"icon\":\"ic_m_pharmacy_filled\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"21\"}}},{\"id\":\"12300\",\"title\":\"Товары для животных\",\"url\":\"/category/tovary-dlya-zhivotnyh-12300/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/searchteam-cdn/zoo_12300.png\",\"icon\":\"ic_m_pet_filled\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"23\"}}},{\"id\":\"16500\",\"title\":\"Книги\",\"url\":\"/category/knigi-16500/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/searchteam-cdn/books_16500.png\",\"icon\":\"ic_m_book_printed_filled\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"25\"}}},{\"id\":\"33332\",\"title\":\"Туризм, рыбалка, охота\",\"url\":\"/category/ohota-rybalka-turizm-33332/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/searchteam-cdn/hiking_fishing_hunting_33332.png\",\"icon\":\"ic_m_tourism_filled\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"27\"}}},{\"id\":\"8500\",\"title\":\"Автотовары\",\"url\":\"/category/avtotovary-8500/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/searchteam-cdn/auto_goods_8500.png\",\"icon\":\"ic_m_auto_parts_filled\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"29\"}}},{\"id\":\"15000\",\"title\":\"Мебель\",\"url\":\"/category/mebel-15000/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/searchteam-cdn/furniture_15000.png\",\"icon\":\"ic_m_furniture_filled\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"31\"}}},{\"id\":\"13500\",\"title\":\"Хобби и творчество\",\"url\":\"/category/hobbi-i-tvorchestvo-13500/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/searchteam-cdn/%D0%BDobbies_and_creativity_13500.png\",\"icon\":\"ic_m_hobby_filled\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"33\"}}},{\"id\":\"50001\",\"title\":\"Ювелирные украшения\",\"url\":\"/category/yuvelirnye-ukrasheniya-50001/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/searchteam-cdn/jewelry_50001.png\",\"icon\":\"ic_m_jewelry_filled\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"35\"}}},{\"id\":\"7697\",\"title\":\"Аксессуары\",\"url\":\"/category/aksessuary-7697/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/searchteam-cdn/accessories_7697.png\",\"icon\":\"ic_m_accessories_filled\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"37\"}}},{\"id\":\"13300\",\"title\":\"Игры и консоли\",\"url\":\"/category/igry-i-soft-13300/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/searchteam-cdn/games_and_consoles_13300.png\",\"icon\":\"ic_m_game_filled\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"39\"}}},{\"id\":\"18000\",\"title\":\"Канцелярские товары\",\"url\":\"/category/kantselyarskie-tovary-18000/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/searchteam-cdn/office_supplies_18000.png\",\"icon\":\"ic_m_stationery_filled\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"41\"}}},{\"id\":\"9000\",\"title\":\"Товары для взрослых\",\"url\":\"/category/tovary-dlya-vzroslyh-9000/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/searchteam-cdn/adult_products_9000.png\",\"icon\":\"ic_m_adult_content_filled\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"43\"}}},{\"id\":\"8000\",\"title\":\"Антиквариат и коллекционирование\",\"url\":\"/category/antikvariat-vintazh-iskusstvo-8000/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/searchteam-cdn/antiques_8000.png\",\"icon\":\"ic_m_antiques_filled\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"45\"}}},{\"id\":\"32056\",\"title\":\"Цифровые товары\",\"url\":\"/category/tsifrovye-tovary-32056/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/searchteam-cdn/digital_goods_32056.png\",\"icon\":\"ic_m_digital_product_filled\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"47\"}}},{\"id\":\"37234\",\"title\":\"Подарочные сертификаты OZON\",\"url\":\"/category/podarochnye-sertifikaty-37234/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/multimedia-1-z/7354360871.jpg\",\"icon\":\"ic_m_gift_card_filled\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"49\"}}},{\"id\":\"14572\",\"title\":\"Бытовая химия и гигиена\",\"url\":\"/category/bytovaya-himiya-14572/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/searchteam-cdn/chemicals_14572.png\",\"icon\":\"ic_m_household_chemicals_filled\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"51\"}}},{\"id\":\"13100\",\"title\":\"Музыка и видео\",\"url\":\"/category/muzyka-i-video-13100/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/searchteam-cdn/music_and_video_13100.png\",\"icon\":\"ic_m_music_and_video_filled\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"53\"}}},{\"id\":\"39803\",\"title\":\"Автомобили\",\"url\":\"/category/avtomobili-39803/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/searchteam-cdn/cars_39803.png\",\"icon\":\"ic_m_auto_filled\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"55\"}}},{\"id\":\"35659\",\"title\":\"Товары для курения и аксессуары\",\"url\":\"/category/elektronnye-sigarety-i-tovary-dlya-kureniya-35659/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/searchteam-cdn/Smoking_products_and_accessories_35659.png\",\"icon\":\"ic_m_electronic_cigarette_filled\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"57\"}}}],\"marketing\":[{\"title\":\"Карта Ozon Банка\",\"url\":\"/highlight/keshbek-do-30-dlya-ozon-schet-i-premium-323369/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/cms/b8/td9/ozon_bank_logo.png\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"58\"}}},{\"title\":\"Билеты, Отели, Туры\",\"url\":\"/travel/?mwc_campaign=ozon_menu_main\",\"deeplink\":\"ozon://travel/?mwc_campaign=ozon_menu_m\",\"image\":\"https://ir-2.ozonstatic.cn/s3/cms/dd/t79/travel.png\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"59\"}}},{\"title\":\"Доставка от 1 часа\",\"url\":\"/highlight/express/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/cms/0e/tae/express.png\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"60\"}}},{\"title\":\"Ozon Premium\",\"url\":\"/highlight/premium/\",\"deeplink\":\"ozon://highlight/premium/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/cms/9b/t7a/premium.png\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"61\"}}},{\"title\":\"Зарубежные товары\",\"url\":\"/highlight/ozon-global-155600/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/cms/a5/tb8/ic_category_..png\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"62\"}}},{\"title\":\"Подарочные сертификаты\",\"url\":\"https://www.ozon.ru/category/podarochnye-sertifikaty-37234/\",\"deeplink\":\"https://www.ozon.ru/category/podarochnye-sertifikaty-37234/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/cms/a0/t4c/gifts.png\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"63\"}}},{\"title\":\"Цены от 39 ₽\",\"url\":\"/highlight/tovary-narashvat-1789580/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/cms/2d/t96/150x150_5_1.png\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"64\"}}},{\"title\":\"Ozon Забота\",\"url\":\"/special/care\",\"image\":\"https://ir-2.ozonstatic.cn/s3/cms/c0/t37/zabota.png\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"65\"}}},{\"title\":\"Товары в Рассрочку\",\"url\":\"/highlight/20023/\",\"deeplink\":\"ozon://highlight/20023/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/cms/fc/te2/rassrok.png\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"66\"}}},{\"title\":\"Сделано в России\",\"url\":\"/highlight/sdelano-v-rossii-1097658/\",\"deeplink\":\"ozon://highlight/sdelano-v-rossii-1097658/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/cms/f0/t6a/catalogue_made_in_russia_desk.png\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"67\"}}},{\"title\":\"Сделано в Москве\",\"url\":\"/highlight/sdelano-v-moskve-730077/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/cms/05/t4b/moscoww.png\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"68\"}}},{\"title\":\"Сделано в Беларуси\",\"url\":\"/highlight/sdelano-v-belarusi-1541934/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/cms/f6/t3e/ic_category_._2.png\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"69\"}}},{\"title\":\"Товары из Казахстана\",\"url\":\"/highlight/tovary-iz-kazahstana-3939922/\",\"deeplink\":\"ozon://highlight/tovary-iz-kazahstana-3939922/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/cms/8c/t03/2c6ee16a-5785-4a97-a3fc-5312e4d04ab4.png\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"70\"}}},{\"title\":\"Сделано в Кыргызстане\",\"url\":\"/highlight/sdelano-v-kyrgyzstane-4174120/\",\"deeplink\":\"ozon://highlight/sdelano-v-kyrgyzstane-4174120/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/cms/45/t48/150x150-kyrg.png\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"71\"}}},{\"title\":\"Уценённые товары\",\"url\":\"/highlight/utsenennye-tovary-831483/\",\"deeplink\":\"ozon://highlight/utsenennye-tovary-831483/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/cms/19/tde/sales.png\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"72\"}}},{\"title\":\"Экотовары\",\"url\":\"https://www.ozon.ru/realeco\",\"image\":\"https://ir-2.ozonstatic.cn/s3/cms/8f/t1a/eco.png\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"73\"}}},{\"title\":\"Товары Ozon\",\"url\":\"/seller/ozon\",\"deeplink\":\"ozon://seller/ozon/?miniapp=seller_0\",\"image\":\"https://ir-2.ozonstatic.cn/s3/cms/30/tbf/ozon_goods.png\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"74\"}}},{\"title\":\"Магазины на Ozon\",\"url\":\"/seller/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/cms/cb/taa/sis-deskv2_1.png\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"75\"}}},{\"title\":\"Ozon Merch\",\"url\":\"https://www.ozon.ru/brand/ozon-20529829/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/cms/31/t1a/merch.png\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"76\"}}},{\"title\":\"Стать продавцом\",\"url\":\"https://seller.ozon.ru/?utm_source=ozonru_web&utm_medium=link&utm_campaign=header_nachat_prodavat_na_ozon/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/cms/99/t58/seller.png\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"77\"}}},{\"title\":\"Открыть ПВЗ\",\"url\":\"https://pvz.ozon.ru/?perehod=catalog_ves_ozon_web\",\"image\":\"https://ir-2.ozonstatic.cn/s3/cms/d3/tb4/ic_category_pvz_1.png\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"78\"}}},{\"title\":\"Ozon для бизнеса\",\"url\":\"/business/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/cms/7a/t55/for_buisness.png\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"79\"}}},{\"title\":\"Создано людьми\",\"url\":\"/highlight/people-make-3179249/\",\"deeplink\":\"ozon://highlight/people-make-3179249/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/cms/3e/tde/property_1variant2.png\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"80\"}}},{\"title\":\"Ozon Клуб\",\"url\":\"/club/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/cms/fa/t41/style3d.png\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"81\"}}},{\"title\":\"Специальные предложения\",\"url\":\"/highlight/spetsproekty-na-ozon-3441747/\",\"deeplink\":\"ozon://highlight/spetsproekty-na-ozon-3441747/\",\"image\":\"https://ir-2.ozonstatic.cn/s3/cms/89/tf3/navi_icon_custom_48x48.png\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"82\"}}}],\"catalogButton\":{\"button\":{\"styleType\":\"ACTION_PRIMARY\",\"size\":\"SIZE_500\",\"title\":\"Каталог\",\"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_CUSTOM\"},\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"84\"}}}},\"iconShow\":\"ic_m_catalog_tile_filled\",\"iconClose\":\"ic_m_cross_filled\"},\"serviceButton\":{\"text\":\"Весь Ozon\",\"image\":\"https://ir-2.ozonstatic.cn/s3/cms/98/t2c/menu.svg\",\"imageHover\":\"https://ir-2.ozonstatic.cn/s3/cms/4b/t7b/menuhover.svg\",\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"83\"},\"view\":{\"actionType\":\"view\",\"key\":\"83\"}}},\"onlyRootNodes\":true,\"titleForShowMoreButton\":\"Еще\",\"titleForCloseMoreButton\":\"Свернуть\"}",
+    "selectedCurrencyLanguage-7278511-default-1": "{\"icon\":\"ic_m_flag_russia\",\"language\":\"RU\",\"action\":{\"behavior\":\"BEHAVIOR_TYPE_COMPOSER_NESTED_PAGE\",\"link\":\"/modal/selectLanguageCurrency\"},\"trackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"1v6b1MtyWzdpoB7pXNY5OkiRYZMQIQgV\"}},\"testInfo\":{\"automatizationId\":\"selected-currency-language\"}}",
+    "webCurrentSeller-7772769-default-1": "{\"header\":{\"title\":{\"text\":\"Магазин\", \"textColor\":\"textPrimary\", \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsHeadline400Small\", \"testInfo\":{\"automatizationId\":\"title\"}}, \"badge\":{\"isSubscribed\":false, \"subscribed\":{\"text\":\"Вы подписаны\", \"leftIcon\":\"ic_m_heart_filled\", \"size\":\"SIZE_400\", \"styleType\":\"CUSTOM\", \"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_COMPOSER_ACTION\", \"link\":\"sisUnlike\", \"id\":\"sisUnlike\", \"params\":{\"sellerId\":\"584984\"}}, \"testInfo\":{\"automatizationId\":\"unsubscribe\"}}, \"customBadgeStyle\":{\"leftGraphicColor\":\"graphicAccentPrimary\", \"textColor\":\"textPrimary\"}, \"hideDisclosure\":true}, \"unsubscribed\":{\"text\":\"Подписаться\", \"leftIcon\":\"ic_m_heart_filled\", \"size\":\"SIZE_400\", \"styleType\":\"CUSTOM\", \"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_DISMISS_AND_REDIRECT\", \"link\":\"/modal/ozonIdIframe?returnUrl=%2F\"}, \"trackingInfo\":{\"click\":{\"actionType\":\"click\", \"key\":\"k2tojOwKVT6lo2j1TjMxwQqHR3AnOpFoDAQo3FDgPKBp\"}}, \"testInfo\":{\"automatizationId\":\"subscribe\"}}, \"customBadgeStyle\":{\"leftGraphicColor\":\"graphicTertiary\", \"textColor\":\"textPrimary\"}, \"hideDisclosure\":true}}}, \"sellerCell\":{\"settings\":{\"topPadding\":\"PADDING_400\", \"bottomPadding\":\"PADDING_400\", \"leftPadding\":\"PADDING_400\", \"rightPadding\":\"PADDING_500\", \"disableSeparator\":true}, \"leftBlock\":{\"common\":{\"testInfo\":{\"automatizationId\":\"seller-logo\"}}, \"rightPadding\":\"PADDING_400\", \"icon\":{\"shape\":\"SQUIRCLE\", \"text\":\"М\", \"backgroundColor\":\"bgSecondary\"}}, \"centerBlock\":{\"title\":{\"text\":\"Музыкальный_киоск\", \"textColor\":\"textPrimary\", \"typographyToken\":\"tsCompactControl500Medium\", \"maxLines\":1, \"truncatingMode\":\"TAIL\"}, \"subtitle\":{\"text\":\"Перейти\", \"textColor\":\"textSecondary\", \"typographyToken\":\"tsBody400Small\", \"maxLines\":1, \"truncatingMode\":\"TAIL\"}, \"titleIcon\":{\"icon\":\"ic_m_status_points_filled\", \"tintColor\":\"graphicTertiary\"}}, \"common\":{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"https://www.ozon.ru/seller/muzykalnyy-kiosk/\"}, \"trackingInfo\":{\"click\":{\"actionType\":\"click\", \"key\":\"Z8tXL5jkZfXBpol4HMO3vrpSYAYNNPcV14orjujgnJ6Y\"}, \"view\":{\"actionType\":\"view\", \"key\":\"Z8tXL5jkZfXBpol4HMO3vrpSYAYNNPcV14orjujgnJ6Y\"}}, \"testInfo\":{\"automatizationId\":\"webCurrentSellerAll\"}}}, \"rating\":{\"icon\":{\"size\":\"SIZE_400\", \"shape\":\"SHAPE_NONE\", \"icon\":{\"icon\":\"ic_m_star_filled\", \"tintColor\":\"graphicWarningPrimary\"}, \"testInfo\":{\"automatizationId\":\"rating-icon\"}}, \"title\":{\"text\":\"4.9\", \"textColor\":\"textPrimary\", \"textAlignment\":\"CENTER\", \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsCompactControl300XSmall\", \"testInfo\":{\"automatizationId\":\"rating-value\"}}, \"backgroundColor\":\"bgSecondary\", \"action\":{\"behavior\":\"BEHAVIOR_TYPE_COMPOSER_NESTED_PAGE\", \"link\":\"/modal/shop-in-shop-rating-popover\", \"params\":{\"closeButton\":\"true\", \"maxWidthContent\":\"500\", \"screenSizeType\":\"wrap\", \"size\":\"600\", \"theme\":\"bottom\"}}, \"trackingInfo\":{\"click\":{\"actionType\":\"click\", \"key\":\"83tB06k2VIA8qy98h3VgDEPFZY0l1Pt959Zo0IDg3k1N\"}}, \"backgroundHover\":\"bgActiveSecondary\"}, \"chat\":{\"icon\":{\"size\":\"SIZE_400\", \"shape\":\"SHAPE_NONE\", \"icon\":{\"icon\":\"ic_m_tabbar_chat\", \"tintColor\":\"bgActionPrimary\"}, \"testInfo\":{\"automatizationId\":\"chat-icon\"}}, \"title\":{\"text\":\"Чат\", \"maxLines\":1, \"textAlignment\":\"CENTER\", \"preset\":\"PRESET_CUSTOM\", \"typographyToken\":\"tsCompactControl300XSmall\", \"leftPadding\":\"PADDING_100\", \"testInfo\":{\"automatizationId\":\"chat-text\"}}, \"backgroundColor\":\"bgSecondary\", \"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"/my/chat/?channel=CS&context=pdp&sku=1856972746&url_sign=mXhldpPdZKsPxFy6M4O65iq31athFYfYFI0LoBoOxcI.6d705490.WyJjaGFubmVsIiwidXNlcl9pZCJd.1&user_id=584984&prefillMessage=e3t70JfQtNGA0LDQstGB0YLQstGD0LnRgtC1ISDQoyDQvNC10L3RjyDQstC+0L/RgNC+0YEg0L/QviDQstCw0YjQtdC80YMg0YLQvtCy0LDRgNGDICIlcyIsINCw0YDRgtC40LrRg9C7ICVzfHBkcC1hcGl8WyVzfNCa0L7QvNC/0LDQutGCINC00LjRgdC6IEJMQU5LICYgSk9ORVMgJiBMQUlEIEJBQ0sgLSBTaXR0aW5nIGluIE15IFNvZmEgKFZhbiBCZWxsZW4gUmVtaXgpIDIwMjMg0LMufCVzfDE4NTZdfX19Lg==\"}, \"trackingInfo\":{\"click\":{\"actionType\":\"click\", \"key\":\"NOtw806OKc05mrryt7kPnwLIGnlgDzujZLN1qsyw5n5Q\"}}, \"backgroundHover\":\"bgActiveSecondary\", \"templateLink\":\"/my/chat/?channel=CS&context=pdp&sku=1856972746&url_sign=mXhldpPdZKsPxFy6M4O65iq31athFYfYFI0LoBoOxcI.6d705490.WyJjaGFubmVsIiwidXNlcl9pZCJd.1&user_id=584984&prefillMessage={placeholder}\", \"placeholderValue\":\"Здравствуйте! У меня вопрос по вашему товару \\\"Компакт диск BLANK \\u0026 JONES \\u0026 LAID BACK - Sitting in My Sofa (Van Bellen Remix) 2023 г.\\\", артикул 1856.\", \"placeholderKey\":\"{placeholder}\"}, \"backgroundColor\":\"layerFloor1\", \"innerBackgroundColor\":\"bgSecondary\", \"loadingWithWebDelivery\":true, \"sellerCellHoverColor\":\"textActiveAction\", \"trustFactors\":[{\"icon\":{\"size\":\"SIZE_400\", \"shape\":\"SHAPE_NONE\", \"icon\":{\"icon\":\"ic_m_tabbar_orders\", \"tintColor\":\"graphicTertiary\"}, \"testInfo\":{\"automatizationId\":\"order-icon\"}}, \"title\":{\"text\":\"Заказы\", \"testInfo\":{\"automatizationId\":\"order-text\"}}, \"badge\":{\"text\":\"36.5 K\", \"size\":\"SIZE_400\", \"styleType\":\"NEUTRAL_SECONDARY\", \"common\":{\"testInfo\":{\"automatizationId\":\"order-value\"}}, \"hideDisclosure\":true}, \"tooltip\":{\"title\":{\"text\":\"Столько заказов в магазине за всё время\"}, \"qaId\":\"order-tooltip\"}, \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"nRtr27WP0Fgoxk5vt1KvBWpcrXQ4kCYMon5lI18L1zg\"}}}, {\"icon\":{\"size\":\"SIZE_400\", \"shape\":\"SHAPE_NONE\", \"icon\":{\"icon\":\"ic_m_info_input_filled_compact\", \"tintColor\":\"graphicTertiary\"}, \"testInfo\":{\"automatizationId\":\"about-seller-icon\"}}, \"title\":{\"text\":\"О магазине\", \"testInfo\":{\"automatizationId\":\"about-seller-text\"}}, \"tooltip\":{\"title\":{\"text\":\"О магазине\"}, \"subtitle\":[{\"type\":\"text\", \"content\":\"ООО \\\" Виртуоз \\\"\", \"font\":\"tsBody300XSmall\", \"color\":\"textSecondaryInverted\"}, {\"type\":\"newLine\"}, {\"type\":\"newLine\"}, {\"type\":\"text\", \"content\":\"ОГРН - 1146829005234\", \"font\":\"tsBody300XSmall\", \"color\":\"textSecondaryInverted\"}, {\"type\":\"newLine\"}, {\"type\":\"newLine\"}, {\"type\":\"text\", \"content\":\"Адрес - 392000, Тамбовская область, Тамбов, М.Горького, 49 А\", \"font\":\"tsBody300XSmall\", \"color\":\"textSecondaryInverted\"}, {\"type\":\"newLine\"}, {\"type\":\"newLine\"}, {\"type\":\"text\", \"content\":\"Режим работы — согласно режиму работы Ozon\", \"font\":\"tsBody300XSmall\", \"color\":\"textSecondaryInverted\"}], \"qaId\":\"about-seller-tooltip\"}, \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"Y7tjqL9nRt6p641rFVWN867fqXrQ5XSBX8WYgSm9Q0qK\"}}}], \"onboarding\":{\"settings\":{\"duration\":\"20\", \"delay\":\"5\"}, \"banner\":{\"title\":{\"text\":\"Магазин теперь здесь\", \"textColor\":\"textPrimaryInverted\", \"typographyToken\":\"tsCompact500Medium\"}, \"subtitle\":{\"text\":\"Смотрите информацию о нём и подписывайтесь, чтобы не пропустить новинки\", \"textColor\":\"textSecondaryInverted\", \"typographyToken\":\"tsBody400Small\"}, \"image\":\"https://ir-2.ozonstatic.cn/s3/pdp-api/new_shop_onboarding_icon.png\", \"trackingInfo\":{\"view\":{\"actionType\":\"view\", \"key\":\"x6tPV1X76cBpArpXtBXlOPwu57rj9Zs3015w1c58BY18\"}}}}, \"trustFactorsSettings\":{\"trustFactorsToShow\":3, \"showMoreBlock\":{\"settings\":{\"disableSeparator\":true}, \"centerBlock\":{\"title\":{\"text\":\"Ещё о магазине\", \"textColor\":\"textAction\", \"typographyToken\":\"tsCompactControl400Small\", \"maxLines\":1, \"truncatingMode\":\"TAIL\"}}, \"rightBlock\":{\"alignment\":\"ALIGNMENT_CENTER\", \"leftPadding\":\"PADDING_300\", \"icon\":{\"size\":\"SIZE_300\", \"shape\":\"SHAPE_NONE\", \"icon\":{\"icon\":\"ic_s_circle_chevron_down_filled\", \"tintColor\":\"graphicNeutral\"}}}, \"common\":{\"testInfo\":{\"automatizationId\":\"more-features\"}}}, \"hoverColorIcon\":\"bgActivePrimary\", \"hoverColorTitle\":\"textActiveAction\"},\"params\":{\"enableOnboarding\":true,\"loadingWithWebDelivery\":true,\"maxCharsInTitle\":21,\"maxCharsInTitleWithIcon\":19,\"onboardingBeforeShowTime\":5,\"onboardingBody\":\"Смотрите информацию о нём и подписывайтесь, чтобы не пропустить новинки\",\"onboardingShowTime\":20,\"onboardingTitle\":\"Магазин теперь здесь\",\"ordersCountMinOrdersToDisplay\":1000,\"ozonRussiaGradientEnable\":true,\"subscribeText\":\"Вы подписаны\",\"titleWidget\":\"Магазин\",\"trustfactorsLimit\":3,\"unSubscribeText\":\"Подписаться\"}}",
+    "webQuestionCount-3132022-default-1": "{\"cellTrackingInfo\":{\"click\":{\"actionType\":\"click\",\"key\":\"1v6b1OraEbEziIxNibBvWhLtr2pq7RWJ\"},\"view\":{\"actionType\":\"view\",\"key\":\"1v6b1OraEbEziIxNibBvWhLtr2pq7RWJ\"}},\"link\":\"https://www.ozon.ru/product/1856972746questions/\",\"text\":\"Задать вопрос\",\"lmtParams\":{\"anchorUrl\":\"?tab=questions#comments--offset-130\"}}"
+  },
+  "browser": {
+    "ip": "112.5.236.39",
+    "isDesktop": true,
+    "platform": "desktop",
+    "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "prevLocation": "https://www.ozon.ru/?__rr=1&abt_att=1",
+    "useSW": true,
+    "webp": true,
+    "device": "desktop",
+    "age": "modern",
+    "family": "Chrome",
+    "majorVersion": 148,
+    "cdnImgHostname": "ir-2.ozonstatic.cn",
+    "cdnVideoHostname": "v-2.ozone.ru",
+    "cdnOriginalImgHostname": "io.ozone.ru",
+    "cdnStaticHostname": "st-2.ozonstatic.cn",
+    "avif": true
+  },
+  "client": {
+    "platform": "desktop",
+    "marketplaceDomain": "ozon.ru"
+  },
+  "layoutTrackingInfo": "{\"layoutId\":11852,\"layoutVersion\":1273,\"pageType\":\"pdp\",\"ruleId\":2149,\"categoryId\":13101,\"categoryName\":\"Поп-музыка\",\"currentPageUrl\":\"https://www.ozon.ru/product/kompakt-disk-blank-jones-laid-back-sitting-in-my-sofa-van-bellen-remix-2023-g-1856972746/\",\"deviceType\":\"desktop\",\"hierarchy\":\"Музыка и видео/Музыка/Поп-музыка\",\"platform\":\"site\",\"templateType\":\"desktop\",\"sku\":1856972746,\"marketplaceId\":1,\"requestId\":\"1fcfc124b71957b5a84e988b62209d4a\",\"userWwId\":1}",
+  "location": {
+    "current": {
+      "areaId": 2,
+      "areaType": 4,
+      "city": "Москва",
+      "country": "Россия",
+      "countryCode": "RUS",
+      "countryId": 1,
+      "fias": "0c5b2444-70a0-4932-980c-b4dc0d3f02b5",
+      "fullName": "Москва",
+      "name": "Москва",
+      "timeZoneUtcname": "UTC+3",
+      "geoCoordinate": {},
+      "uid": "0c5b2444-70a0-4932-980c-b4dc0d3f02b5"
+    }
+  },
+  "seo": {
+    "title": "Компакт диск BLANK & JONES & LAID BACK - Sitting in My Sofa (Van Bellen Remix) 2023 г. купить на OZON по низкой цене (1856972746)",
+    "link": [
+      {
+        "href": "https://www.ozon.ru/product/kompakt-disk-blank-jones-laid-back-sitting-in-my-sofa-van-bellen-remix-2023-g-1856972746/",
+        "rel": "canonical"
+      },
+      {
+        "href": "https://www.ozon.ru/product/kompakt-disk-blank-jones-laid-back-sitting-in-my-sofa-van-bellen-remix-2023-g-1856972746/",
+        "rel": "alternate",
+        "hreflang": "x-default"
+      },
+      {
+        "href": "https://www.ozon.ru/product/kompakt-disk-blank-jones-laid-back-sitting-in-my-sofa-van-bellen-remix-2023-g-1856972746/",
+        "rel": "alternate",
+        "hreflang": "ru-ru"
+      },
+      {
+        "href": "https://ozon.by/product/kompakt-disk-blank-jones-laid-back-sitting-in-my-sofa-van-bellen-remix-2023-g-1856972746/",
+        "rel": "alternate",
+        "hreflang": "ru-by"
+      },
+      {
+        "href": "https://ozon.kz/product/kompakt-disk-blank-jones-laid-back-sitting-in-my-sofa-van-bellen-remix-2023-g-1856972746/",
+        "rel": "alternate",
+        "hreflang": "ru-kz"
+      },
+      {
+        "href": "https://am.ozon.com/product/kompakt-disk-blank-jones-laid-back-sitting-in-my-sofa-van-bellen-remix-2023-g-1856972746/",
+        "rel": "alternate",
+        "hreflang": "ru-am"
+      },
+      {
+        "href": "https://uz.ozon.com/product/kompakt-disk-blank-jones-laid-back-sitting-in-my-sofa-van-bellen-remix-2023-g-1856972746/",
+        "rel": "alternate",
+        "hreflang": "ru-uz"
+      }
+    ],
+    "meta": [
+      {
+        "content": "Компакт диск BLANK & JONES & LAID BACK - Sitting in My Sofa (Van Bellen Remix) 2023 г. – покупайте на OZON по выгодным ценам! Быстрая и бесплатная доставка, большой ассортимент, бонусы, рассрочка и кэшбэк. Распродажи, скидки и акции. Реальные отзывы покупателей. (1856972746)",
+        "name": "description"
+      },
+      {
+        "content": "https://ir-2.ozonstatic.cn/s3/multimedia-1-p/7304636401.jpg",
+        "property": "og:image"
+      },
+      {
+        "content": "website",
+        "property": "og:type"
+      },
+      {
+        "content": "OZON",
+        "property": "og:site_name"
+      },
+      {
+        "content": "https://ir-2.ozonstatic.cn/multimedia/xml/browserconfig.xml",
+        "name": "msapplication-config"
+      },
+      {
+        "content": "OZON",
+        "name": "application-name"
+      },
+      {
+        "content": "https://www.ozon.ru/",
+        "name": "msapplication-starturl"
+      },
+      {
+        "content": "Интернет-магазин OZON",
+        "name": "msapplication-tooltip"
+      },
+      {
+        "content": "https://www.ozon.ru/product/kompakt-disk-blank-jones-laid-back-sitting-in-my-sofa-van-bellen-remix-2023-g-1856972746/",
+        "property": "og:url"
+      },
+      {
+        "content": "Компакт диск BLANK & JONES & LAID BACK - Sitting in My Sofa (Van Bellen Remix) 2023 г. ",
+        "property": "og:title"
+      },
+      {
+        "content": "Успейте купить по выгодной цене! ",
+        "property": "og:description"
+      },
+      {
+        "content": "1211635852237386",
+        "property": "fb:app_id"
+      }
+    ],
+    "script": [
+      {
+        "innerHTML": "{\"@context\":\"http://schema.org\",\"@type\":\"Product\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"5.0\",\"reviewCount\":\"8\"},\"brand\":\"\",\"description\":\"Новый, в упаковке, диск страна производитель Россия, 4 - страничный качественный буклет.\",\"image\":\"https://ir-2.ozonstatic.cn/s3/multimedia-1-p/7304636401.jpg\",\"name\":\"Компакт диск BLANK \\u0026 JONES \\u0026 LAID BACK - Sitting in My Sofa (Van Bellen Remix) 2023 г.\",\"offers\":{\"@type\":\"Offer\",\"url\":\"https://www.ozon.ru/product/kompakt-disk-blank-jones-laid-back-sitting-in-my-sofa-van-bellen-remix-2023-g-1856972746/\",\"availability\":\"http://schema.org/InStock\",\"price\":\"543\",\"priceCurrency\":\"RUB\"},\"sku\":\"1856972746\"}",
+        "type": "application/ld+json"
+      }
+    ]
+  },
+  "shared": "{\"context\":\"ozon\"}",
+  "segments": [
+    1
+  ],
+  "pageInfo": {
+    "url": "/product/1856972746?__rr=1&sh=Dwv8xCalRg",
+    "layoutId": 11852,
+    "layoutVersion": 1273,
+    "pageType": "pdp",
+    "ruleId": 2149,
+    "referer": "https://www.ozon.ru/?__rr=1&abt_att=1",
+    "pageTypeTracking": "pdp",
+    "analyticsInfo": {
+      "sku": 1856972746
+    }
+  },
+  "trackingPayloads": {
+    "0_6b1WoEwUhY62abMAICz43OJ3subKxs": "{\"layoutId\":11852,\"layoutVersion\":1273,\"pageType\":\"pdp\",\"ruleId\":2149,\"categoryId\":13101,\"categoryName\":\"Поп-музыка\",\"currentPageUrl\":\"https://www.ozon.ru/product/kompakt-disk-blank-jones-laid-back-sitting-in-my-sofa-van-bellen-remix-2023-g-1856972746/\",\"deviceType\":\"desktop\",\"hierarchy\":\"Музыка и видео/Музыка/Поп-музыка\",\"platform\":\"site\",\"templateType\":\"desktop\",\"sku\":1856972746,\"marketplaceId\":1,\"requestId\":\"1fcfc124b71957b5a84e988b62209d4a\",\"userWwId\":1}"
+  },
+  "pageToken": "0_6b1WoEwUhY62abMAICz43OJ3subKxs",
+  "userToken": "1f6b1Td051TKLlwwvhGiUKlABcd3Of8c",
+  "experimentsConfig": {
+    "disableSendWidgetViewCE": true,
+    "lowerGalleryImageQuality": true,
+    "prefetchListPhotosVideoSW": true,
+    "enableDevtools": true,
+    "swDisableReinitSPA": true,
+    "fingerprinting": true,
+    "prerenderCartPageSW": true,
+    "prerenderHomePageSW": true,
+    "prefetchAssetsSW": true,
+    "trackMapInitActions": true,
+    "mergeUrlLogger": true,
+    "trackMediaPlayerMetricsRum4": true,
+    "trackImagesRum4": true,
+    "enableVideoPrefetchSW": true,
+    "isModern": true,
+    "useNewSwPath": true,
+    "allyMode": true,
+    "enableTrackerLogs": true,
+    "isCdnFonts": true,
+    "enableTrackerInfoLogs": true,
+    "cpmTrackerEnabled": true,
+    "newPaginationRum4": true,
+    "entrypointPrerenderHome": true,
+    "enableVersionFallbackLogs": true,
+    "fastDeliveryDeploy": true,
+    "prerenderCheckoutSW": true,
+    "prefetchWebGalleryVideoSW": true,
+    "trackLcpElement": true,
+    "alternativeCdnImages": true,
+    "enableSWCaching": true,
+    "useEntrypointPageJson": true,
+    "detectHeadlessRum4": true,
+    "earlyHintsEnabled": true,
+    "disableProductClickEvent": true,
+    "enableSpeculationRules": true,
+    "disableWidgetTracking": true,
+    "disableVersionFallback": true,
+    "linkAsyncWidgets": true,
+    "usePreloadImagesPDPGallery": true,
+    "useCrossorigin": true,
+    "withPerformanceMarks": true,
+    "gtmDelay2000": true,
+    "imgPixelatedRender": true,
+    "isTrinityEvent": true,
+    "entrypointCacheControl": true,
+    "s3PublicPath": true
+  },
+  "requestID": "1fcfc124b71957b5a84e988b62209d4a",
+  "trackingTokenAliases": {
+    "catalogMenu-7278490-default-1": {
+      "data": {
+        "81": "nRtr27WP0FJ0kXV7F94zzpAtJ2vOkOfx06Q9zFNDxOv",
+        "63": "mqtk3jMgwcMA5nV1cP3P597tx5N2VRClRLOzghA5q8ML",
+        "13": "Vvtz6xZWruQm0Qz0S9jmM5giLOgo0RH2zwMPU6n8Kz4",
+        "46": "DQuDz5xE2UqO7m2nH3VAWv0svg2R04hw7zNgKH4mAWL0",
+        "35": "79tnKAR85fQY2XLLIy6kjJQU9WoONVC9rN0nnc2gBr7j",
+        "47": "Eqtk23qvrcDgNNLKfDQYQ7MckWGRAGFYwgjmWuXm5q7r",
+        "30": "kruojOwKVT8EJ7r8I8yqAgph2R1woxszQAxN0TDJ8nGx",
+        "11": "oZt6RrwgNT6j1EoptYD1P1PTv555wYtmqW8lJcgyMV5Z",
+        "73": "16tLoMZPyT5wqPp1cqly3K9H3EDp3WHq5ZN3LtOvvWwA",
+        "36": "7punKAR85f7v1wGZt88zz7lH0MQEKzSxRvYoJHNYxQyL",
+        "19": "16tLoMZPyTmZX2ygtmmDJLPsLVX767HkW8V7xs6lVE4r",
+        "9": "WPtNK54M7uxnQPOgFj3BXqDtMy1jmwu7v8p1JT9x9XMn",
+        "10": "z7uOZMrklc1V8V95Fq6YypoSwoql9yHq0Dv6PCVkWoKD",
+        "6": "6BuZvrWp2tQALB28tnm3JvRcXL2rWOFj9wNK8SxPmxo1",
+        "15": "nRtr27WP0F542J33h3gWXV9h9LkvAMFxQYZXGiX3mXZ7",
+        "16": "j0uZXnOBLt1mGr5JiX6J421Iw8OrPVcYnnZqGI07Dl0y",
+        "70": "K8tZN21Xgt4mmLp1fYR5X0wC5607lVfLqgNxVUL7Mxpl",
+        "74": "r2t4Y8mkKHjY9LYAIA23y7YiEAGD5KFjqAKO1i1jyMAR",
+        "43": "GRt2R18Dxt1qjv21UvgAEmAT2XG4VMiDk8jz2FEW5Yor",
+        "67": "ywtAwr48vsZ9nr6ni8G3O6Pf1nXkLruOK21k2c3YOZrX",
+        "53": "LZtlrR3GxHy0N2NvFJwXBk6t5OA4QAU5ZoopkIXpnvwJ",
+        "0": "DQuDz5xE2U2VYOVXUQGJQNEsgAZ6zYHvmW20XUNnxyNQ",
+        "55": "J8tgvqn6GFOMp1n9uwLMZ4vTZnonNlFVPW197HNGV911",
+        "79": "J8tgvqn6GFAvgmjVi0RRNPWCBqX429UgoGJzNC4Q3oL4",
+        "72": "46tROB8DNhEL2V7FKr5VVwiN1JjNQFLlVVk1CoR49GJ",
+        "51": "K8tZN21Xgt3mKEZqfW7jBZGUq0Jp9EumxERvxUEnx167",
+        "54": "PzuJRK6jYcxOlzq7t793yxjcVlRVWkFAyE4xAUkjEYGX",
+        "50": "OPuEjpO7VTErZ1jKIvRgGqgT64P811t5OLB1VHEmEJXX",
+        "66": "jYtZXnOBLt1OKgKGH1vOEgKSZEJPvAhGXLEX1svAJNJ9",
+        "4": "kruojOwKVT9k8Y0nF01ZBWpSREWEwrCpmnj1js0X83zQ",
+        "27": "PjtJRK6jYcJOPrpYuAZrN8Di7rOBqjF8EO2j7IED4jqj",
+        "76": "A6tGXNRwycOWMvrnTQW3WnmhGGLg23uW0MAKAukRpP82",
+        "28": "XrukRX98vcMpm4NgUvPAW3GUrAjWzKTxp0Br3TL7J810",
+        "18": "JNugvqn6GF9lxWzmHOwom19iOjEjr4h3OAy24c8KKxXk",
+        "20": "00uY5Gy7Oc4rg8L1ipgOKo0FQXpxk2tXNpNOEsoOkyY4",
+        "78": "mqtk3jMgwcx3lJKAso2996BUnoYA5EI4RBPVDUvpZGwx",
+        "2": "8MuB06k2VIz6rRY6i22M7wYTzN43YVu2x2D9AU9vMxBD",
+        "77": "gpt4RABoXHV5OEO5sDBE5kKC33K7gys6DQlNWH4k62BB",
+        "61": "lRt682MVJTwyQO68SokoEOmI7VXOyrs1028OlcWwNOrP",
+        "21": "99trXkOlyFw9Q9PWcL948Xpt1rMB2nt5wg42Ms4rDr6k",
+        "75": "OgtEjpO7VTDKWpw7IOGL6JLHQmoZD6sD8YZmS3nWyLV",
+        "24": "rmu4Y8mkKHDE063RColZY1PUGA2z2NcrRLRzwsLGZOjj",
+        "42": "WQuNK54M7uO8pRo0u54050mUBLOBnRSo8yYz1cGBXYLj",
+        "62": "ywtAwr48vs6ykBolfrpWqP2urpGBvqfp4QLgvFL6JnBy",
+        "12": "OPuEjpO7VTwAPX6gHmnxLVGUnRo0AkFymZgXJSANj34o",
+        "14": "XrukRX98vcQN9vYKSy3gZ0ZS2LVnZosRBvZ4RS08P9B",
+        "31": "ywtAwr48vsPBP29IYX0X4VsWOlBozUM2mPD2F9A3o8O",
+        "83": "Eqtk23qvrc2z89JKi40GVGqto3ElLGFYQP7v7HoPWoWg",
+        "56": "x2uPV1X76cDQVAlnUjgRmj1hjWLpBgioRqwn0iQRNpgB",
+        "23": "vQtr57lYmFwAgV29FBkGZyrHvA4EWMCKVV39ju9jZNLm",
+        "7": "J8tgvqn6GFGKNX2LfRx0mBwUkQq2oVhOyN2LVI4nw3vQ",
+        "57": "DqtDz5xE2UnzYLKGU0gnypQCv0GlWGim8A5yYfqQ9JkN",
+        "39": "28t0XpmBqtqyx6qNUGMxrDXfoPPk8phWWq0goipoGxGr",
+        "45": "lRt682MVJTKkp0mRC2Bmg0nU42xK7TGZ09kkiDEzW3E",
+        "64": "w0tgmGNqMFyN4QABs22ngNJcyGpgpMcPQ2OoXulN81nv",
+        "52": "v8ur57lYmFnYGn1GClZ4AqJIJ1YJlvSDqroWxF9wvXK6",
+        "33": "z6tOZMrklcW8MxEXCk3jL51c8Lvgkjty2Bpovtr93D1A",
+        "65": "99trXkOlyF1qQ01mh58Jkri2Jj7W5ug2G65QipELwLq",
+        "84": "Brtzr7nwQuPg8zoBiMELRMEcAZAkWiz0nL7yFkX46gK",
+        "37": "Eqtk23qvrc523PnCE5QQn4hVXVWDEuwx6v46uN009kE",
+        "8": "RPuy1vOM9FZ02rnWFg08OQWF9BjpwqSrOPJQJFrKMq54",
+        "44": "z7uOZMrklcJWr7N1sp05GBFGKmmpvc6JBZ6xiG3pKDA",
+        "38": "JNugvqn6GF9OB0D1iAE8LgvIQMAZJRhVvE90Ask9VVl6",
+        "32": "RPuy1vOM9FOy4A2xI4qBB53H70ErLBIR71ryzCEgrBZ4",
+        "1": "Brtzr7nwQupA07EASADxP7TJVWV0rTo5WPPQFrKoNzl",
+        "59": "Z8tXL5jkZf3W833khLwJWG5FQ947Z8I0z7Q6BixPEkgr",
+        "26": "JNugvqn6GFv9vG99fzwYwMntAoXpYRcMgR5WJf2wA7xG",
+        "22": "GMu2R18DxtE9RYXpT5mRE4Yi1LNVlytK0j664hkygMvz",
+        "29": "46tROB8DNhzGpNBxIGGYvB4HpgxX6XcjP2MBwcpD6mDY",
+        "5": "MZtv1qJwKtRxkJpgCVOQvBJT4DpGlJFnp4k6MILWPyOv",
+        "25": "mqtk3jMgwcwZWNWwSjWo16rh2vv54Qh1n2xzZSjXm5kk",
+        "82": "57tw7ZlXmcx4zOOVIoAoBo1fAVpvzNCqADmOpsGEZxr3",
+        "80": "Rlty1vOM9FN5Nl5gIMzEozBCDX9jMyS9N3RQ7IK5ZrMR",
+        "68": "z6tOZMrklcV9RQvEcyDm3vrFzMyY8XhND6xqqIV5OX5p",
+        "49": "Brtzr7nwQuyY7D4PukYjO0WF9V9jzATqK5mANiQQMP1R",
+        "60": "mqtk3jMgwcxy2mEyS95w6kKUgx83y1iWmDKxWivgPgGD",
+        "17": "jYtZXnOBLt74QRxgUYWJnk0fVXV3RwtvERARzSvnnjAn",
+        "3": "MZtv1qJwKtqA4k10SjXmjODIwKZ6kXsKonlVSJn7Zn0",
+        "58": "46tROB8DNh4LRLEoHzmD03Pt9xM4oLcKmwxWBsgpD0Ag",
+        "40": "RPuy1vOM9FEK0r6nuJnwOJ7hEJqlYkCD9M19Vsrr2KJo",
+        "48": "7punKAR85fyrq9KLsrwZZmNC0xWlkVt4NvB3zIKPLwYx",
+        "71": "WPtNK54M7uO5zA1kcnWrwAnhW2Mz69uZNQLAZsWB3jr3",
+        "69": "r2t4Y8mkKHGozXw6TroGV5zTyz1MPKFv3m80CBpLWkR",
+        "34": "1GuLoMZPyT4z8O1pHLl5vDNfZRRyyKfxNEqvvsM210QA",
+        "41": "XQtkRX98vcR07BqXT2lOyNQFXzEvPDSwnYA4LFXB8qWX"
+      }
+    },
+    "horizontalMenu-7302642-default-1": {
+      "data": {
+        "0": "1v6b1PzvCojx4Goo_2WDXY5pJ8doMRjG",
+        "5": "1v6b1OdHh-FwrfXBZHaF3cgIeQvkhh52",
+        "1": "1v6b1UuZUmbr9vSSNgJUsgnJEMpszMx8",
+        "8": "1v6b1YGJvtgwIXMX0doZ74aEeraqheam",
+        "6": "1v6b1OZn0tTmJ85HgZJGzwbN-x08DU6e",
+        "2": "1v6b1Rc-P-pnXQbwvpZXwXyInH1Q1e4W",
+        "4": "1v6b1U2MVAkaVv-YmocZVeubObBs-mEv",
+        "7": "1v6b1PRVoNY6k_L9dK1rD9JSIn-mXPtR",
+        "3": "1v6b1MPEEaL7_TMbLOXbEkxhQcM7gfvN"
+      }
+    },
+    "addressBookBarWeb-7278510-default-1": {
+      "data": {
+        "2": "1v6b1TejpScyPtj2qIpDtl0KGEIqgQEz",
+        "1": "1v6b1TejpScyPtj2qIpDtl0KGEIqgQEz",
+        "0": "1v6b1TejpScyPtj2qIpDtl0KGEIqgQEz"
+      }
+    },
+    "webSingleProductScore-3386432-default-1": {
+      "data": {
+        "1": "k2tojOwKVT7L52G1cW5gwW4T0r3pgLCLoZG1Yu4q4yyl",
+        "0": "k2tojOwKVT7L52G1cW5gwW4T0r3pgLCLoZG1Yu4q4yyl"
+      }
+    },
+    "webReviewProductScore-3132021-default-1": {
+      "data": {
+        "0": "k2tojOwKVT7L52G1cW5gwW4T0r3pgLCLoZG1Yu4q4yyl",
+        "1": "k2tojOwKVT7L52G1cW5gwW4T0r3pgLCLoZG1Yu4q4yyl"
+      }
+    },
+    "footer-347823-default-1": {
+      "data": {
+        "9": "1v6b1P203qGvXcb6_-Cs7F7mubyDWE4Y",
+        "5": "1v6b1Z_X5R1G-fbvkaEuPKMI4izBLoVW",
+        "3": "1v6b1_g46aJ3nuHgqwnpeNHfa8RjJ7Z5",
+        "12": "1v6b1WusUXEUS8ooMIimKFiwGug8o8J2",
+        "6": "1v6b1XZc6mbv9Jd6QQ0u0leT5ws8zd5A",
+        "1": "1v6b1-MpVs6yaZEqA2YTNyYEOWPFv3dk",
+        "11": "1v6b1OjSLLm3IyLS0giwki-1Fkxll7Qr",
+        "8": "1v6b1VubK69DT_kxMuRR9BnCl1Gbz39g",
+        "7": "1v6b1-SyAl95nBg3QD_ybm278ihDskHH",
+        "4": "1v6b1NXDo81xZnZcqMCjTVlooMhl-f8O",
+        "2": "1v6b1Q_vFLKAG15PPqCUvE7CkEmL0gJF",
+        "10": "1v6b1YNArM5airroOkib-4x-pvdC-sq_",
+        "0": "1v6b1_0xSL-VKvtZLlKDu_ZHyFdrGsne"
+      }
+    }
+  }
+}

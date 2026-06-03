@@ -7,13 +7,10 @@ import subprocess
 import time
 import os
 from playwright.async_api import async_playwright, Browser, BrowserContext, Page
-from app.config import get_config
-from app.utils import get_logger
+from backend.services.core.config import get_config
+from backend.utils import get_logger
 
 logger = get_logger(__name__)
-
-# 策略函数注册表
-STRATEGIES = {}
 
 
 def _cfg():
@@ -252,6 +249,7 @@ class OzonBrowser:
         self._kill_chrome()
         time.sleep(0.5)
 
+        headless = cfg["browser"]["native"].get("headless", True)
         args = [
             cfg["browser"]["cdp"]["chrome_path"],
             f"--remote-debugging-port={cfg['browser']['cdp']['port']}",
@@ -264,6 +262,8 @@ class OzonBrowser:
             "--window-position=0,0",
             "about:blank",
         ]
+        if headless:
+            args.insert(1, "--headless=new")
         self._chrome_proc = subprocess.Popen(
             args, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL
         )

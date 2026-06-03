@@ -1,16 +1,10 @@
 """
 OZON Crawler - FastAPI 应用入口
 
-启动: python app/main.py
+启动: python backend/main.py
 """
 import sys
 import os
-
-# Windows Playwright 兼容: 必须在任何 asyncio 操作之前设置
-if sys.platform == "win32":
-    import asyncio as _asyncio
-    if not isinstance(_asyncio.get_event_loop_policy(), _asyncio.WindowsSelectorEventLoopPolicy):
-        _asyncio.set_event_loop_policy(_asyncio.WindowsSelectorEventLoopPolicy())
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -18,20 +12,19 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.utils import init_db, get_logger
+from backend.utils import init_db, get_logger
 
 logger = get_logger(__name__)
-from app.routes import ozon, monitor, webhook
+from backend.routes import ozon, monitor, webhook
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     init_db()
-    logger.info("数据库已初始化")
-    logger.info("OZON Crawler 已启动")
+    logger.info("Smart-Ecom-Automation 已启动")
     logger.info("API 文档: http://localhost:8000/docs")
     yield
-    from app.services.browser_service import _browser_instance
+    from backend.services.core.browser import _browser_instance
     if _browser_instance:
         await _browser_instance.close()
     logger.info("已关闭")
@@ -65,4 +58,5 @@ async def health():
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("app.main:app", host="0.0.0.0", port=8000)
+
+    uvicorn.run("backend.main:app", host="0.0.0.0", port=8000)

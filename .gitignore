@@ -10,13 +10,13 @@ dist/
 build/
 
 # 数据库
-app/data/
+backend/data/
 
 # 日志
-app/logs/
+backend/logs/
 
 # 浏览器 profile
-app/chrome_profile/
+backend/chrome_profile/
 
 # IDE
 .idea/

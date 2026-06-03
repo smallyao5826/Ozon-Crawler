@@ -4,8 +4,8 @@ URL 从数据库读取, 可通过 API 动态管理
 """
 import asyncio
 import requests
-from app.utils.database import get_db
-from app.utils import get_logger
+from backend.utils.database import get_db
+from backend.utils import get_logger
 
 logger = get_logger(__name__)
 TIMEOUT = 10

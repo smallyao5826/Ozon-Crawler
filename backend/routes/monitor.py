@@ -6,8 +6,8 @@ from datetime import datetime
 from fastapi import APIRouter, HTTPException, Query
 from pydantic import BaseModel, Field
 from typing import Optional
-from app.utils import get_db, success, error, paginated
-from app.services import ozon_service
+from backend.utils import get_db, success, error, paginated
+from backend.services.platforms.ozon import client as ozon_service
 
 router = APIRouter(prefix="/api/monitor", tags=["监控管理"])
 

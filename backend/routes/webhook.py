@@ -4,7 +4,7 @@ Webhook 管理路由: 企业微信 / 飞书通知配置的 CRUD
 from fastapi import APIRouter, HTTPException, Query
 from pydantic import BaseModel, Field
 from typing import Optional
-from app.utils import get_db, success
+from backend.utils import get_db, success
 
 router = APIRouter(prefix="/api/webhooks", tags=["Webhook 管理"])
 
@@ -116,7 +116,7 @@ async def test_notify(
     if platform not in ("wecom", "feishu"):
         raise HTTPException(400, "platform 必须是 'wecom' 或 'feishu'")
 
-    from app.utils.notify import wecom_text, feishu_text
+    from backend.utils.notify import wecom_text, feishu_text
 
     if platform == "wecom":
         await wecom_text("OZON Crawler 测试通知: 企业微信 webhook 配置正常 ✅")
