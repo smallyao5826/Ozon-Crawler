@@ -1,4 +1,4 @@
-# Smart Ecom Automation
+# Smart Ecom Automation(Ozon-Crawler)
 
 OZON 跨境平台商品监控爬虫，支持搜索、商品详情、店铺商品抓取，价格/库存变化监控，企业微信/飞书通知。
 
